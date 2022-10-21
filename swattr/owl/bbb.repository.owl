@@ -1,0 +1,356 @@
+<rdf:RDF
+    xmlns:model="https://informalin.github.io/knowledgebases/examples/ontology.owl#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:pcm="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:ecore="https://informalin.github.io/knowledgebases/informalin_base_ecore.owl#" > 
+  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationInterface_r42CoFkIEeyewPSmlgszyA">
+    <rdfs:label>kurento</rdfs:label>
+    <pcm:entityName_-_NamedElement>kurento</pcm:entityName_-_NamedElement>
+    <rdfs:comment xml:lang="id">_r42CoFkIEeyewPSmlgszyA</rdfs:comment>
+    <pcm:id_-_Identifier>_r42CoFkIEeyewPSmlgszyA</pcm:id_-_Identifier>
+    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#OperationInterface"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationProvidedRole_ayzSQFkJEeyewPSmlgszyA">
+    <rdfs:label>Apps.Interface.OperationProvidedRole</rdfs:label>
+    <pcm:entityName_-_NamedElement>Apps.Interface.OperationProvidedRole</pcm:entityName_-_NamedElement>
+    <rdfs:comment xml:lang="id">_ayzSQFkJEeyewPSmlgszyA</rdfs:comment>
+    <pcm:id_-_Identifier>_ayzSQFkJEeyewPSmlgszyA</pcm:id_-_Identifier>
+    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#OperationProvidedRole"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationRequiredRole_UINpkFkJEeyewPSmlgszyA">
+    <rdfs:label>FSESL.Redis PubSub.OperationRequiredRole</rdfs:label>
+    <pcm:entityName_-_NamedElement>FSESL.Redis PubSub.OperationRequiredRole</pcm:entityName_-_NamedElement>
+    <rdfs:comment xml:lang="id">_UINpkFkJEeyewPSmlgszyA</rdfs:comment>
+    <pcm:id_-_Identifier>_UINpkFkJEeyewPSmlgszyA</pcm:id_-_Identifier>
+    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#OperationRequiredRole"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationInterface_ur280FkIEeyewPSmlgszyA">
+    <rdfs:label>WebRTC-SFU</rdfs:label>
+    <pcm:entityName_-_NamedElement>WebRTC-SFU</pcm:entityName_-_NamedElement>
+    <rdfs:comment xml:lang="id">_ur280FkIEeyewPSmlgszyA</rdfs:comment>
+    <pcm:id_-_Identifier>_ur280FkIEeyewPSmlgszyA</pcm:id_-_Identifier>
+    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#OperationInterface"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#BasicComponent_4yx-8FkHEeyewPSmlgszyA">
+    <rdfs:label>BBB web</rdfs:label>
+    <pcm:entityName_-_NamedElement>BBB web</pcm:entityName_-_NamedElement>
+    <rdfs:comment xml:lang="id">_4yx-8FkHEeyewPSmlgszyA</rdfs:comment>
+    <pcm:id_-_Identifier>_4yx-8FkHEeyewPSmlgszyA</pcm:id_-_Identifier>
+    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#BasicComponent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationProvidedRole_wprUYFkIEeyewPSmlgszyA">
+    <rdfs:label>WebRTC-SFU.WebRTC-SFU.OperationProvidedRole</rdfs:label>
+    <pcm:entityName_-_NamedElement>WebRTC-SFU.WebRTC-SFU.OperationProvidedRole</pcm:entityName_-_NamedElement>
+    <rdfs:comment xml:lang="id">_wprUYFkIEeyewPSmlgszyA</rdfs:comment>
+    <pcm:id_-_Identifier>_wprUYFkIEeyewPSmlgszyA</pcm:id_-_Identifier>
+    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#OperationProvidedRole"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationProvidedRole_sU-64FwPEeyiuNx_RO7j-Q">
+    <rdfs:label>FreeSWITCH.FreeSWITCH.OperationProvidedRole</rdfs:label>
+    <pcm:entityName_-_NamedElement>FreeSWITCH.FreeSWITCH.OperationProvidedRole</pcm:entityName_-_NamedElement>
+    <rdfs:comment xml:lang="id">_sU-64FwPEeyiuNx_RO7j-Q</rdfs:comment>
+    <pcm:id_-_Identifier>_sU-64FwPEeyiuNx_RO7j-Q</pcm:id_-_Identifier>
+    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#OperationProvidedRole"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#BasicComponent_6sergFkHEeyewPSmlgszyA">
+    <rdfs:label>Redis PubSub</rdfs:label>
+    <pcm:entityName_-_NamedElement>Redis PubSub</pcm:entityName_-_NamedElement>
+    <rdfs:comment xml:lang="id">_6sergFkHEeyewPSmlgszyA</rdfs:comment>
+    <pcm:id_-_Identifier>_6sergFkHEeyewPSmlgszyA</pcm:id_-_Identifier>
+    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#BasicComponent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationInterface_FhvIYFkJEeyewPSmlgszyA">
+    <rdfs:label>BBB web</rdfs:label>
+    <pcm:entityName_-_NamedElement>BBB web</pcm:entityName_-_NamedElement>
+    <rdfs:comment xml:lang="id">_FhvIYFkJEeyewPSmlgszyA</rdfs:comment>
+    <pcm:id_-_Identifier>_FhvIYFkJEeyewPSmlgszyA</pcm:id_-_Identifier>
+    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#OperationInterface"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationRequiredRole_eEr5wFkJEeyewPSmlgszyA">
+    <rdfs:label>Apps.Redis PubSub.OperationRequiredRole1</rdfs:label>
+    <pcm:entityName_-_NamedElement>Apps.Redis PubSub.OperationRequiredRole1</pcm:entityName_-_NamedElement>
+    <rdfs:comment xml:lang="id">_eEr5wFkJEeyewPSmlgszyA</rdfs:comment>
+    <pcm:id_-_Identifier>_eEr5wFkJEeyewPSmlgszyA</pcm:id_-_Identifier>
+    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#OperationRequiredRole"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationRequiredRole_jXAvAFkJEeyewPSmlgszyA">
+    <rdfs:label>BBB web.Redis PubSub.OperationRequiredRole</rdfs:label>
+    <pcm:entityName_-_NamedElement>BBB web.Redis PubSub.OperationRequiredRole</pcm:entityName_-_NamedElement>
+    <rdfs:comment xml:lang="id">_jXAvAFkJEeyewPSmlgszyA</rdfs:comment>
+    <pcm:id_-_Identifier>_jXAvAFkJEeyewPSmlgszyA</pcm:id_-_Identifier>
+    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#OperationRequiredRole"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationRequiredRole_sECwkFkJEeyewPSmlgszyA">
+    <rdfs:label>Presentation Conversion.Redis PubSub.OperationRequiredRole</rdfs:label>
+    <pcm:entityName_-_NamedElement>Presentation Conversion.Redis PubSub.OperationRequiredRole</pcm:entityName_-_NamedElement>
+    <rdfs:comment xml:lang="id">_sECwkFkJEeyewPSmlgszyA</rdfs:comment>
+    <pcm:id_-_Identifier>_sECwkFkJEeyewPSmlgszyA</pcm:id_-_Identifier>
+    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#OperationRequiredRole"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationInterface_7b12cFkIEeyewPSmlgszyA">
+    <rdfs:label>Presentation Conversion</rdfs:label>
+    <pcm:entityName_-_NamedElement>Presentation Conversion</pcm:entityName_-_NamedElement>
+    <rdfs:comment xml:lang="id">_7b12cFkIEeyewPSmlgszyA</rdfs:comment>
+    <pcm:id_-_Identifier>_7b12cFkIEeyewPSmlgszyA</pcm:id_-_Identifier>
+    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#OperationInterface"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationProvidedRole_iiD5cFkIEeyewPSmlgszyA">
+    <rdfs:label>Recording Service.Recording Service.OperationProvidedRole</rdfs:label>
+    <pcm:entityName_-_NamedElement>Recording Service.Recording Service.OperationProvidedRole</pcm:entityName_-_NamedElement>
+    <rdfs:comment xml:lang="id">_iiD5cFkIEeyewPSmlgszyA</rdfs:comment>
+    <pcm:id_-_Identifier>_iiD5cFkIEeyewPSmlgszyA</pcm:id_-_Identifier>
+    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#OperationProvidedRole"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationInterface_UV7gwFwPEeyiuNx_RO7j-Q">
+    <rdfs:label>Redis DB</rdfs:label>
+    <pcm:entityName_-_NamedElement>Redis DB</pcm:entityName_-_NamedElement>
+    <rdfs:comment xml:lang="id">_UV7gwFwPEeyiuNx_RO7j-Q</rdfs:comment>
+    <pcm:id_-_Identifier>_UV7gwFwPEeyiuNx_RO7j-Q</pcm:id_-_Identifier>
+    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#OperationInterface"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationRequiredRole_wyV3AFwPEeyiuNx_RO7j-Q">
+    <rdfs:label>FSESL.FreeSWITCH.OperationRequiredRole</rdfs:label>
+    <pcm:entityName_-_NamedElement>FSESL.FreeSWITCH.OperationRequiredRole</pcm:entityName_-_NamedElement>
+    <rdfs:comment xml:lang="id">_wyV3AFwPEeyiuNx_RO7j-Q</rdfs:comment>
+    <pcm:id_-_Identifier>_wyV3AFwPEeyiuNx_RO7j-Q</pcm:id_-_Identifier>
+    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#OperationRequiredRole"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#BasicComponent_kvWs4FkHEeyewPSmlgszyA">
+    <rdfs:label>Recording Service</rdfs:label>
+    <pcm:entityName_-_NamedElement>Recording Service</pcm:entityName_-_NamedElement>
+    <rdfs:comment xml:lang="id">_kvWs4FkHEeyewPSmlgszyA</rdfs:comment>
+    <pcm:id_-_Identifier>_kvWs4FkHEeyewPSmlgszyA</pcm:id_-_Identifier>
+    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#BasicComponent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#BasicComponent_nwrCMFwPEeyiuNx_RO7j-Q">
+    <rdfs:label>FreeSWITCH</rdfs:label>
+    <pcm:entityName_-_NamedElement>FreeSWITCH</pcm:entityName_-_NamedElement>
+    <rdfs:comment xml:lang="id">_nwrCMFwPEeyiuNx_RO7j-Q</rdfs:comment>
+    <pcm:id_-_Identifier>_nwrCMFwPEeyiuNx_RO7j-Q</pcm:id_-_Identifier>
+    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#BasicComponent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationInterface_ZADiQFkJEeyewPSmlgszyA">
+    <rdfs:label>Apps</rdfs:label>
+    <pcm:entityName_-_NamedElement>Apps</pcm:entityName_-_NamedElement>
+    <rdfs:comment xml:lang="id">_ZADiQFkJEeyewPSmlgszyA</rdfs:comment>
+    <pcm:id_-_Identifier>_ZADiQFkJEeyewPSmlgszyA</pcm:id_-_Identifier>
+    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#OperationInterface"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#BasicComponent_yGgUMFkHEeyewPSmlgszyA">
+    <rdfs:label>HTML5 Server</rdfs:label>
+    <pcm:entityName_-_NamedElement>HTML5 Server</pcm:entityName_-_NamedElement>
+    <rdfs:comment xml:lang="id">_yGgUMFkHEeyewPSmlgszyA</rdfs:comment>
+    <pcm:id_-_Identifier>_yGgUMFkHEeyewPSmlgszyA</pcm:id_-_Identifier>
+    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#BasicComponent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#">
+    <owl:imports rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationInterface_2I1EsFkIEeyewPSmlgszyA">
+    <rdfs:label>HTML5 Client</rdfs:label>
+    <pcm:entityName_-_NamedElement>HTML5 Client</pcm:entityName_-_NamedElement>
+    <rdfs:comment xml:lang="id">_2I1EsFkIEeyewPSmlgszyA</rdfs:comment>
+    <pcm:id_-_Identifier>_2I1EsFkIEeyewPSmlgszyA</pcm:id_-_Identifier>
+    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#OperationInterface"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationInterface_d9jzgFkIEeyewPSmlgszyA">
+    <rdfs:label>Recording Service</rdfs:label>
+    <pcm:entityName_-_NamedElement>Recording Service</pcm:entityName_-_NamedElement>
+    <rdfs:comment xml:lang="id">_d9jzgFkIEeyewPSmlgszyA</rdfs:comment>
+    <pcm:id_-_Identifier>_d9jzgFkIEeyewPSmlgszyA</pcm:id_-_Identifier>
+    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#OperationInterface"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationRequiredRole_duTlYFwPEeyiuNx_RO7j-Q">
+    <rdfs:label>Apps.Redis DB.OperationRequiredRole</rdfs:label>
+    <pcm:entityName_-_NamedElement>Apps.Redis DB.OperationRequiredRole</pcm:entityName_-_NamedElement>
+    <rdfs:comment xml:lang="id">_duTlYFwPEeyiuNx_RO7j-Q</rdfs:comment>
+    <pcm:id_-_Identifier>_duTlYFwPEeyiuNx_RO7j-Q</pcm:id_-_Identifier>
+    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#OperationRequiredRole"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationProvidedRole_WXDrAFwPEeyiuNx_RO7j-Q">
+    <rdfs:label>Redis DB.Redis DB.OperationProvidedRole</rdfs:label>
+    <pcm:entityName_-_NamedElement>Redis DB.Redis DB.OperationProvidedRole</pcm:entityName_-_NamedElement>
+    <rdfs:comment xml:lang="id">_WXDrAFwPEeyiuNx_RO7j-Q</rdfs:comment>
+    <pcm:id_-_Identifier>_WXDrAFwPEeyiuNx_RO7j-Q</pcm:id_-_Identifier>
+    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#OperationProvidedRole"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#BasicComponent_2BgxMFkHEeyewPSmlgszyA">
+    <rdfs:label>Presentation Conversion</rdfs:label>
+    <pcm:entityName_-_NamedElement>Presentation Conversion</pcm:entityName_-_NamedElement>
+    <rdfs:comment xml:lang="id">_2BgxMFkHEeyewPSmlgszyA</rdfs:comment>
+    <pcm:id_-_Identifier>_2BgxMFkHEeyewPSmlgszyA</pcm:id_-_Identifier>
+    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#BasicComponent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationInterface_IixQcFkJEeyewPSmlgszyA">
+    <rdfs:label>Redis PubSub</rdfs:label>
+    <pcm:entityName_-_NamedElement>Redis PubSub</pcm:entityName_-_NamedElement>
+    <rdfs:comment xml:lang="id">_IixQcFkJEeyewPSmlgszyA</rdfs:comment>
+    <pcm:id_-_Identifier>_IixQcFkJEeyewPSmlgszyA</pcm:id_-_Identifier>
+    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#OperationInterface"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#BasicComponent_oN4CMFkHEeyewPSmlgszyA">
+    <rdfs:label>kurento</rdfs:label>
+    <pcm:entityName_-_NamedElement>kurento</pcm:entityName_-_NamedElement>
+    <rdfs:comment xml:lang="id">_oN4CMFkHEeyewPSmlgszyA</rdfs:comment>
+    <pcm:id_-_Identifier>_oN4CMFkHEeyewPSmlgszyA</pcm:id_-_Identifier>
+    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#BasicComponent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationProvidedRole_34MwkFkIEeyewPSmlgszyA">
+    <rdfs:label>HTML5 Client.HTML5 Client.OperationProvidedRole</rdfs:label>
+    <pcm:entityName_-_NamedElement>HTML5 Client.HTML5 Client.OperationProvidedRole</pcm:entityName_-_NamedElement>
+    <rdfs:comment xml:lang="id">_34MwkFkIEeyewPSmlgszyA</rdfs:comment>
+    <pcm:id_-_Identifier>_34MwkFkIEeyewPSmlgszyA</pcm:id_-_Identifier>
+    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#OperationProvidedRole"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationProvidedRole_tVPIIFkIEeyewPSmlgszyA">
+    <rdfs:label>kurento.kurento.OperationProvidedRole</rdfs:label>
+    <pcm:entityName_-_NamedElement>kurento.kurento.OperationProvidedRole</pcm:entityName_-_NamedElement>
+    <rdfs:comment xml:lang="id">_tVPIIFkIEeyewPSmlgszyA</rdfs:comment>
+    <pcm:id_-_Identifier>_tVPIIFkIEeyewPSmlgszyA</pcm:id_-_Identifier>
+    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#OperationProvidedRole"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationRequiredRole_STeVgFkJEeyewPSmlgszyA">
+    <rdfs:label>WebRTC-SFU.Redis PubSub.OperationRequiredRole</rdfs:label>
+    <pcm:entityName_-_NamedElement>WebRTC-SFU.Redis PubSub.OperationRequiredRole</pcm:entityName_-_NamedElement>
+    <rdfs:comment xml:lang="id">_STeVgFkJEeyewPSmlgszyA</rdfs:comment>
+    <pcm:id_-_Identifier>_STeVgFkJEeyewPSmlgszyA</pcm:id_-_Identifier>
+    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#OperationRequiredRole"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#Repository_kMF5sFkFEeyewPSmlgszyA">
+    <rdfs:label>New Repository</rdfs:label>
+    <pcm:entityName_-_NamedElement>New Repository</pcm:entityName_-_NamedElement>
+    <rdfs:comment xml:lang="id">_kMF5sFkFEeyewPSmlgszyA</rdfs:comment>
+    <pcm:id_-_Identifier>_kMF5sFkFEeyewPSmlgszyA</pcm:id_-_Identifier>
+    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#Repository"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationProvidedRole_K1L_AFkJEeyewPSmlgszyA">
+    <rdfs:label>Redis PubSub.Redis PubSub.OperationProvidedRole</rdfs:label>
+    <pcm:entityName_-_NamedElement>Redis PubSub.Redis PubSub.OperationProvidedRole</pcm:entityName_-_NamedElement>
+    <rdfs:comment xml:lang="id">_K1L_AFkJEeyewPSmlgszyA</rdfs:comment>
+    <pcm:id_-_Identifier>_K1L_AFkJEeyewPSmlgszyA</pcm:id_-_Identifier>
+    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#OperationProvidedRole"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationProvidedRole_zJDg4FkIEeyewPSmlgszyA">
+    <rdfs:label>HTML5 Server.HTML5 Server.OperationProvidedRole</rdfs:label>
+    <pcm:entityName_-_NamedElement>HTML5 Server.HTML5 Server.OperationProvidedRole</pcm:entityName_-_NamedElement>
+    <rdfs:comment xml:lang="id">_zJDg4FkIEeyewPSmlgszyA</rdfs:comment>
+    <pcm:id_-_Identifier>_zJDg4FkIEeyewPSmlgszyA</pcm:id_-_Identifier>
+    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#OperationProvidedRole"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#BasicComponent_0e5u8FkHEeyewPSmlgszyA">
+    <rdfs:label>HTML5 Client</rdfs:label>
+    <pcm:entityName_-_NamedElement>HTML5 Client</pcm:entityName_-_NamedElement>
+    <rdfs:comment xml:lang="id">_0e5u8FkHEeyewPSmlgszyA</rdfs:comment>
+    <pcm:id_-_Identifier>_0e5u8FkHEeyewPSmlgszyA</pcm:id_-_Identifier>
+    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#BasicComponent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationRequiredRole_yeRpEFkJEeyewPSmlgszyA">
+    <rdfs:label>Presentation Conversion.BBB web.OperationRequiredRole</rdfs:label>
+    <pcm:entityName_-_NamedElement>Presentation Conversion.BBB web.OperationRequiredRole</pcm:entityName_-_NamedElement>
+    <rdfs:comment xml:lang="id">_yeRpEFkJEeyewPSmlgszyA</rdfs:comment>
+    <pcm:id_-_Identifier>_yeRpEFkJEeyewPSmlgszyA</pcm:id_-_Identifier>
+    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#OperationRequiredRole"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#BasicComponent_s0aIcFkHEeyewPSmlgszyA">
+    <rdfs:label>WebRTC-SFU</rdfs:label>
+    <pcm:entityName_-_NamedElement>WebRTC-SFU</pcm:entityName_-_NamedElement>
+    <rdfs:comment xml:lang="id">_s0aIcFkHEeyewPSmlgszyA</rdfs:comment>
+    <pcm:id_-_Identifier>_s0aIcFkHEeyewPSmlgszyA</pcm:id_-_Identifier>
+    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#BasicComponent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#BasicComponent_9wZIcFkHEeyewPSmlgszyA">
+    <rdfs:label>FSESL</rdfs:label>
+    <pcm:entityName_-_NamedElement>FSESL</pcm:entityName_-_NamedElement>
+    <rdfs:comment xml:lang="id">_9wZIcFkHEeyewPSmlgszyA</rdfs:comment>
+    <pcm:id_-_Identifier>_9wZIcFkHEeyewPSmlgszyA</pcm:id_-_Identifier>
+    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#BasicComponent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationProvidedRole_G7ZC8FkJEeyewPSmlgszyA">
+    <rdfs:label>BBB web.BBB web.OperationProvidedRole</rdfs:label>
+    <pcm:entityName_-_NamedElement>BBB web.BBB web.OperationProvidedRole</pcm:entityName_-_NamedElement>
+    <rdfs:comment xml:lang="id">_G7ZC8FkJEeyewPSmlgszyA</rdfs:comment>
+    <pcm:id_-_Identifier>_G7ZC8FkJEeyewPSmlgszyA</pcm:id_-_Identifier>
+    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#OperationProvidedRole"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationInterface_qa5z0FwPEeyiuNx_RO7j-Q">
+    <rdfs:label>FreeSWITCH</rdfs:label>
+    <pcm:entityName_-_NamedElement>FreeSWITCH</pcm:entityName_-_NamedElement>
+    <rdfs:comment xml:lang="id">_qa5z0FwPEeyiuNx_RO7j-Q</rdfs:comment>
+    <pcm:id_-_Identifier>_qa5z0FwPEeyiuNx_RO7j-Q</pcm:id_-_Identifier>
+    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#OperationInterface"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationRequiredRole_hbe2cFkJEeyewPSmlgszyA">
+    <rdfs:label>HTML5 Server.Redis PubSub.OperationRequiredRole</rdfs:label>
+    <pcm:entityName_-_NamedElement>HTML5 Server.Redis PubSub.OperationRequiredRole</pcm:entityName_-_NamedElement>
+    <rdfs:comment xml:lang="id">_hbe2cFkJEeyewPSmlgszyA</rdfs:comment>
+    <pcm:id_-_Identifier>_hbe2cFkJEeyewPSmlgszyA</pcm:id_-_Identifier>
+    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#OperationRequiredRole"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationRequiredRole_f0fOwFwPEeyiuNx_RO7j-Q">
+    <rdfs:label>Recording Service.Redis DB.OperationRequiredRole</rdfs:label>
+    <pcm:entityName_-_NamedElement>Recording Service.Redis DB.OperationRequiredRole</pcm:entityName_-_NamedElement>
+    <rdfs:comment xml:lang="id">_f0fOwFwPEeyiuNx_RO7j-Q</rdfs:comment>
+    <pcm:id_-_Identifier>_f0fOwFwPEeyiuNx_RO7j-Q</pcm:id_-_Identifier>
+    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#OperationRequiredRole"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationInterface_xqkJoFkIEeyewPSmlgszyA">
+    <rdfs:label>HTML5 Server</rdfs:label>
+    <pcm:entityName_-_NamedElement>HTML5 Server</pcm:entityName_-_NamedElement>
+    <rdfs:comment xml:lang="id">_xqkJoFkIEeyewPSmlgszyA</rdfs:comment>
+    <pcm:id_-_Identifier>_xqkJoFkIEeyewPSmlgszyA</pcm:id_-_Identifier>
+    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#OperationInterface"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationProvidedRole_D9EQoFkJEeyewPSmlgszyA">
+    <rdfs:label>Presentation Conversion.Presentation Conversion.OperationProvidedRole</rdfs:label>
+    <pcm:entityName_-_NamedElement>Presentation Conversion.Presentation Conversion.OperationProvidedRole</pcm:entityName_-_NamedElement>
+    <rdfs:comment xml:lang="id">_D9EQoFkJEeyewPSmlgszyA</rdfs:comment>
+    <pcm:id_-_Identifier>_D9EQoFkJEeyewPSmlgszyA</pcm:id_-_Identifier>
+    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#OperationProvidedRole"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationProvidedRole_NzPEgFkJEeyewPSmlgszyA">
+    <rdfs:label>FSESL.FSESL.OperationProvidedRole</rdfs:label>
+    <pcm:entityName_-_NamedElement>FSESL.FSESL.OperationProvidedRole</pcm:entityName_-_NamedElement>
+    <rdfs:comment xml:lang="id">_NzPEgFkJEeyewPSmlgszyA</rdfs:comment>
+    <pcm:id_-_Identifier>_NzPEgFkJEeyewPSmlgszyA</pcm:id_-_Identifier>
+    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#OperationProvidedRole"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationRequiredRole_0UojMFkIEeyewPSmlgszyA">
+    <rdfs:label>HTML5 Client.HTML5 Server.OperationRequiredRole</rdfs:label>
+    <pcm:entityName_-_NamedElement>HTML5 Client.HTML5 Server.OperationRequiredRole</pcm:entityName_-_NamedElement>
+    <rdfs:comment xml:lang="id">_0UojMFkIEeyewPSmlgszyA</rdfs:comment>
+    <pcm:id_-_Identifier>_0UojMFkIEeyewPSmlgszyA</pcm:id_-_Identifier>
+    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#OperationRequiredRole"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationRequiredRole_-jRhcFkIEeyewPSmlgszyA">
+    <rdfs:label>kurento.WebRTC-SFU.OperationRequiredRole</rdfs:label>
+    <pcm:entityName_-_NamedElement>kurento.WebRTC-SFU.OperationRequiredRole</pcm:entityName_-_NamedElement>
+    <rdfs:comment xml:lang="id">_-jRhcFkIEeyewPSmlgszyA</rdfs:comment>
+    <pcm:id_-_Identifier>_-jRhcFkIEeyewPSmlgszyA</pcm:id_-_Identifier>
+    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#OperationRequiredRole"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationInterface_MUFl8FkJEeyewPSmlgszyA">
+    <rdfs:label>FSESL</rdfs:label>
+    <pcm:entityName_-_NamedElement>FSESL</pcm:entityName_-_NamedElement>
+    <rdfs:comment xml:lang="id">_MUFl8FkJEeyewPSmlgszyA</rdfs:comment>
+    <pcm:id_-_Identifier>_MUFl8FkJEeyewPSmlgszyA</pcm:id_-_Identifier>
+    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#OperationInterface"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#BasicComponent_RDHFIFwPEeyiuNx_RO7j-Q">
+    <rdfs:label>Redis DB</rdfs:label>
+    <pcm:entityName_-_NamedElement>Redis DB</pcm:entityName_-_NamedElement>
+    <rdfs:comment xml:lang="id">_RDHFIFwPEeyiuNx_RO7j-Q</rdfs:comment>
+    <pcm:id_-_Identifier>_RDHFIFwPEeyiuNx_RO7j-Q</pcm:id_-_Identifier>
+    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#BasicComponent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#BasicComponent_XuNf4FkJEeyewPSmlgszyA">
+    <rdfs:label>Apps</rdfs:label>
+    <pcm:entityName_-_NamedElement>Apps</pcm:entityName_-_NamedElement>
+    <rdfs:comment xml:lang="id">_XuNf4FkJEeyewPSmlgszyA</rdfs:comment>
+    <pcm:id_-_Identifier>_XuNf4FkJEeyewPSmlgszyA</pcm:id_-_Identifier>
+    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#BasicComponent"/>
+  </rdf:Description>
+</rdf:RDF>

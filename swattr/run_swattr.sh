@@ -1,0 +1,1 @@
+java -jar ardoco-core-pipeline.jar -n Mediastore -m owl/mediastore.repository.owl -t ../benchmark/mediastore/text_2016/mediastore.txt -o results_swattr/mediastore
