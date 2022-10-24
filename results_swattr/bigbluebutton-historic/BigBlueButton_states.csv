@@ -1,0 +1,247 @@
+Results of ModelConnector: 
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+ExtractorState: 
+Instances:
+Instance [names=Presentation, Conversion, Presentation Conversion, type=Basic, Component, BasicComponent]
+Instance [names=Redis, Pub, Sub, Redis PubSub, type=Basic, Component, BasicComponent]
+Instance [names=Free, SWITCH, FreeSWITCH, type=Basic, Component, BasicComponent]
+Instance [names=Apps, type=Basic, Component, BasicComponent]
+Instance [names=HTML5, Client, HTML5 Client, type=Basic, Component, BasicComponent]
+Instance [names=Web, RTC, SFU, WebRTC-SFU, type=Basic, Component, BasicComponent]
+Instance [names=BBB, web, BBB web, type=Basic, Component, BasicComponent]
+Instance [names=FSESL, type=Basic, Component, BasicComponent]
+Instance [names=Recording, Service, Recording Service, type=Basic, Component, BasicComponent]
+Instance [names=kurento, type=Basic, Component, BasicComponent]
+Instance [names=HTML5, Server, HTML5 Server, type=Basic, Component, BasicComponent]
+Instance [names=Redis, DB, Redis DB, type=Basic, Component, BasicComponent]
+Relations:
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+FoundNames as Set: 
+[access, advantage, api, applet, apps, architecture, audio, below, bigbluebutton, browser, bus, business, canvas, capability, case, channel, chat, chrome, client, collaboration, communication, conference, connection, conversion, core, course, db, delay, deskshare, desktop, diagram, document, endpoint, etc, firefox, firewall, flash, flv, freeswitch, front-end, google, headset, image, information, interaction, it, javascript, keypad, learning, list, listening, lms, logic, management, meeting, moodle, mozilla, nginx, number, office, order, overview, own, page, pdf, phone, port, presenter, process, progress, publishes, pubsub, quality, red5, redis, rtmp, sakai, server, setup, sharing, side, snapshot, system, this, to, tomcat7, tunnel, video, voice, voip, wav, we, webcam, webrtc, whiteboard, wordpress, you]
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+FoundNameTerms as Set: 
+[Architecture Overview, BigBlueButton API, BigBlueButton App, BigBlueButton Client, BigBlueButton architecture, BigBlueButton server, Flash client, Google Chrome, Mozilla Firefox, Office document, PDF document, PDF page, Redis DB, Redis PubSub, Tomcat7 listening, Web API, WebRTC connection, business logic, communication channel, conference number, conversion process, core server, desktop sharing, image snapshot, learning management, management system, meeting business, quality audio, server side, setup BigBlueButton, sharing applet, voice conference]
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+FoundNORTs as Set: 
+[]
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+FoundTypes as Set: 
+[application, calls, component, demos, events, file, integrations, libraries, messages, needs, others, presentations, providers, proxies, recordings, rocks, rooms, students, swf, teachers, times, users, ways]
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+FoundTypeTerms as Set: 
+[proxies calls]
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Instances of the Recommendation State: 
+RecommendationInstance [ name=Architecture Overview, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.4,TYPE:0.05, reference=overview, node=Overview, overview, position=2, 10, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.4,TYPE:0.05, reference=architecture, node=Architecture, architecture, position=1, 14, probability=0.05]
+					
+
+RecommendationInstance [ name=BigBlueButton API, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:7.4,TYPE:0.05, reference=api, node=API, App, position=86, 164, 183, 231, 259, 263, 975, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:8.4,TYPE:0.05, reference=bigbluebutton, node=BigBlueButton, position=13, 94, 110, 143, 159, 182, 287, 445, 521, 587, 590, 635, 638, 741, 934, 937, 974, probability=0.05]
+					
+
+RecommendationInstance [ name=BigBlueButton App, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:22.05,NAME_OR_TYPE:6.4,TYPE:0.2, reference=apps, node=Apps, App, application, Applications, applications, applet, position=406, 410, 441, 588, 591, 636, 639, 975, 31, 89, 107, 194, 270, 355, 446, 467, 478, 497, 595, 601, 946, 965, probability=22.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:8.4,TYPE:0.05, reference=bigbluebutton, node=BigBlueButton, position=13, 94, 110, 143, 159, 182, 287, 445, 521, 587, 590, 635, 638, 741, 934, 937, 974, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:15.799999999999999,TYPE:2.4, reference=users, node=users, user, Users, position=209, 242, 449, 460, 481, 500, 507, 523, 535, 567, 615, 744, 754, 771, 780, 809, probability=2.4]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:6.2,TYPE:25.05, reference=component, node=component, components, position=21, 633, 642, 651, 685, 991, probability=25.05]
+
+RecommendationInstance [ name=BigBlueButton Client, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:16.399999999999995,TYPE:0.05, reference=client, node=Client, client, Red5ClientMessageReceiver, Red5ClientMessageSender, position=24, 27, 39, 80, 203, 216, 306, 438, 655, 660, 665, 850, 928, 935, 938, 971, 983, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:8.4,TYPE:0.05, reference=bigbluebutton, node=BigBlueButton, position=13, 94, 110, 143, 159, 182, 287, 445, 521, 587, 590, 635, 638, 741, 934, 937, 974, probability=0.05]
+					
+
+RecommendationInstance [ name=BigBlueButton architecture, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:8.4,TYPE:0.05, reference=bigbluebutton, node=BigBlueButton, position=13, 94, 110, 143, 159, 182, 287, 445, 521, 587, 590, 635, 638, 741, 934, 937, 974, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.4,TYPE:0.05, reference=architecture, node=Architecture, architecture, position=1, 14, probability=0.05]
+					
+
+RecommendationInstance [ name=BigBlueButton server, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:2.8,TYPE:0.05, reference=server, node=server, position=192, 288, 353, 429, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:8.4,TYPE:0.05, reference=bigbluebutton, node=BigBlueButton, position=13, 94, 110, 143, 159, 182, 287, 445, 521, 587, 590, 635, 638, 741, 934, 937, 974, probability=0.05]
+					
+
+RecommendationInstance [ name=Flash client, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:3.8000000000000007,TYPE:0.05, reference=flash, node=Flash, position=30, 202, 305, 664, 758, 768, 849, 949, 970, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:16.399999999999995,TYPE:0.05, reference=client, node=Client, client, Red5ClientMessageReceiver, Red5ClientMessageSender, position=24, 27, 39, 80, 203, 216, 306, 438, 655, 660, 665, 850, 928, 935, 938, 971, 983, probability=0.05]
+					
+
+RecommendationInstance [ name=Google Chrome, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:2.4,TYPE:0.05, reference=chrome, node=Chrome, position=539, 783, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:0.2,TYPE:0.05, reference=google, node=Google, position=538, probability=0.05]
+					
+
+RecommendationInstance [ name=Mozilla Firefox, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:0.2,TYPE:0.05, reference=mozilla, node=Mozilla, position=541, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:2.4,TYPE:0.05, reference=firefox, node=Firefox, position=542, 785, probability=0.05]
+					
+
+RecommendationInstance [ name=Office document, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.6,TYPE:0.05, reference=document, node=document, position=315, 859, 873, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:2.8,TYPE:0.05, reference=office, node=Office, LibreOffice, position=314, 323, 858, 869, probability=0.05]
+					
+
+RecommendationInstance [ name=PDF document, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:4.2,TYPE:0.05, reference=pdf, node=PDF, position=321, 395, 867, 872, 887, 915, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.6,TYPE:0.05, reference=document, node=document, position=315, 859, 873, probability=0.05]
+					
+
+RecommendationInstance [ name=PDF page, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:4.2,TYPE:0.05, reference=pdf, node=PDF, position=321, 395, 867, 872, 887, 915, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:3.6,TYPE:0.05, reference=page, node=page, position=340, 888, 904, probability=0.05]
+					
+
+RecommendationInstance [ name=Redis DB, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:2.5999999999999996,TYPE:0.05, reference=db, node=DB, position=358, 372, 705, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:2.4000000000000004,TYPE:0.05, reference=redis, node=Redis, position=342, 345, 357, 371, 673, 681, 704, probability=0.05]
+					
+
+RecommendationInstance [ name=Redis PubSub, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:2.4000000000000004,TYPE:0.05, reference=redis, node=Redis, position=342, 345, 357, 371, 673, 681, 704, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:3.5999999999999996,TYPE:0.05, reference=pubsub, node=PubSub, pubsub, position=343, 346, 674, 932, probability=0.05]
+					
+
+RecommendationInstance [ name=Tomcat7 listening, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.2,TYPE:0.05, reference=listening, node=listening, position=236, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:0.2,TYPE:0.05, reference=tomcat7, node=Tomcat7, position=235, probability=0.05]
+					
+
+RecommendationInstance [ name=Web API, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:7.4,TYPE:0.05, reference=api, node=API, App, position=86, 164, 183, 231, 259, 263, 975, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:4.800000000000001,TYPE:0.05, reference=we, node=We, Web, we, position=16, 85, 101, 230, 258, 262, 417, 423, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.2,TYPE:0.2, reference=integrations, node=integrations, integration, position=125, 266, probability=0.2]
+
+RecommendationInstance [ name=WebRTC connection, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:6.2,TYPE:0.05, reference=webrtc, node=WebRTC, position=248, 253, 555, 760, 791, 793, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:2.5999999999999996,TYPE:0.05, reference=connection, node=connection, position=75, 254, 957, probability=0.05]
+					
+
+RecommendationInstance [ name=applet, type=, probability=0.75, mappings:]= 
+					NounMapping [distribution=NAME:22.05,NAME_OR_TYPE:6.4,TYPE:0.2, reference=apps, node=Apps, App, application, Applications, applications, applet, position=406, 410, 441, 588, 591, 636, 639, 975, 31, 89, 107, 194, 270, 355, 446, 467, 478, 497, 595, 601, 946, 965, probability=22.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.2,TYPE:0.05, reference=applet, node=applet, position=965, probability=0.05]
+					
+
+RecommendationInstance [ name=apps, type=, probability=0.75, mappings:]= 
+					NounMapping [distribution=NAME:22.05,NAME_OR_TYPE:6.4,TYPE:0.2, reference=apps, node=Apps, App, application, Applications, applications, applet, position=406, 410, 441, 588, 591, 636, 639, 975, 31, 89, 107, 194, 270, 355, 446, 467, 478, 497, 595, 601, 946, 965, probability=22.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.2,TYPE:0.05, reference=applet, node=applet, position=965, probability=0.05]
+					
+
+RecommendationInstance [ name=business logic, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.2,TYPE:0.05, reference=logic, node=logic, position=710, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:0.2,TYPE:0.05, reference=business, node=business, position=709, probability=0.05]
+					
+
+RecommendationInstance [ name=communication channel, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.2,TYPE:0.05, reference=channel, node=channel, position=350, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:0.2,TYPE:0.05, reference=communication, node=communication, position=349, probability=0.05]
+					
+
+RecommendationInstance [ name=conference number, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:2.4,TYPE:0.05, reference=number, node=number, position=821, 826, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:6.200000000000001,TYPE:0.05, reference=conference, node=conference, Conference, position=246, 487, 530, 738, 749, 825, probability=0.05]
+					
+
+RecommendationInstance [ name=conversion process, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:7.200000000000001,TYPE:0.05, reference=process, node=process, Processor, processing, position=297, 334, 381, 403, 841, 922, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.0,TYPE:0.05, reference=conversion, node=Conversion, conversion, position=291, 296, 333, 840, 921, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:4.0,TYPE:0.8, reference=messages, node=messages, position=670, 728, 925, 980, probability=0.8]
+
+RecommendationInstance [ name=core server, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:0.2,TYPE:0.05, reference=core, node=core, position=428, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:2.8,TYPE:0.05, reference=server, node=server, position=192, 288, 353, 429, probability=0.05]
+					
+
+RecommendationInstance [ name=desktop sharing, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.4,TYPE:0.05, reference=desktop, node=desktop, position=474, 963, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:0.2,TYPE:0.05, reference=sharing, node=sharing, position=964, probability=0.05]
+					
+
+RecommendationInstance [ name=freeswitch, type=, probability=0.75, mappings:]= 
+					NounMapping [distribution=NAME:7.05,NAME_OR_TYPE:7.4,TYPE:0.05, reference=freeswitch, node=FreeSWITCH, position=256, 512, 514, 557, 691, 801, 959, probability=7.05]
+					
+
+RecommendationInstance [ name=image snapshot, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:2.5999999999999996,TYPE:0.05, reference=image, node=image, ImageMagick/GhostScript, position=900, 908, 911, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.2,TYPE:0.05, reference=snapshot, node=snapshot, position=901, probability=0.05]
+					
+
+RecommendationInstance [ name=learning management, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:0.2,TYPE:0.05, reference=management, node=management, position=131, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:0.2,TYPE:0.05, reference=learning, node=learning, position=130, probability=0.05]
+					
+
+RecommendationInstance [ name=management system, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.2,TYPE:0.05, reference=system, node=system, position=132, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:0.2,TYPE:0.05, reference=management, node=management, position=131, probability=0.05]
+					
+
+RecommendationInstance [ name=meeting business, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:0.2,TYPE:0.05, reference=business, node=business, position=709, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:11.2,TYPE:0.05, reference=meeting, node=meeting, MeetingActor, position=362, 376, 463, 510, 608, 624, 695, 708, 714, 722, 731, probability=0.05]
+					
+
+RecommendationInstance [ name=nginx, type=proxies calls, probability=0.8, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:4.000000000000001,TYPE:0.05, reference=nginx, node=Nginx, nginx, position=71, 185, 187, 199, 250, probability=0.05]
+					NounMapping [distribution=NAME:0.0,NAME_OR_TYPE:0.0,TYPE:0.2, reference=calls, node=calls, position=189, probability=0.2]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.0,TYPE:0.6000000000000001, reference=proxies, node=proxies, position=73, 188, 251, probability=0.6000000000000001]
+
+RecommendationInstance [ name=quality audio, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.2,TYPE:0.05, reference=audio, node=audio, position=551, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:0.2,TYPE:0.05, reference=quality, node=quality, position=550, probability=0.05]
+					
+
+RecommendationInstance [ name=server, type=proxies calls, probability=0.8, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:2.8,TYPE:0.05, reference=server, node=server, position=192, 288, 353, 429, probability=0.05]
+					NounMapping [distribution=NAME:0.0,NAME_OR_TYPE:0.0,TYPE:0.2, reference=calls, node=calls, position=189, probability=0.2]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.0,TYPE:0.6000000000000001, reference=proxies, node=proxies, position=73, 188, 251, probability=0.6000000000000001]
+
+RecommendationInstance [ name=server side, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:2.8,TYPE:0.05, reference=server, node=server, position=192, 288, 353, 429, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:0.4,TYPE:0.05, reference=side, node=side, position=193, 354, probability=0.05]
+					
+
+RecommendationInstance [ name=setup BigBlueButton, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:0.2,TYPE:0.05, reference=setup, node=setup, position=142, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:8.4,TYPE:0.05, reference=bigbluebutton, node=BigBlueButton, position=13, 94, 110, 143, 159, 182, 287, 445, 521, 587, 590, 635, 638, 741, 934, 937, 974, probability=0.05]
+					
+
+RecommendationInstance [ name=sharing applet, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:0.2,TYPE:0.05, reference=sharing, node=sharing, position=964, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.2,TYPE:0.05, reference=applet, node=applet, position=965, probability=0.05]
+					
+
+RecommendationInstance [ name=voice conference, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:2.8000000000000007,TYPE:0.05, reference=voice, node=voice, Voice, VoiceService, position=245, 412, 477, 486, 517, 529, 684, 737, 748, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:6.200000000000001,TYPE:0.05, reference=conference, node=conference, Conference, position=246, 487, 530, 738, 749, 825, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.0,TYPE:0.2, reference=ways, node=ways, position=752, probability=0.2]
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Instances of the Connection State: 
+InstanceMapping [ uid=_6sergFkHEeyewPSmlgszyA, name=Redis PubSub, as=BasicComponent, probability=1.0, FOUND: Redis PubSub : , occurrences= NameVariants: 3: [PubSub, Redis, pubsub] sentences{[25, 26, 27, 28, 47, 47, 49, 25, 26, 47, 65]}, TypeVariants: 0: []sentences{[]}]
+InstanceMapping [ uid=_XuNf4FkJEeyewPSmlgszyA, name=Apps, as=BasicComponent, probability=1.0, FOUND: applet : , occurrences= NameVariants: 6: [App, application, Applications, Apps, applet, applications] sentences{[5, 9, 10, 15, 20, 26, 30, 30, 32, 32, 33, 34, 35, 41, 42, 42, 42, 44, 45, 68, 69, 70, 69]}, TypeVariants: 0: []sentences{[]}]
+InstanceMapping [ uid=_XuNf4FkJEeyewPSmlgszyA, name=Apps, as=BasicComponent, probability=1.0, FOUND: apps : , occurrences= NameVariants: 6: [App, application, Applications, Apps, applet, applications] sentences{[5, 9, 10, 15, 20, 26, 30, 30, 32, 32, 33, 34, 35, 41, 42, 42, 42, 44, 45, 68, 69, 70, 69]}, TypeVariants: 0: []sentences{[]}]
+InstanceMapping [ uid=_nwrCMFwPEeyiuNx_RO7j-Q, name=FreeSWITCH, as=BasicComponent, probability=1.0, FOUND: freeswitch : , occurrences= NameVariants: 1: [FreeSWITCH] sentences{[18, 36, 37, 40, 48, 58, 69]}, TypeVariants: 0: []sentences{[]}]
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Relations of the Recommendation State: 
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Relations of the Connection State: 
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+ExecutionTime: PT1M0.069S---------------------------------------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+

@@ -1,0 +1,96 @@
+Results of ModelConnector: 
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+ExtractorState: 
+Instances:
+Instance [names=gui, type=Basic, Component, BasicComponent]
+Instance [names=preferences, type=Basic, Component, BasicComponent]
+Instance [names=globals, type=Basic, Component, BasicComponent]
+Instance [names=cli, type=Basic, Component, BasicComponent]
+Instance [names=model, type=Basic, Component, BasicComponent]
+Instance [names=logic, type=Basic, Component, BasicComponent]
+Relations:
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+FoundNames as Set: 
+[api, architecture, bit, build, bus, center, cli, code, gui, him, information, jabref, junit, logic, model, onion, preferences, reading/writing/importing, responsibility, shell, structuring, this, user, way, we]
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+FoundNameTerms as Set: 
+[onion architecture]
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+FoundNORTs as Set: 
+[]
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+FoundTypes as Set: 
+[cases, changes, data, dependencies, event, layer, packages, spaghetti, structure, tasks, tests, violations]
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+FoundTypeTerms as Set: 
+[data structures]
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Instances of the Recommendation State: 
+RecommendationInstance [ name=build, type=, probability=0.75, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.0,TYPE:0.05, reference=build, node=build, position=70, probability=0.05]
+					NounMapping [distribution=NAME:4.05,NAME_OR_TYPE:4.6000000000000005,TYPE:0.05, reference=gui, node=gui, build, position=44, 120, 128, 70, probability=4.05]
+					
+
+RecommendationInstance [ name=cli, type=, probability=0.75, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.2,TYPE:0.05, reference=responsibility, node=responsibility, position=158, probability=0.05]
+					NounMapping [distribution=NAME:3.0,NAME_OR_TYPE:0.0,TYPE:0.0, reference=cli, node=little, responsibility, publish, position=92, 158, 171, probability=3.0]
+					
+
+RecommendationInstance [ name=gui, type=, probability=0.75, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.0,TYPE:0.05, reference=build, node=build, position=70, probability=0.05]
+					NounMapping [distribution=NAME:4.05,NAME_OR_TYPE:4.6000000000000005,TYPE:0.05, reference=gui, node=gui, build, position=44, 120, 128, 70, probability=4.05]
+					
+
+RecommendationInstance [ name=logic, type=, probability=0.75, mappings:]= 
+					NounMapping [distribution=NAME:3.05,NAME_OR_TYPE:2.5999999999999996,TYPE:0.05, reference=logic, node=logic, position=37, 95, 99, probability=3.05]
+					
+
+RecommendationInstance [ name=model, type=, probability=0.75, mappings:]= 
+					NounMapping [distribution=NAME:4.05,NAME_OR_TYPE:4.800000000000001,TYPE:0.05, reference=model, node=model, position=30, 79, 109, 175, probability=4.05]
+					
+
+RecommendationInstance [ name=onion architecture, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:0.8,TYPE:0.05, reference=onion, node=onion, position=26, 149, 179, 188, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:2.4,TYPE:0.05, reference=architecture, node=architecture, position=27, 189, probability=0.05]
+					
+
+RecommendationInstance [ name=preferences, type=, probability=0.75, mappings:]= 
+					NounMapping [distribution=NAME:1.05,NAME_OR_TYPE:1.0,TYPE:0.2, reference=preferences, node=preferences, position=134, probability=1.05]
+					
+
+RecommendationInstance [ name=responsibility, type=, probability=0.75, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.2,TYPE:0.05, reference=responsibility, node=responsibility, position=158, probability=0.05]
+					NounMapping [distribution=NAME:3.0,NAME_OR_TYPE:0.0,TYPE:0.0, reference=cli, node=little, responsibility, publish, position=92, 158, 171, probability=3.0]
+					
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Instances of the Connection State: 
+InstanceMapping [ uid=_Coy0kEl4Ee243f2e4VWs6w, name=gui, as=BasicComponent, probability=1.0, FOUND: gui : , occurrences= NameVariants: 2: [build, gui] sentences{[4, 2, 4, 6, 7]}, TypeVariants: 0: []sentences{[]}]
+InstanceMapping [ uid=_Coy0kEl4Ee243f2e4VWs6w, name=gui, as=BasicComponent, probability=1.0, FOUND: build : , occurrences= NameVariants: 2: [build, gui] sentences{[4, 2, 4, 6, 7]}, TypeVariants: 0: []sentences{[]}]
+InstanceMapping [ uid=_EBiwMEl4Ee243f2e4VWs6w, name=cli, as=BasicComponent, probability=1.0, FOUND: cli : , occurrences= NameVariants: 3: [responsibility, publish, little] sentences{[8, 5, 8, 9]}, TypeVariants: 0: []sentences{[]}]
+InstanceMapping [ uid=_EBiwMEl4Ee243f2e4VWs6w, name=cli, as=BasicComponent, probability=1.0, FOUND: responsibility : , occurrences= NameVariants: 3: [responsibility, publish, little] sentences{[8, 5, 8, 9]}, TypeVariants: 0: []sentences{[]}]
+InstanceMapping [ uid=_He3LoEl4Ee243f2e4VWs6w, name=logic, as=BasicComponent, probability=1.0, FOUND: logic : , occurrences= NameVariants: 1: [logic] sentences{[2, 5, 6]}, TypeVariants: 0: []sentences{[]}]
+InstanceMapping [ uid=_MFIzMEl4Ee243f2e4VWs6w, name=model, as=BasicComponent, probability=1.0, FOUND: model : , occurrences= NameVariants: 1: [model] sentences{[2, 5, 6, 9]}, TypeVariants: 0: []sentences{[]}]
+InstanceMapping [ uid=_NUdtEEl4Ee243f2e4VWs6w, name=preferences, as=BasicComponent, probability=1.0, FOUND: preferences : , occurrences= NameVariants: 1: [preferences] sentences{[7]}, TypeVariants: 0: []sentences{[]}]
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Relations of the Recommendation State: 
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Relations of the Connection State: 
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+ExecutionTime: PT42.363S---------------------------------------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+

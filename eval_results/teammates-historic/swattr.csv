@@ -1,0 +1,2 @@
+file; precision; recall; f1; acc; spec; phi
+results_swattr/teammates-historic/TEAMMATES_trace_links.csv; 0.4090909090909091; 0.782608695652174; 0.537313432835821; 0.9581081081081081; 0.9637377963737797; 0.5476877580798719
