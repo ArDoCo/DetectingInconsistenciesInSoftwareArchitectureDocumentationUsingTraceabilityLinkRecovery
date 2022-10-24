@@ -1,0 +1,2 @@
+file; precision; recall; f1; acc; spec; phi
+results_swattr/jabref/JabRef_trace_links.csv; 0.75; 1.0; 0.8571428571428571; 0.9230769230769231; 0.9; 0.8215838362577491
