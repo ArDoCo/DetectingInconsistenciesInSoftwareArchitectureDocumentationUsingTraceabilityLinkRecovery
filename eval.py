@@ -27,13 +27,35 @@ config = Config(
     comment_char='#'
 )
 
+config_gold = Config(
+    header=0,
+    delimiter=',',
+    names=['modelElementID', 'sentence'],
+    comment_char='#'
+)
+
+
+def load_data_gold(filename):
+    try:
+        df = pd.read_csv(filename, delimiter=config_gold.delimiter, header=config_gold.header, encoding='utf8',
+                         names=config_gold.names, comment=config_gold.comment_char)
+    except pd.errors.ParserError as e:
+        print('Error in loading gold file. Skipping ' + filename)
+        return None
+    if 'confidence' in df.columns:
+        df = df.drop(['confidence'], axis=1)
+    df = df.dropna()
+    df = df.drop_duplicates()
+    df = df.sort_index()
+    return df
+
 
 def load_data(filename):
     try:
         df = pd.read_csv(filename, delimiter=config.delimiter, header=config.header, encoding='utf8',
                          names=config.names, comment=config.comment_char)
     except pd.errors.ParserError as e:
-        print('Error in loading file. Skipping ' + filename)
+        print('Error in loading test file. Skipping ' + filename)
         return None
     if 'confidence' in df.columns:
         df = df.drop(['confidence'], axis=1)
@@ -157,7 +179,7 @@ def count_true_negatives(text: str):
 
 
 def process(args):
-    gold_set = load_data(args.gold)
+    gold_set = load_data_gold(args.gold)
     all_combinations = count_true_negatives(args.text) * int(args.elementcount)
 
     save_header(args.output)
@@ -206,7 +228,7 @@ def save_header(file):
     if file is None:
         return
     f = open(file, 'w')
-    f.write('file; precision; recall; f1\n')
+    f.write('file; precision; recall; f1; acc; spec; phi\n')
     f.close()
 
 

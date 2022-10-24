@@ -18,11 +18,11 @@ Relations:
 ---------------------------------------------------------------------------------------------------------------------------------------------
 
 FoundNames as Set: 
-[access, anything, application, at, auth, base64, bcrypt, cache, cart, combination, content, count, delivery, drive, entity, front-end, html, id, identifier, implementation, in, it, jpa, jsp, layer, level, lfu, link, logic, lookup, mapper, matrix, name, number, page, passwords, place, popularity, prediction, product, provider, rating, read, recommender, registry, sha512, shopping, signal, size, slope, standard, status, strategy, such, test, them, time, training, ui, users, view, we, webui]
+[access, algorithm, anything, application, approach, at, auth, base64, bcrypt, cache, caching, cart, collaborative, combination, configuration, content, count, delivery, drive, entity, front-end, function, hash, heartbeat, html, id, identifier, implementation, in, it, jpa, json, jsp, layer, least, level, lfu, link, logic, lookup, mapper, matrix, memory-intensive, name, number, orm, overhead, page, passwords, persistence, phase, place, popularity, prediction, product, provider, rating, read, recommender, register, registry, sha512, shopping, signal, size, slope, standard, startup, state, status, strategy, such, test, them, time, training, ui, update, use, view, we, webui]
 ---------------------------------------------------------------------------------------------------------------------------------------------
 
 FoundNameTerms as Set: 
-[EclipseLink JPA, JPA implementation, JSON entity, UI name, cache lookup, caching layer, configuration overhead, entity cache, heartbeat signal, level entity, prediction matrix, product ID, rating prediction, register function, shopping cart, status page, status view, test application]
+[EclipseLink JPA, JPA ORM, JPA implementation, JSON entity, ORM mapper, UI name, cache lookup, caching layer, configuration overhead, entity cache, heartbeat signal, level entity, persistence provider, prediction matrix, product ID, rating prediction, register function, shopping cart, status page, status view, test application, training phase]
 ---------------------------------------------------------------------------------------------------------------------------------------------
 
 FoundNORTs as Set: 
@@ -30,16 +30,21 @@ FoundNORTs as Set:
 ---------------------------------------------------------------------------------------------------------------------------------------------
 
 FoundTypes as Set: 
-[cookies, crud-operations, data, endpoints, entities, exceptions, files, hash, hosts, images, instance, item, least, objects, orm, s, services, session, strings, teastore, values]
+[cookies, crud-operations, data, endpoints, entities, exceptions, files, hosts, images, instance, item, objects, orders, purchases, recommendations, s, services, servlets, session, strings, teastore, users, values, versions]
 ---------------------------------------------------------------------------------------------------------------------------------------------
 
 FoundTypeTerms as Set: 
-[Persistence service, Recommender service, service instances]
+[service instances]
 ---------------------------------------------------------------------------------------------------------------------------------------------
 
 Instances of the Recommendation State: 
 RecommendationInstance [ name=EclipseLink JPA, type=, probability=0.6, mappings:]= 
 					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.4,TYPE:0.05, reference=link, node=link, EclipseLink, position=100, 402, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:0.4,TYPE:0.05, reference=jpa, node=JPA, position=403, 439, probability=0.05]
+					
+
+RecommendationInstance [ name=JPA ORM, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.4,TYPE:0.05, reference=orm, node=ORM, information, position=404, 636, probability=0.05]
 					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:0.4,TYPE:0.05, reference=jpa, node=JPA, position=403, 439, probability=0.05]
 					
 
@@ -49,47 +54,61 @@ RecommendationInstance [ name=JPA implementation, type=, probability=0.6, mappin
 					
 
 RecommendationInstance [ name=JSON entity, type=, probability=0.6, mappings:]= 
-					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:0.4,TYPE:0.05, reference=jsp, node=JSP, JSON, position=56, 394, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:0.2,TYPE:0.05, reference=json, node=JSON, position=394, probability=0.05]
 					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:0.4,TYPE:0.05, reference=entity, node=entity, position=395, 434, probability=0.05]
+					
+
+RecommendationInstance [ name=ORM mapper, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.4,TYPE:0.05, reference=orm, node=ORM, information, position=404, 636, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.2,TYPE:0.05, reference=mapper, node=mapper, position=405, probability=0.05]
 					
 
 RecommendationInstance [ name=UI name, type=, probability=0.6, mappings:]= 
 					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.9999999999999998,TYPE:0.05, reference=ui, node=UI, position=94, 151, 183, 213, 247, probability=0.05]
 					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.9999999999999998,TYPE:0.05, reference=name, node=name, filename, position=152, 155, 184, 214, 248, probability=0.05]
-					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.2,TYPE:0.2, reference=files, node=files, filename, position=57, 155, probability=0.2]
+					
 
 RecommendationInstance [ name=auth, type=, probability=0.75, mappings:]= 
 					NounMapping [distribution=NAME:4.05,NAME_OR_TYPE:1.6,TYPE:0.05, reference=auth, node=Auth, authentication, authenticated, position=28, 318, 324, 25, probability=4.05]
 					
 
 RecommendationInstance [ name=cache lookup, type=, probability=0.6, mappings:]= 
-					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:5.2,TYPE:0.05, reference=cache, node=cache, caching, approach, position=270, 294, 309, 435, 450, 605, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:3.8,TYPE:0.05, reference=cache, node=cache, position=270, 294, 309, 435, probability=0.05]
 					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.2,TYPE:0.05, reference=lookup, node=lookup, position=295, probability=0.05]
 					
 
 RecommendationInstance [ name=caching layer, type=, probability=0.6, mappings:]= 
-					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:5.2,TYPE:0.05, reference=cache, node=cache, caching, approach, position=270, 294, 309, 435, 450, 605, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:0.2,TYPE:0.05, reference=caching, node=caching, position=450, probability=0.05]
 					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.2,TYPE:0.05, reference=layer, node=layer, position=451, probability=0.05]
 					
 
 RecommendationInstance [ name=configuration overhead, type=, probability=0.6, mappings:]= 
-					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.4,TYPE:0.05, reference=read, node=Read, overhead, position=416, 736, probability=0.05]
-					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:4.0,TYPE:0.05, reference=rating, node=rating, collaborative, configuration, position=502, 558, 592, 728, 735, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.2,TYPE:0.05, reference=overhead, node=overhead, position=736, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.4,TYPE:0.05, reference=configuration, node=configuration, position=728, 735, probability=0.05]
 					
 
 RecommendationInstance [ name=entity cache, type=, probability=0.6, mappings:]= 
-					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:5.2,TYPE:0.05, reference=cache, node=cache, caching, approach, position=270, 294, 309, 435, 450, 605, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:3.8,TYPE:0.05, reference=cache, node=cache, position=270, 294, 309, 435, probability=0.05]
 					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:0.4,TYPE:0.05, reference=entity, node=entity, position=395, 434, probability=0.05]
 					
 
 RecommendationInstance [ name=heartbeat signal, type=, probability=0.6, mappings:]= 
-					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:4.0,TYPE:0.05, reference=cart, node=cart, startup, heartbeat, position=483, 622, 661, 670, 679, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.4,TYPE:0.05, reference=heartbeat, node=heartbeat, position=670, 679, probability=0.05]
 					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.2,TYPE:0.05, reference=signal, node=signal, position=671, probability=0.05]
 					
 
 RecommendationInstance [ name=level entity, type=, probability=0.6, mappings:]= 
 					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:0.2,TYPE:0.05, reference=level, node=level, position=433, probability=0.05]
 					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:0.4,TYPE:0.05, reference=entity, node=entity, position=395, 434, probability=0.05]
+					
+
+RecommendationInstance [ name=persistence, type=, probability=0.75, mappings:]= 
+					NounMapping [distribution=NAME:5.05,NAME_OR_TYPE:0.4,TYPE:0.05, reference=persistence, node=Persistence, persistence, PersistenceProvider, persisted, persistent, position=373, 428, 36, 380, 424, probability=5.05]
+					
+
+RecommendationInstance [ name=persistence provider, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:5.2,TYPE:0.05, reference=provider, node=Provider, PersistenceProvider, provider, position=21, 36, 89, 126, 191, 429, probability=0.05]
+					NounMapping [distribution=NAME:5.05,NAME_OR_TYPE:0.4,TYPE:0.05, reference=persistence, node=Persistence, persistence, PersistenceProvider, persisted, persistent, position=373, 428, 36, 380, 424, probability=5.05]
 					
 
 RecommendationInstance [ name=prediction matrix, type=, probability=0.6, mappings:]= 
@@ -102,43 +121,58 @@ RecommendationInstance [ name=product ID, type=, probability=0.6, mappings:]=
 					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.9999999999999998,TYPE:0.05, reference=id, node=ID, position=149, 166, 181, 211, 245, probability=0.05]
 					
 
-RecommendationInstance [ name=rating prediction, type=, probability=0.6, mappings:]= 
-					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:4.0,TYPE:0.05, reference=rating, node=rating, collaborative, configuration, position=502, 558, 592, 728, 735, probability=0.05]
+RecommendationInstance [ name=rating prediction, type=users, probability=0.8, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.4,TYPE:0.05, reference=rating, node=rating, position=502, 592, probability=0.05]
 					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:0.2,TYPE:0.05, reference=prediction, node=prediction, position=593, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:10.799999999999999,TYPE:0.6000000000000001, reference=users, node=Users, user, users, position=23, 321, 464, 480, 486, 494, 505, 515, 523, 550, 582, 591, probability=0.6000000000000001]
+
+RecommendationInstance [ name=recommender, type=, probability=0.75, mappings:]= 
+					NounMapping [distribution=NAME:7.05,NAME_OR_TYPE:1.4,TYPE:0.05, reference=recommender, node=Recommender, recommendations, Recommendations, recommendation, position=42, 454, 39, 461, 474, 565, 610, probability=7.05]
 					
 
-RecommendationInstance [ name=recommender, type=Recommender service, probability=0.8, mappings:]= 
-					NounMapping [distribution=NAME:7.05,NAME_OR_TYPE:4.6000000000000005,TYPE:0.65, reference=recommender, node=Recommender, recommendations, Recommendations, recommendation, position=42, 454, 461, 474, 565, 610, 39, probability=7.05]
-					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:13.399999999999999,TYPE:0.4, reference=services, node=services, service, Service, Services, position=6, 15, 29, 43, 90, 121, 319, 374, 399, 640, 646, 653, 663, 676, probability=0.4]
-					NounMapping [distribution=NAME:7.05,NAME_OR_TYPE:4.6000000000000005,TYPE:0.65, reference=recommender, node=Recommender, recommendations, Recommendations, recommendation, position=42, 454, 461, 474, 565, 610, 39, probability=7.05]
+RecommendationInstance [ name=register, type=, probability=0.75, mappings:]= 
+					NounMapping [distribution=NAME:9.05,NAME_OR_TYPE:4.0,TYPE:0.05, reference=registry, node=Registry, registry, registered, register, re-registering, position=10, 634, 659, 707, 722, 120, 655, 673, 692, probability=9.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:0.2,TYPE:0.05, reference=register, node=register, position=692, probability=0.05]
+					
 
 RecommendationInstance [ name=register function, type=, probability=0.6, mappings:]= 
-					NounMapping [distribution=NAME:9.05,NAME_OR_TYPE:4.2,TYPE:0.05, reference=registry, node=Registry, registry, register, registered, re-registering, position=10, 634, 659, 692, 707, 722, 120, 655, 673, probability=9.05]
-					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.4,TYPE:0.05, reference=lfu, node=LFU, function, position=276, 693, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.2,TYPE:0.05, reference=function, node=function, position=693, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:0.2,TYPE:0.05, reference=register, node=register, position=692, probability=0.05]
 					
 
-RecommendationInstance [ name=registry, type=, probability=0.75, mappings:]= 
-					NounMapping [distribution=NAME:9.05,NAME_OR_TYPE:4.2,TYPE:0.05, reference=registry, node=Registry, registry, register, registered, re-registering, position=10, 634, 659, 692, 707, 722, 120, 655, 673, probability=9.05]
-					
+RecommendationInstance [ name=registry, type=service instances, probability=0.8, mappings:]= 
+					NounMapping [distribution=NAME:9.05,NAME_OR_TYPE:4.0,TYPE:0.05, reference=registry, node=Registry, registry, registered, register, re-registering, position=10, 634, 659, 707, 722, 120, 655, 673, 692, probability=9.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:6.800000000000001,TYPE:0.65, reference=instance, node=instance, instances, position=11, 114, 122, 641, 654, 700, 723, probability=0.65]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:13.399999999999999,TYPE:0.4, reference=services, node=services, service, Service, Services, position=6, 15, 29, 43, 90, 121, 319, 374, 399, 640, 646, 653, 663, 676, probability=0.4]
 
 RecommendationInstance [ name=shopping cart, type=, probability=0.6, mappings:]= 
 					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:0.2,TYPE:0.05, reference=shopping, node=shopping, position=482, probability=0.05]
-					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:4.0,TYPE:0.05, reference=cart, node=cart, startup, heartbeat, position=483, 622, 661, 670, 679, probability=0.05]
-					
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.4,TYPE:0.05, reference=cart, node=cart, position=483, 622, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:10.799999999999999,TYPE:0.6000000000000001, reference=users, node=Users, user, users, position=23, 321, 464, 480, 486, 494, 505, 515, 523, 550, 582, 591, probability=0.6000000000000001]
 
 RecommendationInstance [ name=status page, type=, probability=0.6, mappings:]= 
-					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:9.4,TYPE:0.05, reference=page, node=page, Image, image, position=98, 125, 170, 175, 190, 199, 226, 235, 255, 265, 287, 302, probability=0.05]
-					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.5999999999999999,TYPE:0.05, reference=status, node=status, state, position=97, 104, 110, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.2,TYPE:0.05, reference=page, node=page, position=98, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:0.4,TYPE:0.05, reference=status, node=status, position=97, 110, probability=0.05]
 					
 
 RecommendationInstance [ name=status view, type=, probability=0.6, mappings:]= 
 					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.2,TYPE:0.05, reference=view, node=view, position=111, probability=0.05]
-					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.5999999999999999,TYPE:0.05, reference=status, node=status, state, position=97, 104, 110, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:0.4,TYPE:0.05, reference=status, node=status, position=97, 110, probability=0.05]
 					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:6.800000000000001,TYPE:0.65, reference=instance, node=instance, instances, position=11, 114, 122, 641, 654, 700, 723, probability=0.65]
 
 RecommendationInstance [ name=test application, type=, probability=0.6, mappings:]= 
 					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:0.2,TYPE:0.05, reference=test, node=test, position=713, probability=0.05]
 					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:0.2,TYPE:0.05, reference=application, node=application, position=714, probability=0.05]
+					
+
+RecommendationInstance [ name=them, type=service instances, probability=0.8, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:3.0,TYPE:0.05, reference=them, node=them, they, themselves, position=138, 649, 656, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:6.800000000000001,TYPE:0.65, reference=instance, node=instance, instances, position=11, 114, 122, 641, 654, 700, 723, probability=0.65]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:13.399999999999999,TYPE:0.4, reference=services, node=services, service, Service, Services, position=6, 15, 29, 43, 90, 121, 319, 374, 399, 640, 646, 653, 663, 676, probability=0.4]
+
+RecommendationInstance [ name=training phase, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.2,TYPE:0.05, reference=phase, node=phase, position=598, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:0.2,TYPE:0.05, reference=training, node=training, position=597, probability=0.05]
 					
 
 RecommendationInstance [ name=webui, type=, probability=0.75, mappings:]= 
@@ -150,8 +184,9 @@ RecommendationInstance [ name=webui, type=, probability=0.75, mappings:]=
 Instances of the Connection State: 
 InstanceMapping [ uid=_AiuxcDVdEeqPG_FgW3bi6Q, name=Auth, as=BasicComponent, probability=1.0, FOUND: auth : , occurrences= NameVariants: 3: [authenticated, Auth, authentication] sentences{[3, 3, 18, 18]}, TypeVariants: 0: []sentences{[]}]
 InstanceMapping [ uid=_bC13QDVWEeqPG_FgW3bi6Q, name=WebUI, as=BasicComponent, probability=1.0, FOUND: webui : , occurrences= NameVariants: 2: [WebUI, WebUi] sentences{[2, 5, 7, 10]}, TypeVariants: 0: []sentences{[]}]
-InstanceMapping [ uid=_dhM6oDVXEeqPG_FgW3bi6Q, name=Registry, as=BasicComponent, probability=1.0, FOUND: registry : , occurrences= NameVariants: 5: [registry, registered, Registry, re-registering, register] sentences{[1, 9, 37, 38, 38, 39, 40, 41, 43]}, TypeVariants: 0: []sentences{[]}]
-InstanceMapping [ uid=_m3fxEDVWEeqPG_FgW3bi6Q, name=Recommender, as=BasicComponent, probability=0.8, FOUND: recommender : Recommender service, occurrences= NameVariants: 4: [Recommendations, Recommender, recommendation, recommendations] sentences{[4, 4, 27, 27, 29, 32, 36]}, TypeVariants: 8: [Recommendations, Services, service, Recommender, Service, recommendation, services, recommendations]sentences{[1, 2, 3, 4, 7, 9, 18, 22, 23, 37, 37, 38, 39, 40, 4, 4, 27, 27, 29, 32, 36]}]
+InstanceMapping [ uid=_dhM6oDVXEeqPG_FgW3bi6Q, name=Registry, as=BasicComponent, probability=0.8, FOUND: registry : service instances, occurrences= NameVariants: 5: [registry, registered, Registry, re-registering, register] sentences{[1, 9, 37, 38, 38, 39, 40, 41, 43]}, TypeVariants: 6: [Services, instance, instances, service, Service, services]sentences{[1, 9, 9, 37, 38, 41, 43, 1, 2, 3, 4, 7, 9, 18, 22, 23, 37, 37, 38, 39, 40]}]
+InstanceMapping [ uid=_lnx1oDVWEeqPG_FgW3bi6Q, name=Persistence, as=BasicComponent, probability=1.0, FOUND: persistence : , occurrences= NameVariants: 5: [Persistence, PersistenceProvider, persistence, persisted, persistent] sentences{[4, 22, 22, 24, 25]}, TypeVariants: 0: []sentences{[]}]
+InstanceMapping [ uid=_m3fxEDVWEeqPG_FgW3bi6Q, name=Recommender, as=BasicComponent, probability=1.0, FOUND: recommender : , occurrences= NameVariants: 4: [Recommendations, Recommender, recommendation, recommendations] sentences{[4, 4, 27, 27, 29, 32, 36]}, TypeVariants: 0: []sentences{[]}]
 ---------------------------------------------------------------------------------------------------------------------------------------------
 
 Relations of the Recommendation State: 
@@ -162,7 +197,7 @@ Relations of the Connection State:
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
 
-ExecutionTime: PT45.622S---------------------------------------------------------------------------------------------------------------------------------------------
+ExecutionTime: PT1M0.843S---------------------------------------------------------------------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
 
