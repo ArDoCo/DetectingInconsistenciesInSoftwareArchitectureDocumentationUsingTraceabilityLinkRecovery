@@ -1,0 +1,204 @@
+Results of ModelConnector: 
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+ExtractorState: 
+Instances:
+Instance [names=Presentation, Conversion, Presentation Conversion, type=Basic, Component, BasicComponent]
+Instance [names=Redis, Pub, Sub, Redis PubSub, type=Basic, Component, BasicComponent]
+Instance [names=Free, SWITCH, FreeSWITCH, type=Basic, Component, BasicComponent]
+Instance [names=Apps, type=Basic, Component, BasicComponent]
+Instance [names=HTML5, Client, HTML5 Client, type=Basic, Component, BasicComponent]
+Instance [names=Web, RTC, SFU, WebRTC-SFU, type=Basic, Component, BasicComponent]
+Instance [names=BBB, web, BBB web, type=Basic, Component, BasicComponent]
+Instance [names=FSESL, type=Basic, Component, BasicComponent]
+Instance [names=Recording, Service, Recording Service, type=Basic, Component, BasicComponent]
+Instance [names=kurento, type=Basic, Component, BasicComponent]
+Instance [names=HTML5, Server, HTML5 Server, type=Basic, Component, BasicComponent]
+Instance [names=Redis, DB, Redis DB, type=Basic, Component, BasicComponent]
+Relations:
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+FoundNames as Set: 
+[3-alpha-7, akka, api, apply-lib, architecture, audio, back-end, bbb, bbb-web, below, bigbluebutton, bottleneck, canvas, cases, chrome, collaboration, copy, cpu, cursor, database, db, ddp, detail, diagram, ecma2015, example, external, fashion, firefox, flv, freeswitch, fsels, functionality, google, greenlight, handling, helper, hood, information, interface, it, js, learning, light, list, load, logic, manner, mcu, meteor, method, mongodb, moodle, mozilla, network, nginx, pdf, png, port, quality, react, s, sakai, scalability, sending/receiving, setup, sfu, sh, share, shutdown, subscription, svg, swf, they, this, to, turn, vector, view, voice, way, we, webrtc, you]
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+FoundNameTerms as Set: 
+[BBB web, BigBlueButton web, Google Chrome, Internal network, MongoDB database, Mozilla Firefox, Office document, PDF document, quality audio, round-robin fashion, sending/receiving audio, setup BigBlueButton]
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+FoundNORTs as Set: 
+[]
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+FoundTypes as Set: 
+[application, backends, calls, chat, client, collections, communication, components, conf, connection, core, dev, event, files, frontend, functions, html5, integration, lms, meetings, moves, negotiations, nodejs, others, page, phone, queues, redis, socket, ssl, state, system, user, value, video, which]
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+FoundTypeTerms as Set: 
+[API demos, Configuration Files, Event Socket, Frontends collection, HTML5 client, HTML5 server, Kurento Media, Media Server, MeetingEnded events, Presentation conversion, Recording Processor, Server KMS, ValidateAuthTokenResp event, browser sessions, chat messages, client side, communication channel, conference systems, configuration changes, configuration values, conversion fallback, conversion process, core server, dev environments, event processing, management system, media controller, media streams, meeting business, meeting state, processing messages, processing queues, server component, server side, socket connection, which front-end]
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Instances of the Recommendation State: 
+RecommendationInstance [ name=BBB web, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:0.2,TYPE:0.05, reference=bbb, node=BBB, position=629, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:7.8,TYPE:0.05, reference=we, node=We, web, we, position=18, 41, 93, 630, 633, 692, 932, 988, 1278, 1309, 1324, probability=0.05]
+					
+
+RecommendationInstance [ name=BigBlueButton web, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:16.79999999999999,TYPE:0.05, reference=bigbluebutton, node=BigBlueButton, etc/bigbluebutton/bbb-conf, BigBlueButtonBN, position=12, 76, 88, 136, 141, 245, 253, 312, 321, 404, 581, 592, 605, 632, 646, 658, 668, 679, 685, 701, 719, 744, 760, 799, 853, 1008, 1143, 1170, 1359, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:7.8,TYPE:0.05, reference=we, node=We, web, we, position=18, 41, 93, 630, 633, 692, 932, 988, 1278, 1309, 1324, probability=0.05]
+					
+
+RecommendationInstance [ name=Google Chrome, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.2,TYPE:0.05, reference=chrome, node=Chrome, position=1026, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:0.2,TYPE:0.05, reference=google, node=Google, position=1025, probability=0.05]
+					
+
+RecommendationInstance [ name=Internal network, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:0.4,TYPE:0.05, reference=external, node=External, Internal, position=466, 1346, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:0.2,TYPE:0.05, reference=network, node=network, position=1347, probability=0.05]
+					
+
+RecommendationInstance [ name=MongoDB database, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.2,TYPE:0.05, reference=database, node=database, position=146, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:3.8,TYPE:0.05, reference=mongodb, node=MongoDB, MiniMongo, position=129, 145, 209, 218, probability=0.05]
+					
+
+RecommendationInstance [ name=Mozilla Firefox, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:0.2,TYPE:0.05, reference=mozilla, node=Mozilla, position=1028, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.2,TYPE:0.05, reference=firefox, node=Firefox, position=1029, probability=0.05]
+					
+
+RecommendationInstance [ name=PDF document, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.5999999999999999,TYPE:0.05, reference=pdf, node=PDF, position=840, 1229, 1234, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.6,TYPE:0.05, reference=mcu, node=MCU, document, position=1091, 1221, 1235, probability=0.05]
+					
+
+RecommendationInstance [ name=api, type=configuration changes, probability=0.8, mappings:]= 
+					NounMapping [distribution=NAME:16.05,NAME_OR_TYPE:9.6,TYPE:0.8500000000000001, reference=api, node=API, applications, Apps, apps, piece, capability, graphics, application, akka-apps, apply-config, apply-lib, apply, position=647, 659, 765, 779, 795, 854, 864, 898, 971, 994, 1006, 1242, 42, 453, 583, 615, 622, 634, 638, 698, 850, 858, 948, probability=16.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:3.6000000000000005,TYPE:0.45, reference=chat, node=chat, changes, channel, position=188, 410, 624, 792, 880, probability=0.45]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:13.199999999999998,TYPE:0.25, reference=conf, node=conf, Configuration, bbb-conf, etc/bigbluebutton/bbb-conf, apply-config, configuration, conference, controller, conversion, consideration, connections, position=394, 397, 577, 581, 583, 602, 623, 957, 1017, 1114, 1127, 1135, 1203, 1250, 1264, 1276, 1281, 1283, 1293, 1299, 1305, 1348, probability=0.25]
+
+RecommendationInstance [ name=api, type=API demos, probability=0.8, mappings:]= 
+					NounMapping [distribution=NAME:16.05,NAME_OR_TYPE:9.6,TYPE:0.8500000000000001, reference=api, node=API, applications, Apps, apps, piece, capability, graphics, application, akka-apps, apply-config, apply-lib, apply, position=647, 659, 765, 779, 795, 854, 864, 898, 971, 994, 1006, 1242, 42, 453, 583, 615, 622, 634, 638, 698, 850, 858, 948, probability=16.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:8.8,TYPE:1.25, reference=dev, node=dev, students, demos, events, providers, models, delay, order, consideration, position=552, 750, 766, 812, 832, 1051, 1092, 1192, 1206, 1281, probability=1.25]
+					NounMapping [distribution=NAME:16.05,NAME_OR_TYPE:9.6,TYPE:0.8500000000000001, reference=api, node=API, applications, Apps, apps, piece, capability, graphics, application, akka-apps, apply-config, apply-lib, apply, position=647, 659, 765, 779, 795, 854, 864, 898, 971, 994, 1006, 1242, 42, 453, 583, 615, 622, 634, 638, 698, 850, 858, 948, probability=16.05]
+
+RecommendationInstance [ name=api, type=communication channel, probability=0.8, mappings:]= 
+					NounMapping [distribution=NAME:16.05,NAME_OR_TYPE:9.6,TYPE:0.8500000000000001, reference=api, node=API, applications, Apps, apps, piece, capability, graphics, application, akka-apps, apply-config, apply-lib, apply, position=647, 659, 765, 779, 795, 854, 864, 898, 971, 994, 1006, 1242, 42, 453, 583, 615, 622, 634, 638, 698, 850, 858, 948, probability=16.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:3.6000000000000005,TYPE:0.45, reference=chat, node=chat, changes, channel, position=188, 410, 624, 792, 880, probability=0.45]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:4.800000000000001,TYPE:0.25, reference=communication, node=communication, communications, Communication, position=122, 239, 263, 791, 969, probability=0.25]
+
+RecommendationInstance [ name=apply-lib, type=, probability=0.75, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.2,TYPE:0.05, reference=apply-lib, node=apply-lib, position=615, probability=0.05]
+					
+
+RecommendationInstance [ name=bigbluebutton, type=core server, probability=0.8, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:16.79999999999999,TYPE:0.05, reference=bigbluebutton, node=BigBlueButton, etc/bigbluebutton/bbb-conf, BigBlueButtonBN, position=12, 76, 88, 136, 141, 245, 253, 312, 321, 404, 581, 592, 605, 632, 646, 658, 668, 679, 685, 701, 719, 744, 760, 799, 853, 1008, 1143, 1170, 1359, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:7.200000000000001,TYPE:0.45, reference=core, node=core, cores, recordings, Recording, position=281, 290, 301, 309, 350, 367, 757, 825, probability=0.45]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:24.79999999999999,TYPE:0.8500000000000001, reference=user, node=user, server, browser, users, Users, Server, position=55, 77, 107, 114, 126, 142, 154, 168, 183, 204, 212, 250, 310, 356, 680, 800, 878, 1010, 1022, 1054, 1080, 1085, 1130, 1158, 1179, 1186, 1322, 1344, probability=0.8500000000000001]
+
+RecommendationInstance [ name=bigbluebutton, type=configuration values, probability=0.8, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:16.79999999999999,TYPE:0.05, reference=bigbluebutton, node=BigBlueButton, etc/bigbluebutton/bbb-conf, BigBlueButtonBN, position=12, 76, 88, 136, 141, 245, 253, 312, 321, 404, 581, 592, 605, 632, 646, 658, 668, 679, 685, 701, 719, 744, 760, 799, 853, 1008, 1143, 1170, 1359, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:4.0,TYPE:0.25, reference=value, node=value, ValidateAuthTokenResp, etc/bigbluebutton/bbb-conf, values, BigBlueButtonBN, position=388, 430, 526, 581, 603, 668, probability=0.25]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:13.199999999999998,TYPE:0.25, reference=conf, node=conf, Configuration, bbb-conf, etc/bigbluebutton/bbb-conf, apply-config, configuration, conference, controller, conversion, consideration, connections, position=394, 397, 577, 581, 583, 602, 623, 957, 1017, 1114, 1127, 1135, 1203, 1250, 1264, 1276, 1281, 1283, 1293, 1299, 1305, 1348, probability=0.25]
+
+RecommendationInstance [ name=bigbluebutton, type=API demos, probability=0.8, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:16.79999999999999,TYPE:0.05, reference=bigbluebutton, node=BigBlueButton, etc/bigbluebutton/bbb-conf, BigBlueButtonBN, position=12, 76, 88, 136, 141, 245, 253, 312, 321, 404, 581, 592, 605, 632, 646, 658, 668, 679, 685, 701, 719, 744, 760, 799, 853, 1008, 1143, 1170, 1359, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:8.8,TYPE:1.25, reference=dev, node=dev, students, demos, events, providers, models, delay, order, consideration, position=552, 750, 766, 812, 832, 1051, 1092, 1192, 1206, 1281, probability=1.25]
+					NounMapping [distribution=NAME:16.05,NAME_OR_TYPE:9.6,TYPE:0.8500000000000001, reference=api, node=API, applications, Apps, apps, piece, capability, graphics, application, akka-apps, apply-config, apply-lib, apply, position=647, 659, 765, 779, 795, 854, 864, 898, 971, 994, 1006, 1242, 42, 453, 583, 615, 622, 634, 638, 698, 850, 858, 948, probability=16.05]
+
+RecommendationInstance [ name=bigbluebutton, type=HTML5 client, probability=0.8, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:16.79999999999999,TYPE:0.05, reference=bigbluebutton, node=BigBlueButton, etc/bigbluebutton/bbb-conf, BigBlueButtonBN, position=12, 76, 88, 136, 141, 245, 253, 312, 321, 404, 581, 592, 605, 632, 646, 658, 668, 679, 685, 701, 719, 744, 760, 799, 853, 1008, 1143, 1170, 1359, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:6.2,TYPE:0.25, reference=html5, node=HTML5, bbb-html5, bbb-html5-with-roles, position=29, 33, 70, 106, 113, 235, 249, 331, 345, 374, 392, 1144, probability=0.25]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:17.199999999999996,TYPE:0.25, reference=client, node=client, clients, position=30, 34, 71, 89, 124, 137, 161, 170, 195, 221, 236, 340, 1145, 1155, 1171, 1212, 1257, probability=0.25]
+
+RecommendationInstance [ name=cpu, type=core server, probability=0.8, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:4.6,TYPE:0.05, reference=cpu, node=CPU, publishing, PubSub, pubsub, position=280, 300, 308, 349, 366, 440, 785, 788, 984, 1261, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:7.200000000000001,TYPE:0.45, reference=core, node=core, cores, recordings, Recording, position=281, 290, 301, 309, 350, 367, 757, 825, probability=0.45]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:24.79999999999999,TYPE:0.8500000000000001, reference=user, node=user, server, browser, users, Users, Server, position=55, 77, 107, 114, 126, 142, 154, 168, 183, 204, 212, 250, 310, 356, 680, 800, 878, 1010, 1022, 1054, 1080, 1085, 1130, 1158, 1179, 1186, 1322, 1344, probability=0.8500000000000001]
+
+RecommendationInstance [ name=cpu, type=Frontends collection, probability=0.8, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:4.6,TYPE:0.05, reference=cpu, node=CPU, publishing, PubSub, pubsub, position=280, 300, 308, 349, 366, 440, 785, 788, 984, 1261, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.2,TYPE:0.2, reference=collections, node=collections, collection, position=201, 437, probability=0.2]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:7.000000000000001,TYPE:0.8500000000000001, reference=frontend, node=frontend, front-end, Frontends, frontends, position=378, 420, 427, 436, 442, 454, 470, 548, 724, 771, probability=0.8500000000000001]
+
+RecommendationInstance [ name=cpu, type=browser sessions, probability=0.8, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:4.6,TYPE:0.05, reference=cpu, node=CPU, publishing, PubSub, pubsub, position=280, 300, 308, 349, 366, 440, 785, 788, 984, 1261, probability=0.05]
+					NounMapping [distribution=NAME:1.05,NAME_OR_TYPE:25.199999999999992,TYPE:2.05, reference=ssl, node=SSL, messages, process, processes, processing, sessions, access, Wordpress, Processor, business, progress, FSESL, position=82, 189, 259, 266, 274, 329, 335, 338, 352, 353, 357, 361, 385, 481, 593, 683, 705, 826, 848, 903, 922, 981, 1204, 1251, 1253, 1254, 929, probability=2.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:24.79999999999999,TYPE:0.8500000000000001, reference=user, node=user, server, browser, users, Users, Server, position=55, 77, 107, 114, 126, 142, 154, 168, 183, 204, 212, 250, 310, 356, 680, 800, 878, 1010, 1022, 1054, 1080, 1085, 1130, 1158, 1179, 1186, 1322, 1344, probability=0.8500000000000001]
+
+RecommendationInstance [ name=freeswitch, type=conference systems, probability=0.8, mappings:]= 
+					NounMapping [distribution=NAME:8.05,NAME_OR_TYPE:7.6000000000000005,TYPE:0.05, reference=freeswitch, node=FreeSWITCH, position=941, 961, 973, 986, 990, 1001, 1044, 1139, probability=8.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:8.600000000000001,TYPE:1.05, reference=lms, node=LMS, rooms, systems, KMS, webcams, streams, position=735, 745, 754, 958, 1081, 1094, 1100, 1122, probability=1.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:13.199999999999998,TYPE:0.25, reference=conf, node=conf, Configuration, bbb-conf, etc/bigbluebutton/bbb-conf, apply-config, configuration, conference, controller, conversion, consideration, connections, position=394, 397, 577, 581, 583, 602, 623, 957, 1017, 1114, 1127, 1135, 1203, 1250, 1264, 1276, 1281, 1283, 1293, 1299, 1305, 1348, probability=0.25]
+
+RecommendationInstance [ name=freeswitch, type=Event Socket, probability=0.8, mappings:]= 
+					NounMapping [distribution=NAME:8.05,NAME_OR_TYPE:7.6000000000000005,TYPE:0.05, reference=freeswitch, node=FreeSWITCH, position=941, 961, 973, 986, 990, 1001, 1044, 1139, probability=8.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.4,TYPE:0.25, reference=socket, node=socket, Socket, sockets, position=94, 975, 1365, probability=0.25]
+					NounMapping [distribution=NAME:2.05,NAME_OR_TYPE:22.799999999999994,TYPE:34.45, reference=event, node=event, authentication, events, environments, management, students, presentations, component, Event, Kurento, presentation, document, Presentation, components, position=431, 434, 445, 451, 460, 476, 480, 489, 517, 553, 732, 750, 812, 832, 884, 937, 974, 1074, 1078, 1196, 1199, 1217, 1221, 1235, 1263, 1275, 14, 23, 49, 243, 251, 896, 1357, probability=34.45]
+
+RecommendationInstance [ name=fsels, type=Event Socket, probability=0.8, mappings:]= 
+					NounMapping [distribution=NAME:1.05,NAME_OR_TYPE:2.0,TYPE:0.4, reference=fsels, node=fsels, models, FSESL, position=978, 1092, 929, probability=1.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.4,TYPE:0.25, reference=socket, node=socket, Socket, sockets, position=94, 975, 1365, probability=0.25]
+					NounMapping [distribution=NAME:2.05,NAME_OR_TYPE:22.799999999999994,TYPE:34.45, reference=event, node=event, authentication, events, environments, management, students, presentations, component, Event, Kurento, presentation, document, Presentation, components, position=431, 434, 445, 451, 460, 476, 480, 489, 517, 553, 732, 750, 812, 832, 884, 937, 974, 1074, 1078, 1196, 1199, 1217, 1221, 1235, 1263, 1275, 14, 23, 49, 243, 251, 896, 1357, probability=34.45]
+
+RecommendationInstance [ name=hood, type=API demos, probability=0.8, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.2,TYPE:0.05, reference=hood, node=hood, position=782, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:8.8,TYPE:1.25, reference=dev, node=dev, students, demos, events, providers, models, delay, order, consideration, position=552, 750, 766, 812, 832, 1051, 1092, 1192, 1206, 1281, probability=1.25]
+					NounMapping [distribution=NAME:16.05,NAME_OR_TYPE:9.6,TYPE:0.8500000000000001, reference=api, node=API, applications, Apps, apps, piece, capability, graphics, application, akka-apps, apply-config, apply-lib, apply, position=647, 659, 765, 779, 795, 854, 864, 898, 971, 994, 1006, 1242, 42, 453, 583, 615, 622, 634, 638, 698, 850, 858, 948, probability=16.05]
+
+RecommendationInstance [ name=nginx, type=HTML5 server, probability=0.8, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:3.6,TYPE:0.05, reference=nginx, node=nginx, plugin, position=103, 110, 669, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:6.2,TYPE:0.25, reference=html5, node=HTML5, bbb-html5, bbb-html5-with-roles, position=29, 33, 70, 106, 113, 235, 249, 331, 345, 374, 392, 1144, probability=0.25]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:24.79999999999999,TYPE:0.8500000000000001, reference=user, node=user, server, browser, users, Users, Server, position=55, 77, 107, 114, 126, 142, 154, 168, 183, 204, 212, 250, 310, 356, 680, 800, 878, 1010, 1022, 1054, 1080, 1085, 1130, 1158, 1179, 1186, 1322, 1344, probability=0.8500000000000001]
+
+RecommendationInstance [ name=quality audio, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:6.000000000000001,TYPE:0.05, reference=audio, node=audio, position=65, 999, 1038, 1103, 1189, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:0.2,TYPE:0.05, reference=quality, node=quality, position=1037, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:8.8,TYPE:1.25, reference=dev, node=dev, students, demos, events, providers, models, delay, order, consideration, position=552, 750, 766, 812, 832, 1051, 1092, 1192, 1206, 1281, probability=1.25]
+
+RecommendationInstance [ name=round-robin fashion, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.2,TYPE:0.05, reference=fashion, node=fashion, position=505, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:6.4,TYPE:0.05, reference=you, node=you, round-robin, course, position=408, 504, 541, 564, 599, 748, 772, probability=0.05]
+					
+
+RecommendationInstance [ name=sending/receiving audio, type=video, probability=0.8, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:0.2,TYPE:0.05, reference=sending/receiving, node=sending/receiving, position=64, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:6.000000000000001,TYPE:0.05, reference=audio, node=audio, position=65, 999, 1038, 1103, 1189, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:8.400000000000002,TYPE:0.25, reference=video, node=video, side, providers, consideration, position=67, 196, 205, 213, 222, 467, 1051, 1281, probability=0.25]
+
+RecommendationInstance [ name=setup BigBlueButton, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:2.5999999999999996,TYPE:0.05, reference=setup, node=setup, headset, position=743, 1020, 1063, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:16.79999999999999,TYPE:0.05, reference=bigbluebutton, node=BigBlueButton, etc/bigbluebutton/bbb-conf, BigBlueButtonBN, position=12, 76, 88, 136, 141, 245, 253, 312, 321, 404, 581, 592, 605, 632, 646, 658, 668, 679, 685, 701, 719, 744, 760, 799, 853, 1008, 1143, 1170, 1359, probability=0.05]
+					
+
+RecommendationInstance [ name=voice, type=conference systems, probability=0.8, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:3.6,TYPE:0.05, reference=voice, node=voice, VOIP, Office, LibreOffice, position=956, 1004, 1016, 1050, 1126, 1134, 1220, 1231, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:8.600000000000001,TYPE:1.05, reference=lms, node=LMS, rooms, systems, KMS, webcams, streams, position=735, 745, 754, 958, 1081, 1094, 1100, 1122, probability=1.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:13.199999999999998,TYPE:0.25, reference=conf, node=conf, Configuration, bbb-conf, etc/bigbluebutton/bbb-conf, apply-config, configuration, conference, controller, conversion, consideration, connections, position=394, 397, 577, 581, 583, 602, 623, 957, 1017, 1114, 1127, 1135, 1203, 1250, 1264, 1276, 1281, 1283, 1293, 1299, 1305, 1348, probability=0.25]
+
+RecommendationInstance [ name=we, type=socket connection, probability=0.8, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:7.8,TYPE:0.05, reference=we, node=We, web, we, position=18, 41, 93, 630, 633, 692, 932, 988, 1278, 1309, 1324, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:3.4000000000000004,TYPE:0.45, reference=connection, node=connection, connections, position=95, 98, 1176, 1348, probability=0.45]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.4,TYPE:0.25, reference=socket, node=socket, Socket, sockets, position=94, 975, 1365, probability=0.25]
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Instances of the Connection State: 
+InstanceMapping [ uid=_4yx-8FkHEeyewPSmlgszyA, name=BBB web, as=BasicComponent, probability=1.0, FOUND: BBB web : , occurrences= NameVariants: 4: [BBB, web, We, we] sentences{[37, 3, 5, 6, 37, 38, 41, 59, 63, 83, 86, 86]}, TypeVariants: 0: []sentences{[]}]
+InstanceMapping [ uid=_XuNf4FkJEeyewPSmlgszyA, name=Apps, as=BasicComponent, probability=1.0, FOUND: apply-lib : , occurrences= NameVariants: 1: [apply-lib] sentences{[34]}, TypeVariants: 0: []sentences{[]}]
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Relations of the Recommendation State: 
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Relations of the Connection State: 
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+ExecutionTime: PT1M4.691S---------------------------------------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+

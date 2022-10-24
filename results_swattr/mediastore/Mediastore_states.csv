@@ -1,0 +1,244 @@
+Results of ModelConnector: 
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+ExtractorState: 
+Instances:
+Instance [names=Reencoding, type=Basic, Component, BasicComponent]
+Instance [names=Packaging, type=Basic, Component, BasicComponent]
+Instance [names=Media, Management, MediaManagement, type=Basic, Component, BasicComponent]
+Instance [names=Facade, type=Basic, Component, BasicComponent]
+Instance [names=Audio, Watermarking, AudioWatermarking, type=Basic, Component, BasicComponent]
+Instance [names=Parallel, Watermarking, ParallelWatermarking, type=Basic, Component, BasicComponent]
+Instance [names=Tag, Watermarking, TagWatermarking, type=Basic, Component, BasicComponent]
+Instance [names=Media, Access, MediaAccess, type=Basic, Component, BasicComponent]
+Instance [names=Cache, type=Basic, Component, BasicComponent]
+Instance [names=Download, Load, Balancer, DownloadLoadBalancer, type=Basic, Component, BasicComponent]
+Instance [names=File, Storage, FileStorage, type=Basic, Component, BasicComponent]
+Instance [names=DB, type=Basic, Component, BasicComponent]
+Instance [names=User, DB, Adapter, UserDBAdapter, type=Basic, Component, BasicComponent]
+Instance [names=User, Management, UserManagement, type=Basic, Component, BasicComponent]
+Relations:
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+FoundNames as Set: 
+[access, addition, application, audio, business, change, communication, copyright, database, disk, download, facade, front, functionality, he, id, information, internet, it, list, location, log-in, media, meta-data, mysql, name, packaging, pages, query, reduction, registration, salt, session, site, system, tagwatermarking, text, this, tier, time, upload, users]
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+FoundNameTerms as Set: 
+[Application business, database access, upload audio]
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+FoundNORTs as Set: 
+[]
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+FoundTypes as Set: 
+[components, data, end, files, functions, hashes, logic, order, password, rates, requests, sizes, store, web]
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+FoundTypeTerms as Set: 
+[ReEncoder component, UserDBAdapter component, UserManagement component, file server, file sizes, logic component, user data, user logs, user request, user requests]
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Instances of the Recommendation State: 
+RecommendationInstance [ name=Application business, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:0.2,TYPE:0.05, reference=application, node=Application, position=117, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:0.4,TYPE:0.05, reference=business, node=business, position=118, 125, probability=0.05]
+					
+
+RecommendationInstance [ name=Facade, type=components, probability=1.0, mappings:]= 
+					NounMapping [distribution=NAME:9.05,NAME_OR_TYPE:0.6000000000000001,TYPE:0.05, reference=facade, node=Facade, position=17, 51, 114, probability=9.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:32.59999999999999,TYPE:108.8, reference=components, node=components, component, position=4, 18, 52, 97, 115, 127, 132, 136, 142, 191, 202, 230, 278, 284, 292, 344, 359, 381, 397, 448, 460, 470, 497, 515, 528, 548, 592, probability=108.8]
+					NounMapping [distribution=NAME:16.05,NAME_OR_TYPE:38.8,TYPE:108.25, reference=end, node=end, component, management, authentication, requirement, MediaManagement, UserManagement, infringements, ReEncoder, persistence, genre, components, re-encoding, position=13, 18, 29, 35, 36, 48, 52, 115, 127, 131, 132, 135, 136, 185, 190, 191, 198, 202, 229, 230, 247, 257, 278, 283, 284, 292, 344, 358, 359, 378, 397, 423, 448, 460, 470, 497, 515, 528, 548, 592, 4, 97, 142, 381, 646, probability=108.25]
+
+RecommendationInstance [ name=Facade, type=end, probability=1.0, mappings:]= 
+					NounMapping [distribution=NAME:9.05,NAME_OR_TYPE:0.6000000000000001,TYPE:0.05, reference=facade, node=Facade, position=17, 51, 114, probability=9.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:32.59999999999999,TYPE:108.8, reference=components, node=components, component, position=4, 18, 52, 97, 115, 127, 132, 136, 142, 191, 202, 230, 278, 284, 292, 344, 359, 381, 397, 448, 460, 470, 497, 515, 528, 548, 592, probability=108.8]
+					NounMapping [distribution=NAME:16.05,NAME_OR_TYPE:38.8,TYPE:108.25, reference=end, node=end, component, management, authentication, requirement, MediaManagement, UserManagement, infringements, ReEncoder, persistence, genre, components, re-encoding, position=13, 18, 29, 35, 36, 48, 52, 115, 127, 131, 132, 135, 136, 185, 190, 191, 198, 202, 229, 230, 247, 257, 278, 283, 284, 292, 344, 358, 359, 378, 397, 423, 448, 460, 470, 497, 515, 528, 548, 592, 4, 97, 142, 381, 646, probability=108.25]
+
+RecommendationInstance [ name=MediaAccess, type=components, probability=1.0, mappings:]= 
+					NounMapping [distribution=NAME:9.05,NAME_OR_TYPE:2.6,TYPE:0.05, reference=access, node=access, MediaAccess, position=473, 507, 591, 459, 469, probability=9.05]
+					NounMapping [distribution=NAME:18.05,NAME_OR_TYPE:1.5999999999999999,TYPE:0.05, reference=media, node=Media, MediaManagement, MediaAccess, position=6, 131, 135, 215, 283, 459, 469, 591, probability=18.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:32.59999999999999,TYPE:108.8, reference=components, node=components, component, position=4, 18, 52, 97, 115, 127, 132, 136, 142, 191, 202, 230, 278, 284, 292, 344, 359, 381, 397, 448, 460, 470, 497, 515, 528, 548, 592, probability=108.8]
+					NounMapping [distribution=NAME:16.05,NAME_OR_TYPE:38.8,TYPE:108.25, reference=end, node=end, component, management, authentication, requirement, MediaManagement, UserManagement, infringements, ReEncoder, persistence, genre, components, re-encoding, position=13, 18, 29, 35, 36, 48, 52, 115, 127, 131, 132, 135, 136, 185, 190, 191, 198, 202, 229, 230, 247, 257, 278, 283, 284, 292, 344, 358, 359, 378, 397, 423, 448, 460, 470, 497, 515, 528, 548, 592, 4, 97, 142, 381, 646, probability=108.25]
+
+RecommendationInstance [ name=MediaAccess, type=end, probability=1.0, mappings:]= 
+					NounMapping [distribution=NAME:9.05,NAME_OR_TYPE:2.6,TYPE:0.05, reference=access, node=access, MediaAccess, position=473, 507, 591, 459, 469, probability=9.05]
+					NounMapping [distribution=NAME:18.05,NAME_OR_TYPE:1.5999999999999999,TYPE:0.05, reference=media, node=Media, MediaManagement, MediaAccess, position=6, 131, 135, 215, 283, 459, 469, 591, probability=18.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:32.59999999999999,TYPE:108.8, reference=components, node=components, component, position=4, 18, 52, 97, 115, 127, 132, 136, 142, 191, 202, 230, 278, 284, 292, 344, 359, 381, 397, 448, 460, 470, 497, 515, 528, 548, 592, probability=108.8]
+					NounMapping [distribution=NAME:16.05,NAME_OR_TYPE:38.8,TYPE:108.25, reference=end, node=end, component, management, authentication, requirement, MediaManagement, UserManagement, infringements, ReEncoder, persistence, genre, components, re-encoding, position=13, 18, 29, 35, 36, 48, 52, 115, 127, 131, 132, 135, 136, 185, 190, 191, 198, 202, 229, 230, 247, 257, 278, 283, 284, 292, 344, 358, 359, 378, 397, 423, 448, 460, 470, 497, 515, 528, 548, 592, 4, 97, 142, 381, 646, probability=108.25]
+
+RecommendationInstance [ name=MediaManagement, type=components, probability=1.0, mappings:]= 
+					NounMapping [distribution=NAME:15.05,NAME_OR_TYPE:8.0,TYPE:0.2, reference=pages, node=pages, MediaManagement, UserManagement, storage, page, DataStorage, position=59, 131, 135, 190, 229, 283, 387, 430, 577, 620, 635, probability=15.05]
+					NounMapping [distribution=NAME:16.05,NAME_OR_TYPE:38.8,TYPE:108.25, reference=end, node=end, component, management, authentication, requirement, MediaManagement, UserManagement, infringements, ReEncoder, persistence, genre, components, re-encoding, position=13, 18, 29, 35, 36, 48, 52, 115, 127, 131, 132, 135, 136, 185, 190, 191, 198, 202, 229, 230, 247, 257, 278, 283, 284, 292, 344, 358, 359, 378, 397, 423, 448, 460, 470, 497, 515, 528, 548, 592, 4, 97, 142, 381, 646, probability=108.25]
+					NounMapping [distribution=NAME:18.05,NAME_OR_TYPE:1.5999999999999999,TYPE:0.05, reference=media, node=Media, MediaManagement, MediaAccess, position=6, 131, 135, 215, 283, 459, 469, 591, probability=18.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:32.59999999999999,TYPE:108.8, reference=components, node=components, component, position=4, 18, 52, 97, 115, 127, 132, 136, 142, 191, 202, 230, 278, 284, 292, 344, 359, 381, 397, 448, 460, 470, 497, 515, 528, 548, 592, probability=108.8]
+					NounMapping [distribution=NAME:16.05,NAME_OR_TYPE:38.8,TYPE:108.25, reference=end, node=end, component, management, authentication, requirement, MediaManagement, UserManagement, infringements, ReEncoder, persistence, genre, components, re-encoding, position=13, 18, 29, 35, 36, 48, 52, 115, 127, 131, 132, 135, 136, 185, 190, 191, 198, 202, 229, 230, 247, 257, 278, 283, 284, 292, 344, 358, 359, 378, 397, 423, 448, 460, 470, 497, 515, 528, 548, 592, 4, 97, 142, 381, 646, probability=108.25]
+
+RecommendationInstance [ name=MediaManagement, type=end, probability=1.0, mappings:]= 
+					NounMapping [distribution=NAME:15.05,NAME_OR_TYPE:8.0,TYPE:0.2, reference=pages, node=pages, MediaManagement, UserManagement, storage, page, DataStorage, position=59, 131, 135, 190, 229, 283, 387, 430, 577, 620, 635, probability=15.05]
+					NounMapping [distribution=NAME:16.05,NAME_OR_TYPE:38.8,TYPE:108.25, reference=end, node=end, component, management, authentication, requirement, MediaManagement, UserManagement, infringements, ReEncoder, persistence, genre, components, re-encoding, position=13, 18, 29, 35, 36, 48, 52, 115, 127, 131, 132, 135, 136, 185, 190, 191, 198, 202, 229, 230, 247, 257, 278, 283, 284, 292, 344, 358, 359, 378, 397, 423, 448, 460, 470, 497, 515, 528, 548, 592, 4, 97, 142, 381, 646, probability=108.25]
+					NounMapping [distribution=NAME:18.05,NAME_OR_TYPE:1.5999999999999999,TYPE:0.05, reference=media, node=Media, MediaManagement, MediaAccess, position=6, 131, 135, 215, 283, 459, 469, 591, probability=18.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:32.59999999999999,TYPE:108.8, reference=components, node=components, component, position=4, 18, 52, 97, 115, 127, 132, 136, 142, 191, 202, 230, 278, 284, 292, 344, 359, 381, 397, 448, 460, 470, 497, 515, 528, 548, 592, probability=108.8]
+					NounMapping [distribution=NAME:16.05,NAME_OR_TYPE:38.8,TYPE:108.25, reference=end, node=end, component, management, authentication, requirement, MediaManagement, UserManagement, infringements, ReEncoder, persistence, genre, components, re-encoding, position=13, 18, 29, 35, 36, 48, 52, 115, 127, 131, 132, 135, 136, 185, 190, 191, 198, 202, 229, 230, 247, 257, 278, 283, 284, 292, 344, 358, 359, 378, 397, 423, 448, 460, 470, 497, 515, 528, 548, 592, 4, 97, 142, 381, 646, probability=108.25]
+
+RecommendationInstance [ name=Packaging, type=components, probability=1.0, mappings:]= 
+					NounMapping [distribution=NAME:3.05,NAME_OR_TYPE:0.2,TYPE:0.05, reference=packaging, node=Packaging, position=343, probability=3.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:32.59999999999999,TYPE:108.8, reference=components, node=components, component, position=4, 18, 52, 97, 115, 127, 132, 136, 142, 191, 202, 230, 278, 284, 292, 344, 359, 381, 397, 448, 460, 470, 497, 515, 528, 548, 592, probability=108.8]
+					NounMapping [distribution=NAME:16.05,NAME_OR_TYPE:38.8,TYPE:108.25, reference=end, node=end, component, management, authentication, requirement, MediaManagement, UserManagement, infringements, ReEncoder, persistence, genre, components, re-encoding, position=13, 18, 29, 35, 36, 48, 52, 115, 127, 131, 132, 135, 136, 185, 190, 191, 198, 202, 229, 230, 247, 257, 278, 283, 284, 292, 344, 358, 359, 378, 397, 423, 448, 460, 470, 497, 515, 528, 548, 592, 4, 97, 142, 381, 646, probability=108.25]
+
+RecommendationInstance [ name=Packaging, type=end, probability=1.0, mappings:]= 
+					NounMapping [distribution=NAME:3.05,NAME_OR_TYPE:0.2,TYPE:0.05, reference=packaging, node=Packaging, position=343, probability=3.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:32.59999999999999,TYPE:108.8, reference=components, node=components, component, position=4, 18, 52, 97, 115, 127, 132, 136, 142, 191, 202, 230, 278, 284, 292, 344, 359, 381, 397, 448, 460, 470, 497, 515, 528, 548, 592, probability=108.8]
+					NounMapping [distribution=NAME:16.05,NAME_OR_TYPE:38.8,TYPE:108.25, reference=end, node=end, component, management, authentication, requirement, MediaManagement, UserManagement, infringements, ReEncoder, persistence, genre, components, re-encoding, position=13, 18, 29, 35, 36, 48, 52, 115, 127, 131, 132, 135, 136, 185, 190, 191, 198, 202, 229, 230, 247, 257, 278, 283, 284, 292, 344, 358, 359, 378, 397, 423, 448, 460, 470, 497, 515, 528, 548, 592, 4, 97, 142, 381, 646, probability=108.25]
+
+RecommendationInstance [ name=TagWatermarking, type=components, probability=1.0, mappings:]= 
+					NounMapping [distribution=NAME:6.05,NAME_OR_TYPE:0.4,TYPE:0.05, reference=tagwatermarking, node=TagWatermarking, position=277, 291, probability=6.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:32.59999999999999,TYPE:108.8, reference=components, node=components, component, position=4, 18, 52, 97, 115, 127, 132, 136, 142, 191, 202, 230, 278, 284, 292, 344, 359, 381, 397, 448, 460, 470, 497, 515, 528, 548, 592, probability=108.8]
+					NounMapping [distribution=NAME:16.05,NAME_OR_TYPE:38.8,TYPE:108.25, reference=end, node=end, component, management, authentication, requirement, MediaManagement, UserManagement, infringements, ReEncoder, persistence, genre, components, re-encoding, position=13, 18, 29, 35, 36, 48, 52, 115, 127, 131, 132, 135, 136, 185, 190, 191, 198, 202, 229, 230, 247, 257, 278, 283, 284, 292, 344, 358, 359, 378, 397, 423, 448, 460, 470, 497, 515, 528, 548, 592, 4, 97, 142, 381, 646, probability=108.25]
+
+RecommendationInstance [ name=TagWatermarking, type=end, probability=1.0, mappings:]= 
+					NounMapping [distribution=NAME:6.05,NAME_OR_TYPE:0.4,TYPE:0.05, reference=tagwatermarking, node=TagWatermarking, position=277, 291, probability=6.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:32.59999999999999,TYPE:108.8, reference=components, node=components, component, position=4, 18, 52, 97, 115, 127, 132, 136, 142, 191, 202, 230, 278, 284, 292, 344, 359, 381, 397, 448, 460, 470, 497, 515, 528, 548, 592, probability=108.8]
+					NounMapping [distribution=NAME:16.05,NAME_OR_TYPE:38.8,TYPE:108.25, reference=end, node=end, component, management, authentication, requirement, MediaManagement, UserManagement, infringements, ReEncoder, persistence, genre, components, re-encoding, position=13, 18, 29, 35, 36, 48, 52, 115, 127, 131, 132, 135, 136, 185, 190, 191, 198, 202, 229, 230, 247, 257, 278, 283, 284, 292, 344, 358, 359, 378, 397, 423, 448, 460, 470, 497, 515, 528, 548, 592, 4, 97, 142, 381, 646, probability=108.25]
+
+RecommendationInstance [ name=UserManagement, type=components, probability=1.0, mappings:]= 
+					NounMapping [distribution=NAME:6.05,NAME_OR_TYPE:15.399999999999993,TYPE:1.0, reference=users, node=users, user, server, UserManagement, UserDBAdapter, persistence, position=25, 34, 61, 65, 102, 160, 181, 190, 201, 209, 229, 295, 308, 316, 331, 378, 410, 427, 452, 496, 510, 514, 522, 568, 584, 606, 624, probability=6.05]
+					NounMapping [distribution=NAME:15.05,NAME_OR_TYPE:8.0,TYPE:0.2, reference=pages, node=pages, MediaManagement, UserManagement, storage, page, DataStorage, position=59, 131, 135, 190, 229, 283, 387, 430, 577, 620, 635, probability=15.05]
+					NounMapping [distribution=NAME:16.05,NAME_OR_TYPE:38.8,TYPE:108.25, reference=end, node=end, component, management, authentication, requirement, MediaManagement, UserManagement, infringements, ReEncoder, persistence, genre, components, re-encoding, position=13, 18, 29, 35, 36, 48, 52, 115, 127, 131, 132, 135, 136, 185, 190, 191, 198, 202, 229, 230, 247, 257, 278, 283, 284, 292, 344, 358, 359, 378, 397, 423, 448, 460, 470, 497, 515, 528, 548, 592, 4, 97, 142, 381, 646, probability=108.25]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:32.59999999999999,TYPE:108.8, reference=components, node=components, component, position=4, 18, 52, 97, 115, 127, 132, 136, 142, 191, 202, 230, 278, 284, 292, 344, 359, 381, 397, 448, 460, 470, 497, 515, 528, 548, 592, probability=108.8]
+					NounMapping [distribution=NAME:16.05,NAME_OR_TYPE:38.8,TYPE:108.25, reference=end, node=end, component, management, authentication, requirement, MediaManagement, UserManagement, infringements, ReEncoder, persistence, genre, components, re-encoding, position=13, 18, 29, 35, 36, 48, 52, 115, 127, 131, 132, 135, 136, 185, 190, 191, 198, 202, 229, 230, 247, 257, 278, 283, 284, 292, 344, 358, 359, 378, 397, 423, 448, 460, 470, 497, 515, 528, 548, 592, 4, 97, 142, 381, 646, probability=108.25]
+
+RecommendationInstance [ name=UserManagement, type=end, probability=1.0, mappings:]= 
+					NounMapping [distribution=NAME:6.05,NAME_OR_TYPE:15.399999999999993,TYPE:1.0, reference=users, node=users, user, server, UserManagement, UserDBAdapter, persistence, position=25, 34, 61, 65, 102, 160, 181, 190, 201, 209, 229, 295, 308, 316, 331, 378, 410, 427, 452, 496, 510, 514, 522, 568, 584, 606, 624, probability=6.05]
+					NounMapping [distribution=NAME:15.05,NAME_OR_TYPE:8.0,TYPE:0.2, reference=pages, node=pages, MediaManagement, UserManagement, storage, page, DataStorage, position=59, 131, 135, 190, 229, 283, 387, 430, 577, 620, 635, probability=15.05]
+					NounMapping [distribution=NAME:16.05,NAME_OR_TYPE:38.8,TYPE:108.25, reference=end, node=end, component, management, authentication, requirement, MediaManagement, UserManagement, infringements, ReEncoder, persistence, genre, components, re-encoding, position=13, 18, 29, 35, 36, 48, 52, 115, 127, 131, 132, 135, 136, 185, 190, 191, 198, 202, 229, 230, 247, 257, 278, 283, 284, 292, 344, 358, 359, 378, 397, 423, 448, 460, 470, 497, 515, 528, 548, 592, 4, 97, 142, 381, 646, probability=108.25]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:32.59999999999999,TYPE:108.8, reference=components, node=components, component, position=4, 18, 52, 97, 115, 127, 132, 136, 142, 191, 202, 230, 278, 284, 292, 344, 359, 381, 397, 448, 460, 470, 497, 515, 528, 548, 592, probability=108.8]
+					NounMapping [distribution=NAME:16.05,NAME_OR_TYPE:38.8,TYPE:108.25, reference=end, node=end, component, management, authentication, requirement, MediaManagement, UserManagement, infringements, ReEncoder, persistence, genre, components, re-encoding, position=13, 18, 29, 35, 36, 48, 52, 115, 127, 131, 132, 135, 136, 185, 190, 191, 198, 202, 229, 230, 247, 257, 278, 283, 284, 292, 344, 358, 359, 378, 397, 423, 448, 460, 470, 497, 515, 528, 548, 592, 4, 97, 142, 381, 646, probability=108.25]
+
+RecommendationInstance [ name=access, type=ReEncoder component, probability=0.8, mappings:]= 
+					NounMapping [distribution=NAME:9.05,NAME_OR_TYPE:2.6,TYPE:0.05, reference=access, node=access, MediaAccess, position=473, 507, 591, 459, 469, probability=9.05]
+					NounMapping [distribution=NAME:16.05,NAME_OR_TYPE:38.8,TYPE:108.25, reference=end, node=end, component, management, authentication, requirement, MediaManagement, UserManagement, infringements, ReEncoder, persistence, genre, components, re-encoding, position=13, 18, 29, 35, 36, 48, 52, 115, 127, 131, 132, 135, 136, 185, 190, 191, 198, 202, 229, 230, 247, 257, 278, 283, 284, 292, 344, 358, 359, 378, 397, 423, 448, 460, 470, 497, 515, 528, 548, 592, 4, 97, 142, 381, 646, probability=108.25]
+
+RecommendationInstance [ name=business, type=logic component, probability=0.8, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:0.4,TYPE:0.05, reference=business, node=business, position=118, 125, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:32.59999999999999,TYPE:108.8, reference=components, node=components, component, position=4, 18, 52, 97, 115, 127, 132, 136, 142, 191, 202, 230, 278, 284, 292, 344, 359, 381, 397, 448, 460, 470, 497, 515, 528, 548, 592, probability=108.8]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.4,TYPE:0.25, reference=logic, node=logic, logs, position=119, 126, 210, probability=0.25]
+
+RecommendationInstance [ name=communication, type=ReEncoder component, probability=0.8, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.2,TYPE:0.05, reference=communication, node=communication, position=139, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:32.59999999999999,TYPE:108.8, reference=components, node=components, component, position=4, 18, 52, 97, 115, 127, 132, 136, 142, 191, 202, 230, 278, 284, 292, 344, 359, 381, 397, 448, 460, 470, 497, 515, 528, 548, 592, probability=108.8]
+					NounMapping [distribution=NAME:16.05,NAME_OR_TYPE:38.8,TYPE:108.25, reference=end, node=end, component, management, authentication, requirement, MediaManagement, UserManagement, infringements, ReEncoder, persistence, genre, components, re-encoding, position=13, 18, 29, 35, 36, 48, 52, 115, 127, 131, 132, 135, 136, 185, 190, 191, 198, 202, 229, 230, 247, 257, 278, 283, 284, 292, 344, 358, 359, 378, 397, 423, 448, 460, 470, 497, 515, 528, 548, 592, 4, 97, 142, 381, 646, probability=108.25]
+
+RecommendationInstance [ name=database, type=UserDBAdapter component, probability=0.8, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:6.000000000000001,TYPE:0.05, reference=database, node=database, Database, position=205, 396, 401, 447, 472, 506, 527, 547, 580, 599, probability=0.05]
+					NounMapping [distribution=NAME:6.05,NAME_OR_TYPE:15.399999999999993,TYPE:1.0, reference=users, node=users, user, server, UserManagement, UserDBAdapter, persistence, position=25, 34, 61, 65, 102, 160, 181, 190, 201, 209, 229, 295, 308, 316, 331, 378, 410, 427, 452, 496, 510, 514, 522, 568, 584, 606, 624, probability=6.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:32.59999999999999,TYPE:108.8, reference=components, node=components, component, position=4, 18, 52, 97, 115, 127, 132, 136, 142, 191, 202, 230, 278, 284, 292, 344, 359, 381, 397, 448, 460, 470, 497, 515, 528, 548, 592, probability=108.8]
+
+RecommendationInstance [ name=database, type=ReEncoder component, probability=0.8, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:6.000000000000001,TYPE:0.05, reference=database, node=database, Database, position=205, 396, 401, 447, 472, 506, 527, 547, 580, 599, probability=0.05]
+					NounMapping [distribution=NAME:16.05,NAME_OR_TYPE:38.8,TYPE:108.25, reference=end, node=end, component, management, authentication, requirement, MediaManagement, UserManagement, infringements, ReEncoder, persistence, genre, components, re-encoding, position=13, 18, 29, 35, 36, 48, 52, 115, 127, 131, 132, 135, 136, 185, 190, 191, 198, 202, 229, 230, 247, 257, 278, 283, 284, 292, 344, 358, 359, 378, 397, 423, 448, 460, 470, 497, 515, 528, 548, 592, 4, 97, 142, 381, 646, probability=108.25]
+
+RecommendationInstance [ name=database access, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:6.000000000000001,TYPE:0.05, reference=database, node=database, Database, position=205, 396, 401, 447, 472, 506, 527, 547, 580, 599, probability=0.05]
+					NounMapping [distribution=NAME:9.05,NAME_OR_TYPE:2.6,TYPE:0.05, reference=access, node=access, MediaAccess, position=473, 507, 591, 459, 469, probability=9.05]
+					
+
+RecommendationInstance [ name=facade, type=, probability=0.75, mappings:]= 
+					NounMapping [distribution=NAME:9.05,NAME_OR_TYPE:0.6000000000000001,TYPE:0.05, reference=facade, node=Facade, position=17, 51, 114, probability=9.05]
+					
+
+RecommendationInstance [ name=it, type=ReEncoder component, probability=0.8, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:4.2,TYPE:0.05, reference=it, node=it, bit, It, position=146, 362, 408, 482, 629, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:32.59999999999999,TYPE:108.8, reference=components, node=components, component, position=4, 18, 52, 97, 115, 127, 132, 136, 142, 191, 202, 230, 278, 284, 292, 344, 359, 381, 397, 448, 460, 470, 497, 515, 528, 548, 592, probability=108.8]
+					NounMapping [distribution=NAME:16.05,NAME_OR_TYPE:38.8,TYPE:108.25, reference=end, node=end, component, management, authentication, requirement, MediaManagement, UserManagement, infringements, ReEncoder, persistence, genre, components, re-encoding, position=13, 18, 29, 35, 36, 48, 52, 115, 127, 131, 132, 135, 136, 185, 190, 191, 198, 202, 229, 230, 247, 257, 278, 283, 284, 292, 344, 358, 359, 378, 397, 423, 448, 460, 470, 497, 515, 528, 548, 592, 4, 97, 142, 381, 646, probability=108.25]
+
+RecommendationInstance [ name=media, type=ReEncoder component, probability=0.8, mappings:]= 
+					NounMapping [distribution=NAME:18.05,NAME_OR_TYPE:1.5999999999999999,TYPE:0.05, reference=media, node=Media, MediaManagement, MediaAccess, position=6, 131, 135, 215, 283, 459, 469, 591, probability=18.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:32.59999999999999,TYPE:108.8, reference=components, node=components, component, position=4, 18, 52, 97, 115, 127, 132, 136, 142, 191, 202, 230, 278, 284, 292, 344, 359, 381, 397, 448, 460, 470, 497, 515, 528, 548, 592, probability=108.8]
+					NounMapping [distribution=NAME:16.05,NAME_OR_TYPE:38.8,TYPE:108.25, reference=end, node=end, component, management, authentication, requirement, MediaManagement, UserManagement, infringements, ReEncoder, persistence, genre, components, re-encoding, position=13, 18, 29, 35, 36, 48, 52, 115, 127, 131, 132, 135, 136, 185, 190, 191, 198, 202, 229, 230, 247, 257, 278, 283, 284, 292, 344, 358, 359, 378, 397, 423, 448, 460, 470, 497, 515, 528, 548, 592, 4, 97, 142, 381, 646, probability=108.25]
+
+RecommendationInstance [ name=packaging, type=, probability=0.75, mappings:]= 
+					NounMapping [distribution=NAME:3.05,NAME_OR_TYPE:0.2,TYPE:0.05, reference=packaging, node=Packaging, position=343, probability=3.05]
+					
+
+RecommendationInstance [ name=pages, type=ReEncoder component, probability=0.8, mappings:]= 
+					NounMapping [distribution=NAME:15.05,NAME_OR_TYPE:8.0,TYPE:0.2, reference=pages, node=pages, MediaManagement, UserManagement, storage, page, DataStorage, position=59, 131, 135, 190, 229, 283, 387, 430, 577, 620, 635, probability=15.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:32.59999999999999,TYPE:108.8, reference=components, node=components, component, position=4, 18, 52, 97, 115, 127, 132, 136, 142, 191, 202, 230, 278, 284, 292, 344, 359, 381, 397, 448, 460, 470, 497, 515, 528, 548, 592, probability=108.8]
+					NounMapping [distribution=NAME:16.05,NAME_OR_TYPE:38.8,TYPE:108.25, reference=end, node=end, component, management, authentication, requirement, MediaManagement, UserManagement, infringements, ReEncoder, persistence, genre, components, re-encoding, position=13, 18, 29, 35, 36, 48, 52, 115, 127, 131, 132, 135, 136, 185, 190, 191, 198, 202, 229, 230, 247, 257, 278, 283, 284, 292, 344, 358, 359, 378, 397, 423, 448, 460, 470, 497, 515, 528, 548, 592, 4, 97, 142, 381, 646, probability=108.25]
+
+RecommendationInstance [ name=pages, type=UserDBAdapter component, probability=0.8, mappings:]= 
+					NounMapping [distribution=NAME:15.05,NAME_OR_TYPE:8.0,TYPE:0.2, reference=pages, node=pages, MediaManagement, UserManagement, storage, page, DataStorage, position=59, 131, 135, 190, 229, 283, 387, 430, 577, 620, 635, probability=15.05]
+					NounMapping [distribution=NAME:6.05,NAME_OR_TYPE:15.399999999999993,TYPE:1.0, reference=users, node=users, user, server, UserManagement, UserDBAdapter, persistence, position=25, 34, 61, 65, 102, 160, 181, 190, 201, 209, 229, 295, 308, 316, 331, 378, 410, 427, 452, 496, 510, 514, 522, 568, 584, 606, 624, probability=6.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:32.59999999999999,TYPE:108.8, reference=components, node=components, component, position=4, 18, 52, 97, 115, 127, 132, 136, 142, 191, 202, 230, 278, 284, 292, 344, 359, 381, 397, 448, 460, 470, 497, 515, 528, 548, 592, probability=108.8]
+
+RecommendationInstance [ name=query, type=UserDBAdapter component, probability=0.8, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:6.000000000000001,TYPE:0.05, reference=query, node=query, request, position=441, 518, 524, 533, 607, probability=0.05]
+					NounMapping [distribution=NAME:6.05,NAME_OR_TYPE:15.399999999999993,TYPE:1.0, reference=users, node=users, user, server, UserManagement, UserDBAdapter, persistence, position=25, 34, 61, 65, 102, 160, 181, 190, 201, 209, 229, 295, 308, 316, 331, 378, 410, 427, 452, 496, 510, 514, 522, 568, 584, 606, 624, probability=6.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:32.59999999999999,TYPE:108.8, reference=components, node=components, component, position=4, 18, 52, 97, 115, 127, 132, 136, 142, 191, 202, 230, 278, 284, 292, 344, 359, 381, 397, 448, 460, 470, 497, 515, 528, 548, 592, probability=108.8]
+
+RecommendationInstance [ name=registration, type=UserDBAdapter component, probability=0.8, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:4.800000000000001,TYPE:0.05, reference=registration, node=registration, position=38, 56, 183, 196, probability=0.05]
+					NounMapping [distribution=NAME:6.05,NAME_OR_TYPE:15.399999999999993,TYPE:1.0, reference=users, node=users, user, server, UserManagement, UserDBAdapter, persistence, position=25, 34, 61, 65, 102, 160, 181, 190, 201, 209, 229, 295, 308, 316, 331, 378, 410, 427, 452, 496, 510, 514, 522, 568, 584, 606, 624, probability=6.05]
+					NounMapping [distribution=NAME:16.05,NAME_OR_TYPE:38.8,TYPE:108.25, reference=end, node=end, component, management, authentication, requirement, MediaManagement, UserManagement, infringements, ReEncoder, persistence, genre, components, re-encoding, position=13, 18, 29, 35, 36, 48, 52, 115, 127, 131, 132, 135, 136, 185, 190, 191, 198, 202, 229, 230, 247, 257, 278, 283, 284, 292, 344, 358, 359, 378, 397, 423, 448, 460, 470, 497, 515, 528, 548, 592, 4, 97, 142, 381, 646, probability=108.25]
+
+RecommendationInstance [ name=registration, type=ReEncoder component, probability=0.8, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:4.800000000000001,TYPE:0.05, reference=registration, node=registration, position=38, 56, 183, 196, probability=0.05]
+					NounMapping [distribution=NAME:16.05,NAME_OR_TYPE:38.8,TYPE:108.25, reference=end, node=end, component, management, authentication, requirement, MediaManagement, UserManagement, infringements, ReEncoder, persistence, genre, components, re-encoding, position=13, 18, 29, 35, 36, 48, 52, 115, 127, 131, 132, 135, 136, 185, 190, 191, 198, 202, 229, 230, 247, 257, 278, 283, 284, 292, 344, 358, 359, 378, 397, 423, 448, 460, 470, 497, 515, 528, 548, 592, 4, 97, 142, 381, 646, probability=108.25]
+
+RecommendationInstance [ name=session, type=UserDBAdapter component, probability=0.8, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:0.2,TYPE:0.05, reference=session, node=session, position=28, probability=0.05]
+					NounMapping [distribution=NAME:6.05,NAME_OR_TYPE:15.399999999999993,TYPE:1.0, reference=users, node=users, user, server, UserManagement, UserDBAdapter, persistence, position=25, 34, 61, 65, 102, 160, 181, 190, 201, 209, 229, 295, 308, 316, 331, 378, 410, 427, 452, 496, 510, 514, 522, 568, 584, 606, 624, probability=6.05]
+					NounMapping [distribution=NAME:16.05,NAME_OR_TYPE:38.8,TYPE:108.25, reference=end, node=end, component, management, authentication, requirement, MediaManagement, UserManagement, infringements, ReEncoder, persistence, genre, components, re-encoding, position=13, 18, 29, 35, 36, 48, 52, 115, 127, 131, 132, 135, 136, 185, 190, 191, 198, 202, 229, 230, 247, 257, 278, 283, 284, 292, 344, 358, 359, 378, 397, 423, 448, 460, 470, 497, 515, 528, 548, 592, 4, 97, 142, 381, 646, probability=108.25]
+
+RecommendationInstance [ name=tagwatermarking, type=, probability=0.75, mappings:]= 
+					NounMapping [distribution=NAME:6.05,NAME_OR_TYPE:0.4,TYPE:0.05, reference=tagwatermarking, node=TagWatermarking, position=277, 291, probability=6.05]
+					
+
+RecommendationInstance [ name=upload audio, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:0.2,TYPE:0.05, reference=upload, node=upload, position=109, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.6,TYPE:0.05, reference=audio, node=audio, AudioAccess, position=110, 301, 438, probability=0.05]
+					
+
+RecommendationInstance [ name=users, type=UserDBAdapter component, probability=0.8, mappings:]= 
+					NounMapping [distribution=NAME:6.05,NAME_OR_TYPE:15.399999999999993,TYPE:1.0, reference=users, node=users, user, server, UserManagement, UserDBAdapter, persistence, position=25, 34, 61, 65, 102, 160, 181, 190, 201, 209, 229, 295, 308, 316, 331, 378, 410, 427, 452, 496, 510, 514, 522, 568, 584, 606, 624, probability=6.05]
+					NounMapping [distribution=NAME:6.05,NAME_OR_TYPE:15.399999999999993,TYPE:1.0, reference=users, node=users, user, server, UserManagement, UserDBAdapter, persistence, position=25, 34, 61, 65, 102, 160, 181, 190, 201, 209, 229, 295, 308, 316, 331, 378, 410, 427, 452, 496, 510, 514, 522, 568, 584, 606, 624, probability=6.05]
+					NounMapping [distribution=NAME:16.05,NAME_OR_TYPE:38.8,TYPE:108.25, reference=end, node=end, component, management, authentication, requirement, MediaManagement, UserManagement, infringements, ReEncoder, persistence, genre, components, re-encoding, position=13, 18, 29, 35, 36, 48, 52, 115, 127, 131, 132, 135, 136, 185, 190, 191, 198, 202, 229, 230, 247, 257, 278, 283, 284, 292, 344, 358, 359, 378, 397, 423, 448, 460, 470, 497, 515, 528, 548, 592, 4, 97, 142, 381, 646, probability=108.25]
+
+RecommendationInstance [ name=users, type=ReEncoder component, probability=0.8, mappings:]= 
+					NounMapping [distribution=NAME:6.05,NAME_OR_TYPE:15.399999999999993,TYPE:1.0, reference=users, node=users, user, server, UserManagement, UserDBAdapter, persistence, position=25, 34, 61, 65, 102, 160, 181, 190, 201, 209, 229, 295, 308, 316, 331, 378, 410, 427, 452, 496, 510, 514, 522, 568, 584, 606, 624, probability=6.05]
+					NounMapping [distribution=NAME:16.05,NAME_OR_TYPE:38.8,TYPE:108.25, reference=end, node=end, component, management, authentication, requirement, MediaManagement, UserManagement, infringements, ReEncoder, persistence, genre, components, re-encoding, position=13, 18, 29, 35, 36, 48, 52, 115, 127, 131, 132, 135, 136, 185, 190, 191, 198, 202, 229, 230, 247, 257, 278, 283, 284, 292, 344, 358, 359, 378, 397, 423, 448, 460, 470, 497, 515, 528, 548, 592, 4, 97, 142, 381, 646, probability=108.25]
+
+RecommendationInstance [ name=users, type=user data, probability=0.8, mappings:]= 
+					NounMapping [distribution=NAME:6.05,NAME_OR_TYPE:15.399999999999993,TYPE:1.0, reference=users, node=users, user, server, UserManagement, UserDBAdapter, persistence, position=25, 34, 61, 65, 102, 160, 181, 190, 201, 209, 229, 295, 308, 316, 331, 378, 410, 427, 452, 496, 510, 514, 522, 568, 584, 606, 624, probability=6.05]
+					NounMapping [distribution=NAME:6.05,NAME_OR_TYPE:15.399999999999993,TYPE:1.0, reference=users, node=users, user, server, UserManagement, UserDBAdapter, persistence, position=25, 34, 61, 65, 102, 160, 181, 190, 201, 209, 229, 295, 308, 316, 331, 378, 410, 427, 452, 496, 510, 514, 522, 568, 584, 606, 624, probability=6.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:4.6000000000000005,TYPE:0.2, reference=data, node=data, DataStorage, position=511, 577, 620, 635, probability=0.2]
+
+RecommendationInstance [ name=users, type=user requests, probability=0.8, mappings:]= 
+					NounMapping [distribution=NAME:6.05,NAME_OR_TYPE:15.399999999999993,TYPE:1.0, reference=users, node=users, user, server, UserManagement, UserDBAdapter, persistence, position=25, 34, 61, 65, 102, 160, 181, 190, 201, 209, 229, 295, 308, 316, 331, 378, 410, 427, 452, 496, 510, 514, 522, 568, 584, 606, 624, probability=6.05]
+					NounMapping [distribution=NAME:6.05,NAME_OR_TYPE:15.399999999999993,TYPE:1.0, reference=users, node=users, user, server, UserManagement, UserDBAdapter, persistence, position=25, 34, 61, 65, 102, 160, 181, 190, 201, 209, 229, 295, 308, 316, 331, 378, 410, 427, 452, 496, 510, 514, 522, 568, 584, 606, 624, probability=6.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:4.4,TYPE:0.6000000000000001, reference=requests, node=requests, request, position=169, 194, 524, 585, 607, probability=0.6000000000000001]
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Instances of the Connection State: 
+InstanceMapping [ uid=_B5geQHDsEeSqnN80MQ2uGw, name=Packaging, as=BasicComponent, probability=0.8, FOUND: Packaging : components, occurrences= NameVariants: 1: [Packaging] sentences{[19]}, TypeVariants: 13: [components, infringements, ReEncoder, requirement, component, management, UserManagement, genre, persistence, end, re-encoding, MediaManagement, authentication]sentences{[1, 1, 3, 5, 6, 7, 7, 8, 8, 11, 12, 13, 16, 17, 17, 19, 20, 22, 23, 25, 26, 27, 29, 30, 31, 32, 34, 1, 1, 1, 1, 2, 2, 3, 3, 5, 6, 7, 7, 7, 8, 8, 8, 10, 11, 11, 11, 12, 13, 13, 14, 15, 16, 17, 17, 17, 19, 20, 20, 22, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 34, 37]}]
+InstanceMapping [ uid=_B5geQHDsEeSqnN80MQ2uGw, name=Packaging, as=BasicComponent, probability=0.8, FOUND: Packaging : end, occurrences= NameVariants: 1: [Packaging] sentences{[19]}, TypeVariants: 13: [components, infringements, ReEncoder, requirement, component, management, UserManagement, genre, persistence, end, re-encoding, MediaManagement, authentication]sentences{[1, 1, 3, 5, 6, 7, 7, 8, 8, 11, 12, 13, 16, 17, 17, 19, 20, 22, 23, 25, 26, 27, 29, 30, 31, 32, 34, 1, 1, 1, 1, 2, 2, 3, 3, 5, 6, 7, 7, 7, 8, 8, 8, 10, 11, 11, 11, 12, 13, 13, 14, 15, 16, 17, 17, 17, 19, 20, 20, 22, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 34, 37]}]
+InstanceMapping [ uid=_B5geQHDsEeSqnN80MQ2uGw, name=Packaging, as=BasicComponent, probability=1.0, FOUND: packaging : , occurrences= NameVariants: 1: [Packaging] sentences{[19]}, TypeVariants: 0: []sentences{[]}]
+InstanceMapping [ uid=_st2Y0HDrEeSqnN80MQ2uGw, name=Facade, as=BasicComponent, probability=0.8, FOUND: Facade : components, occurrences= NameVariants: 1: [Facade] sentences{[1, 3, 6]}, TypeVariants: 13: [components, infringements, ReEncoder, requirement, component, management, UserManagement, genre, persistence, end, re-encoding, MediaManagement, authentication]sentences{[1, 1, 3, 5, 6, 7, 7, 8, 8, 11, 12, 13, 16, 17, 17, 19, 20, 22, 23, 25, 26, 27, 29, 30, 31, 32, 34, 1, 1, 1, 1, 2, 2, 3, 3, 5, 6, 7, 7, 7, 8, 8, 8, 10, 11, 11, 11, 12, 13, 13, 14, 15, 16, 17, 17, 17, 19, 20, 20, 22, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 34, 37]}]
+InstanceMapping [ uid=_st2Y0HDrEeSqnN80MQ2uGw, name=Facade, as=BasicComponent, probability=0.8, FOUND: Facade : end, occurrences= NameVariants: 1: [Facade] sentences{[1, 3, 6]}, TypeVariants: 13: [components, infringements, ReEncoder, requirement, component, management, UserManagement, genre, persistence, end, re-encoding, MediaManagement, authentication]sentences{[1, 1, 3, 5, 6, 7, 7, 8, 8, 11, 12, 13, 16, 17, 17, 19, 20, 22, 23, 25, 26, 27, 29, 30, 31, 32, 34, 1, 1, 1, 1, 2, 2, 3, 3, 5, 6, 7, 7, 7, 8, 8, 8, 10, 11, 11, 11, 12, 13, 13, 14, 15, 16, 17, 17, 17, 19, 20, 20, 22, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 34, 37]}]
+InstanceMapping [ uid=_st2Y0HDrEeSqnN80MQ2uGw, name=Facade, as=BasicComponent, probability=1.0, FOUND: facade : , occurrences= NameVariants: 1: [Facade] sentences{[1, 3, 6]}, TypeVariants: 0: []sentences{[]}]
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Relations of the Recommendation State: 
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Relations of the Connection State: 
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+ExecutionTime: PT45.216S---------------------------------------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+

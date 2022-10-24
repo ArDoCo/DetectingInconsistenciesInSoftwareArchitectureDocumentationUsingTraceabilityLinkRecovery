@@ -1,0 +1,15 @@
+Found Model Elements in BigBlueButton:,,
+
+UID,Name,Type
+_2BgxMFkHEeyewPSmlgszyA,Presentation Conversion,BasicComponent
+_6sergFkHEeyewPSmlgszyA,Redis PubSub,BasicComponent
+_nwrCMFwPEeyiuNx_RO7j-Q,FreeSWITCH,BasicComponent
+_XuNf4FkJEeyewPSmlgszyA,Apps,BasicComponent
+_0e5u8FkHEeyewPSmlgszyA,HTML5 Client,BasicComponent
+_s0aIcFkHEeyewPSmlgszyA,WebRTC-SFU,BasicComponent
+_4yx-8FkHEeyewPSmlgszyA,BBB web,BasicComponent
+_9wZIcFkHEeyewPSmlgszyA,FSESL,BasicComponent
+_kvWs4FkHEeyewPSmlgszyA,Recording Service,BasicComponent
+_oN4CMFkHEeyewPSmlgszyA,kurento,BasicComponent
+_yGgUMFkHEeyewPSmlgszyA,HTML5 Server,BasicComponent
+_RDHFIFwPEeyiuNx_RO7j-Q,Redis DB,BasicComponent
