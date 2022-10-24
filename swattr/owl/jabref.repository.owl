@@ -1,62 +1,82 @@
-<rdf:RDF
-    xmlns:model="https://informalin.github.io/knowledgebases/examples/ontology.owl#"
-    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-    xmlns:owl="http://www.w3.org/2002/07/owl#"
-    xmlns:pcm="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#"
-    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-    xmlns:ecore="https://informalin.github.io/knowledgebases/informalin_base_ecore.owl#" > 
-  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#BasicComponent_Coy0kEl4Ee243f2e4VWs6w">
-    <rdfs:label>gui</rdfs:label>
-    <pcm:entityName_-_NamedElement>gui</pcm:entityName_-_NamedElement>
-    <rdfs:comment xml:lang="id">_Coy0kEl4Ee243f2e4VWs6w</rdfs:comment>
-    <pcm:id_-_Identifier>_Coy0kEl4Ee243f2e4VWs6w</pcm:id_-_Identifier>
-    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#BasicComponent"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#BasicComponent_EBiwMEl4Ee243f2e4VWs6w">
-    <rdfs:label>cli</rdfs:label>
-    <pcm:entityName_-_NamedElement>cli</pcm:entityName_-_NamedElement>
-    <rdfs:comment xml:lang="id">_EBiwMEl4Ee243f2e4VWs6w</rdfs:comment>
-    <pcm:id_-_Identifier>_EBiwMEl4Ee243f2e4VWs6w</pcm:id_-_Identifier>
-    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#BasicComponent"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#BasicComponent_KsOfgEl4Ee243f2e4VWs6w">
-    <rdfs:label>globals</rdfs:label>
-    <pcm:entityName_-_NamedElement>globals</pcm:entityName_-_NamedElement>
-    <rdfs:comment xml:lang="id">_KsOfgEl4Ee243f2e4VWs6w</rdfs:comment>
-    <pcm:id_-_Identifier>_KsOfgEl4Ee243f2e4VWs6w</pcm:id_-_Identifier>
-    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#BasicComponent"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#BasicComponent_MFIzMEl4Ee243f2e4VWs6w">
-    <rdfs:label>model</rdfs:label>
-    <pcm:entityName_-_NamedElement>model</pcm:entityName_-_NamedElement>
-    <rdfs:comment xml:lang="id">_MFIzMEl4Ee243f2e4VWs6w</rdfs:comment>
-    <pcm:id_-_Identifier>_MFIzMEl4Ee243f2e4VWs6w</pcm:id_-_Identifier>
-    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#BasicComponent"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#">
-    <owl:imports rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#Repository__nu3UEl3Ee243f2e4VWs6w">
-    <rdfs:label>JabRef</rdfs:label>
-    <pcm:entityName_-_NamedElement>JabRef</pcm:entityName_-_NamedElement>
-    <rdfs:comment xml:lang="id">__nu3UEl3Ee243f2e4VWs6w</rdfs:comment>
-    <pcm:id_-_Identifier>__nu3UEl3Ee243f2e4VWs6w</pcm:id_-_Identifier>
-    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#Repository"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#BasicComponent_NUdtEEl4Ee243f2e4VWs6w">
-    <rdfs:label>preferences</rdfs:label>
-    <pcm:entityName_-_NamedElement>preferences</pcm:entityName_-_NamedElement>
-    <rdfs:comment xml:lang="id">_NUdtEEl4Ee243f2e4VWs6w</rdfs:comment>
-    <pcm:id_-_Identifier>_NUdtEEl4Ee243f2e4VWs6w</pcm:id_-_Identifier>
-    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#BasicComponent"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#BasicComponent_He3LoEl4Ee243f2e4VWs6w">
-    <rdfs:label>logic</rdfs:label>
-    <pcm:entityName_-_NamedElement>logic</pcm:entityName_-_NamedElement>
-    <rdfs:comment xml:lang="id">_He3LoEl4Ee243f2e4VWs6w</rdfs:comment>
-    <pcm:id_-_Identifier>_He3LoEl4Ee243f2e4VWs6w</pcm:id_-_Identifier>
-    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#BasicComponent"/>
-  </rdf:Description>
-</rdf:RDF>
+@prefix : <https://informalin.github.io/knowledgebases/examples/ontology.owl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pcm: <https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ecore: <https://informalin.github.io/knowledgebases/informalin_base_ecore.owl#> .
+@prefix model: <https://informalin.github.io/knowledgebases/examples/ontology.owl#> .
+@base <https://informalin.github.io/knowledgebases/examples/ontology.owl#> .
+
+<https://informalin.github.io/knowledgebases/examples/ontology.owl#> rdf:type owl:Ontology ;
+                                                                      owl:imports pcm: .
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  https://informalin.github.io/knowledgebases/examples/ontology.owl#BasicComponent_Coy0kEl4Ee243f2e4VWs6w
+model:BasicComponent_Coy0kEl4Ee243f2e4VWs6w rdf:type owl:NamedIndividual ,
+                                                     pcm:BasicComponent ;
+                                            pcm:entityName_-_NamedElement "gui" ;
+                                            pcm:id_-_Identifier "_Coy0kEl4Ee243f2e4VWs6w" ;
+                                            rdfs:comment "_Coy0kEl4Ee243f2e4VWs6w"@id ;
+                                            rdfs:label "gui" .
+
+
+###  https://informalin.github.io/knowledgebases/examples/ontology.owl#BasicComponent_EBiwMEl4Ee243f2e4VWs6w
+model:BasicComponent_EBiwMEl4Ee243f2e4VWs6w rdf:type owl:NamedIndividual ,
+                                                     pcm:BasicComponent ;
+                                            pcm:entityName_-_NamedElement "cli" ;
+                                            pcm:id_-_Identifier "_EBiwMEl4Ee243f2e4VWs6w" ;
+                                            rdfs:comment "_EBiwMEl4Ee243f2e4VWs6w"@id ;
+                                            rdfs:label "cli" .
+
+
+###  https://informalin.github.io/knowledgebases/examples/ontology.owl#BasicComponent_He3LoEl4Ee243f2e4VWs6w
+model:BasicComponent_He3LoEl4Ee243f2e4VWs6w rdf:type owl:NamedIndividual ,
+                                                     pcm:BasicComponent ;
+                                            pcm:entityName_-_NamedElement "logic" ;
+                                            pcm:id_-_Identifier "_He3LoEl4Ee243f2e4VWs6w" ;
+                                            rdfs:comment "_He3LoEl4Ee243f2e4VWs6w"@id ;
+                                            rdfs:label "logic" .
+
+
+###  https://informalin.github.io/knowledgebases/examples/ontology.owl#BasicComponent_KsOfgEl4Ee243f2e4VWs6w
+model:BasicComponent_KsOfgEl4Ee243f2e4VWs6w rdf:type owl:NamedIndividual ,
+                                                     pcm:BasicComponent ;
+                                            pcm:entityName_-_NamedElement "globals" ;
+                                            pcm:id_-_Identifier "_KsOfgEl4Ee243f2e4VWs6w" ;
+                                            rdfs:comment "_KsOfgEl4Ee243f2e4VWs6w"@id ;
+                                            rdfs:label "globals" .
+
+
+###  https://informalin.github.io/knowledgebases/examples/ontology.owl#BasicComponent_MFIzMEl4Ee243f2e4VWs6w
+model:BasicComponent_MFIzMEl4Ee243f2e4VWs6w rdf:type owl:NamedIndividual ,
+                                                     pcm:BasicComponent ;
+                                            pcm:entityName_-_NamedElement "model" ;
+                                            pcm:id_-_Identifier "_MFIzMEl4Ee243f2e4VWs6w" ;
+                                            rdfs:comment "_MFIzMEl4Ee243f2e4VWs6w"@id ;
+                                            rdfs:label "model" .
+
+
+###  https://informalin.github.io/knowledgebases/examples/ontology.owl#BasicComponent_NUdtEEl4Ee243f2e4VWs6w
+model:BasicComponent_NUdtEEl4Ee243f2e4VWs6w rdf:type owl:NamedIndividual ,
+                                                     pcm:BasicComponent ;
+                                            pcm:entityName_-_NamedElement "preferences" ;
+                                            pcm:id_-_Identifier "_NUdtEEl4Ee243f2e4VWs6w" ;
+                                            rdfs:comment "_NUdtEEl4Ee243f2e4VWs6w"@id ;
+                                            rdfs:label "preferences" .
+
+
+###  https://informalin.github.io/knowledgebases/examples/ontology.owl#Repository__nu3UEl3Ee243f2e4VWs6w
+model:Repository__nu3UEl3Ee243f2e4VWs6w rdf:type owl:NamedIndividual ,
+                                                 pcm:Repository ;
+                                        pcm:entityName_-_NamedElement "JabRef" ;
+                                        pcm:id_-_Identifier "__nu3UEl3Ee243f2e4VWs6w" ;
+                                        rdfs:comment "__nu3UEl3Ee243f2e4VWs6w"@id ;
+                                        rdfs:label "JabRef" .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

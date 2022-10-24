@@ -1,258 +1,334 @@
-<rdf:RDF
-    xmlns:model="https://informalin.github.io/knowledgebases/examples/ontology.owl#"
-    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-    xmlns:owl="http://www.w3.org/2002/07/owl#"
-    xmlns:pcm="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#"
-    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-    xmlns:ecore="https://informalin.github.io/knowledgebases/informalin_base_ecore.owl#" > 
-  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#BasicComponent_KGVMcKETEeu-mYqkDskRow">
-    <rdfs:label>GAE Datastore</rdfs:label>
-    <pcm:entityName_-_NamedElement>GAE Datastore</pcm:entityName_-_NamedElement>
-    <rdfs:comment xml:lang="id">_KGVMcKETEeu-mYqkDskRow</rdfs:comment>
-    <pcm:id_-_Identifier>_KGVMcKETEeu-mYqkDskRow</pcm:id_-_Identifier>
-    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#BasicComponent"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationInterface_C6tTQKETEeu-mYqkDskRow">
-    <rdfs:label>E2E</rdfs:label>
-    <pcm:entityName_-_NamedElement>E2E</pcm:entityName_-_NamedElement>
-    <rdfs:comment xml:lang="id">_C6tTQKETEeu-mYqkDskRow</rdfs:comment>
-    <pcm:id_-_Identifier>_C6tTQKETEeu-mYqkDskRow</pcm:id_-_Identifier>
-    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#OperationInterface"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#Repository_tRJJ0KESEeu-mYqkDskRow">
-    <rdfs:label>New Repository</rdfs:label>
-    <pcm:entityName_-_NamedElement>New Repository</pcm:entityName_-_NamedElement>
-    <rdfs:comment xml:lang="id">_tRJJ0KESEeu-mYqkDskRow</rdfs:comment>
-    <pcm:id_-_Identifier>_tRJJ0KESEeu-mYqkDskRow</pcm:id_-_Identifier>
-    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#Repository"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationInterface_2dI_UKESEeu-mYqkDskRow">
-    <rdfs:label>Logic</rdfs:label>
-    <pcm:entityName_-_NamedElement>Logic</pcm:entityName_-_NamedElement>
-    <rdfs:comment xml:lang="id">_2dI_UKESEeu-mYqkDskRow</rdfs:comment>
-    <pcm:id_-_Identifier>_2dI_UKESEeu-mYqkDskRow</pcm:id_-_Identifier>
-    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#OperationInterface"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationRequiredRole_b_8SUKETEeu-mYqkDskRow">
-    <rdfs:label>Logic.Storage.OperationRequiredRole2</rdfs:label>
-    <pcm:entityName_-_NamedElement>Logic.Storage.OperationRequiredRole2</pcm:entityName_-_NamedElement>
-    <rdfs:comment xml:lang="id">_b_8SUKETEeu-mYqkDskRow</rdfs:comment>
-    <pcm:id_-_Identifier>_b_8SUKETEeu-mYqkDskRow</pcm:id_-_Identifier>
-    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#OperationRequiredRole"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationRequiredRole_giScIKETEeu-mYqkDskRow">
-    <rdfs:label>Client.GAE Datastore.OperationRequiredRole1</rdfs:label>
-    <pcm:entityName_-_NamedElement>Client.GAE Datastore.OperationRequiredRole1</pcm:entityName_-_NamedElement>
-    <rdfs:comment xml:lang="id">_giScIKETEeu-mYqkDskRow</rdfs:comment>
-    <pcm:id_-_Identifier>_giScIKETEeu-mYqkDskRow</pcm:id_-_Identifier>
-    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#OperationRequiredRole"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationRequiredRole_WUytYKETEeu-mYqkDskRow">
-    <rdfs:label>Logic.Common.OperationRequiredRole1</rdfs:label>
-    <pcm:entityName_-_NamedElement>Logic.Common.OperationRequiredRole1</pcm:entityName_-_NamedElement>
-    <rdfs:comment xml:lang="id">_WUytYKETEeu-mYqkDskRow</rdfs:comment>
-    <pcm:id_-_Identifier>_WUytYKETEeu-mYqkDskRow</pcm:id_-_Identifier>
-    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#OperationRequiredRole"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationRequiredRole_Y1qHoKETEeu-mYqkDskRow">
-    <rdfs:label>Common.Storage.OperationRequiredRole1</rdfs:label>
-    <pcm:entityName_-_NamedElement>Common.Storage.OperationRequiredRole1</pcm:entityName_-_NamedElement>
-    <rdfs:comment xml:lang="id">_Y1qHoKETEeu-mYqkDskRow</rdfs:comment>
-    <pcm:id_-_Identifier>_Y1qHoKETEeu-mYqkDskRow</pcm:id_-_Identifier>
-    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#OperationRequiredRole"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationProvidedRole_SNuKUKETEeu-mYqkDskRow">
-    <rdfs:label>E2E.E2E.OperationProvidedRole1</rdfs:label>
-    <pcm:entityName_-_NamedElement>E2E.E2E.OperationProvidedRole1</pcm:entityName_-_NamedElement>
-    <rdfs:comment xml:lang="id">_SNuKUKETEeu-mYqkDskRow</rdfs:comment>
-    <pcm:id_-_Identifier>_SNuKUKETEeu-mYqkDskRow</pcm:id_-_Identifier>
-    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#OperationProvidedRole"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationInterface_ylL2UKESEeu-mYqkDskRow">
-    <rdfs:label>Common</rdfs:label>
-    <pcm:entityName_-_NamedElement>Common</pcm:entityName_-_NamedElement>
-    <rdfs:comment xml:lang="id">_ylL2UKESEeu-mYqkDskRow</rdfs:comment>
-    <pcm:id_-_Identifier>_ylL2UKESEeu-mYqkDskRow</pcm:id_-_Identifier>
-    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#OperationInterface"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationInterface_FMKYgKETEeu-mYqkDskRow">
-    <rdfs:label>Client</rdfs:label>
-    <pcm:entityName_-_NamedElement>Client</pcm:entityName_-_NamedElement>
-    <rdfs:comment xml:lang="id">_FMKYgKETEeu-mYqkDskRow</rdfs:comment>
-    <pcm:id_-_Identifier>_FMKYgKETEeu-mYqkDskRow</pcm:id_-_Identifier>
-    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#OperationInterface"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationProvidedRole_TPwPEKETEeu-mYqkDskRow">
-    <rdfs:label>GAE Datastore.GAE Datastore.OperationProvidedRole1</rdfs:label>
-    <pcm:entityName_-_NamedElement>GAE Datastore.GAE Datastore.OperationProvidedRole1</pcm:entityName_-_NamedElement>
-    <rdfs:comment xml:lang="id">_TPwPEKETEeu-mYqkDskRow</rdfs:comment>
-    <pcm:id_-_Identifier>_TPwPEKETEeu-mYqkDskRow</pcm:id_-_Identifier>
-    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#OperationProvidedRole"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationInterface_777jQKESEeu-mYqkDskRow">
-    <rdfs:label>Storage</rdfs:label>
-    <pcm:entityName_-_NamedElement>Storage</pcm:entityName_-_NamedElement>
-    <rdfs:comment xml:lang="id">_777jQKESEeu-mYqkDskRow</rdfs:comment>
-    <pcm:id_-_Identifier>_777jQKESEeu-mYqkDskRow</pcm:id_-_Identifier>
-    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#OperationInterface"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationRequiredRole_iejUgKETEeu-mYqkDskRow">
-    <rdfs:label>E2E.UI.OperationRequiredRole1</rdfs:label>
-    <pcm:entityName_-_NamedElement>E2E.UI.OperationRequiredRole1</pcm:entityName_-_NamedElement>
-    <rdfs:comment xml:lang="id">_iejUgKETEeu-mYqkDskRow</rdfs:comment>
-    <pcm:id_-_Identifier>_iejUgKETEeu-mYqkDskRow</pcm:id_-_Identifier>
-    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#OperationRequiredRole"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationInterface__RE6IKESEeu-mYqkDskRow">
-    <rdfs:label>Test Driver</rdfs:label>
-    <pcm:entityName_-_NamedElement>Test Driver</pcm:entityName_-_NamedElement>
-    <rdfs:comment xml:lang="id">__RE6IKESEeu-mYqkDskRow</rdfs:comment>
-    <pcm:id_-_Identifier>__RE6IKESEeu-mYqkDskRow</pcm:id_-_Identifier>
-    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#OperationInterface"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#BasicComponent_3LCnIKESEeu-mYqkDskRow">
-    <rdfs:label>Logic</rdfs:label>
-    <pcm:entityName_-_NamedElement>Logic</pcm:entityName_-_NamedElement>
-    <rdfs:comment xml:lang="id">_3LCnIKESEeu-mYqkDskRow</rdfs:comment>
-    <pcm:id_-_Identifier>_3LCnIKESEeu-mYqkDskRow</pcm:id_-_Identifier>
-    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#BasicComponent"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationProvidedRole_OOWxwKETEeu-mYqkDskRow">
-    <rdfs:label>UI.UI.OperationProvidedRole1</rdfs:label>
-    <pcm:entityName_-_NamedElement>UI.UI.OperationProvidedRole1</pcm:entityName_-_NamedElement>
-    <rdfs:comment xml:lang="id">_OOWxwKETEeu-mYqkDskRow</rdfs:comment>
-    <pcm:id_-_Identifier>_OOWxwKETEeu-mYqkDskRow</pcm:id_-_Identifier>
-    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#OperationProvidedRole"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationProvidedRole_M9u3YKETEeu-mYqkDskRow">
-    <rdfs:label>Common.Common.OperationProvidedRole1</rdfs:label>
-    <pcm:entityName_-_NamedElement>Common.Common.OperationProvidedRole1</pcm:entityName_-_NamedElement>
-    <rdfs:comment xml:lang="id">_M9u3YKETEeu-mYqkDskRow</rdfs:comment>
-    <pcm:id_-_Identifier>_M9u3YKETEeu-mYqkDskRow</pcm:id_-_Identifier>
-    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#OperationProvidedRole"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#BasicComponent_1lMqsKESEeu-mYqkDskRow">
-    <rdfs:label>UI</rdfs:label>
-    <pcm:entityName_-_NamedElement>UI</pcm:entityName_-_NamedElement>
-    <rdfs:comment xml:lang="id">_1lMqsKESEeu-mYqkDskRow</rdfs:comment>
-    <pcm:id_-_Identifier>_1lMqsKESEeu-mYqkDskRow</pcm:id_-_Identifier>
-    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#BasicComponent"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationProvidedRole_RmiOgKETEeu-mYqkDskRow">
-    <rdfs:label>Test Driver.Test Driver.OperationProvidedRole1</rdfs:label>
-    <pcm:entityName_-_NamedElement>Test Driver.Test Driver.OperationProvidedRole1</pcm:entityName_-_NamedElement>
-    <rdfs:comment xml:lang="id">_RmiOgKETEeu-mYqkDskRow</rdfs:comment>
-    <pcm:id_-_Identifier>_RmiOgKETEeu-mYqkDskRow</pcm:id_-_Identifier>
-    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#OperationProvidedRole"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationRequiredRole_XL7JsKETEeu-mYqkDskRow">
-    <rdfs:label>Storage.Common.OperationRequiredRole1</rdfs:label>
-    <pcm:entityName_-_NamedElement>Storage.Common.OperationRequiredRole1</pcm:entityName_-_NamedElement>
-    <rdfs:comment xml:lang="id">_XL7JsKETEeu-mYqkDskRow</rdfs:comment>
-    <pcm:id_-_Identifier>_XL7JsKETEeu-mYqkDskRow</pcm:id_-_Identifier>
-    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#OperationRequiredRole"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationRequiredRole_e_6DYKETEeu-mYqkDskRow">
-    <rdfs:label>Storage.GAE Datastore.OperationRequiredRole2</rdfs:label>
-    <pcm:entityName_-_NamedElement>Storage.GAE Datastore.OperationRequiredRole2</pcm:entityName_-_NamedElement>
-    <rdfs:comment xml:lang="id">_e_6DYKETEeu-mYqkDskRow</rdfs:comment>
-    <pcm:id_-_Identifier>_e_6DYKETEeu-mYqkDskRow</pcm:id_-_Identifier>
-    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#OperationRequiredRole"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationRequiredRole_kSxrMKETEeu-mYqkDskRow">
-    <rdfs:label>Test Driver.UI.OperationRequiredRole1</rdfs:label>
-    <pcm:entityName_-_NamedElement>Test Driver.UI.OperationRequiredRole1</pcm:entityName_-_NamedElement>
-    <rdfs:comment xml:lang="id">_kSxrMKETEeu-mYqkDskRow</rdfs:comment>
-    <pcm:id_-_Identifier>_kSxrMKETEeu-mYqkDskRow</pcm:id_-_Identifier>
-    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#OperationRequiredRole"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationProvidedRole_Stjg8KETEeu-mYqkDskRow">
-    <rdfs:label>Client.Client.OperationProvidedRole1</rdfs:label>
-    <pcm:entityName_-_NamedElement>Client.Client.OperationProvidedRole1</pcm:entityName_-_NamedElement>
-    <rdfs:comment xml:lang="id">_Stjg8KETEeu-mYqkDskRow</rdfs:comment>
-    <pcm:id_-_Identifier>_Stjg8KETEeu-mYqkDskRow</pcm:id_-_Identifier>
-    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#OperationProvidedRole"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationInterface_0kie8KESEeu-mYqkDskRow">
-    <rdfs:label>UI</rdfs:label>
-    <pcm:entityName_-_NamedElement>UI</pcm:entityName_-_NamedElement>
-    <rdfs:comment xml:lang="id">_0kie8KESEeu-mYqkDskRow</rdfs:comment>
-    <pcm:id_-_Identifier>_0kie8KESEeu-mYqkDskRow</pcm:id_-_Identifier>
-    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#OperationInterface"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#BasicComponent_EIoe8KETEeu-mYqkDskRow">
-    <rdfs:label>E2E</rdfs:label>
-    <pcm:entityName_-_NamedElement>E2E</pcm:entityName_-_NamedElement>
-    <rdfs:comment xml:lang="id">_EIoe8KETEeu-mYqkDskRow</rdfs:comment>
-    <pcm:id_-_Identifier>_EIoe8KETEeu-mYqkDskRow</pcm:id_-_Identifier>
-    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#BasicComponent"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#BasicComponent_zUmhEKESEeu-mYqkDskRow">
-    <rdfs:label>Common</rdfs:label>
-    <pcm:entityName_-_NamedElement>Common</pcm:entityName_-_NamedElement>
-    <rdfs:comment xml:lang="id">_zUmhEKESEeu-mYqkDskRow</rdfs:comment>
-    <pcm:id_-_Identifier>_zUmhEKESEeu-mYqkDskRow</pcm:id_-_Identifier>
-    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#BasicComponent"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationProvidedRole_PZ4JsKETEeu-mYqkDskRow">
-    <rdfs:label>Logic.Logic.OperationProvidedRole1</rdfs:label>
-    <pcm:entityName_-_NamedElement>Logic.Logic.OperationProvidedRole1</pcm:entityName_-_NamedElement>
-    <rdfs:comment xml:lang="id">_PZ4JsKETEeu-mYqkDskRow</rdfs:comment>
-    <pcm:id_-_Identifier>_PZ4JsKETEeu-mYqkDskRow</pcm:id_-_Identifier>
-    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#OperationProvidedRole"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#BasicComponent_9JlCIKESEeu-mYqkDskRow">
-    <rdfs:label>Storage</rdfs:label>
-    <pcm:entityName_-_NamedElement>Storage</pcm:entityName_-_NamedElement>
-    <rdfs:comment xml:lang="id">_9JlCIKESEeu-mYqkDskRow</rdfs:comment>
-    <pcm:id_-_Identifier>_9JlCIKESEeu-mYqkDskRow</pcm:id_-_Identifier>
-    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#BasicComponent"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationInterface_IArukKETEeu-mYqkDskRow">
-    <rdfs:label>GAE Datastore</rdfs:label>
-    <pcm:entityName_-_NamedElement>GAE Datastore</pcm:entityName_-_NamedElement>
-    <rdfs:comment xml:lang="id">_IArukKETEeu-mYqkDskRow</rdfs:comment>
-    <pcm:id_-_Identifier>_IArukKETEeu-mYqkDskRow</pcm:id_-_Identifier>
-    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#OperationInterface"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#BasicComponent_GaP8QKETEeu-mYqkDskRow">
-    <rdfs:label>Client</rdfs:label>
-    <pcm:entityName_-_NamedElement>Client</pcm:entityName_-_NamedElement>
-    <rdfs:comment xml:lang="id">_GaP8QKETEeu-mYqkDskRow</rdfs:comment>
-    <pcm:id_-_Identifier>_GaP8QKETEeu-mYqkDskRow</pcm:id_-_Identifier>
-    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#BasicComponent"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationRequiredRole_Va7GIKETEeu-mYqkDskRow">
-    <rdfs:label>UI.Common.OperationRequiredRole1</rdfs:label>
-    <pcm:entityName_-_NamedElement>UI.Common.OperationRequiredRole1</pcm:entityName_-_NamedElement>
-    <rdfs:comment xml:lang="id">_Va7GIKETEeu-mYqkDskRow</rdfs:comment>
-    <pcm:id_-_Identifier>_Va7GIKETEeu-mYqkDskRow</pcm:id_-_Identifier>
-    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#OperationRequiredRole"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#">
-    <owl:imports rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationProvidedRole_Q3LOIKETEeu-mYqkDskRow">
-    <rdfs:label>Storage.Storage.OperationProvidedRole1</rdfs:label>
-    <pcm:entityName_-_NamedElement>Storage.Storage.OperationProvidedRole1</pcm:entityName_-_NamedElement>
-    <rdfs:comment xml:lang="id">_Q3LOIKETEeu-mYqkDskRow</rdfs:comment>
-    <pcm:id_-_Identifier>_Q3LOIKETEeu-mYqkDskRow</pcm:id_-_Identifier>
-    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#OperationProvidedRole"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationRequiredRole_aOjNMKETEeu-mYqkDskRow">
-    <rdfs:label>UI.Logic.OperationRequiredRole2</rdfs:label>
-    <pcm:entityName_-_NamedElement>UI.Logic.OperationRequiredRole2</pcm:entityName_-_NamedElement>
-    <rdfs:comment xml:lang="id">_aOjNMKETEeu-mYqkDskRow</rdfs:comment>
-    <pcm:id_-_Identifier>_aOjNMKETEeu-mYqkDskRow</pcm:id_-_Identifier>
-    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#OperationRequiredRole"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://informalin.github.io/knowledgebases/examples/ontology.owl#BasicComponent_Bae2oKETEeu-mYqkDskRow">
-    <rdfs:label>Test Driver</rdfs:label>
-    <pcm:entityName_-_NamedElement>Test Driver</pcm:entityName_-_NamedElement>
-    <rdfs:comment xml:lang="id">_Bae2oKETEeu-mYqkDskRow</rdfs:comment>
-    <pcm:id_-_Identifier>_Bae2oKETEeu-mYqkDskRow</pcm:id_-_Identifier>
-    <rdf:type rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#BasicComponent"/>
-  </rdf:Description>
-</rdf:RDF>
+@prefix : <https://informalin.github.io/knowledgebases/examples/ontology.owl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pcm: <https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ecore: <https://informalin.github.io/knowledgebases/informalin_base_ecore.owl#> .
+@prefix model: <https://informalin.github.io/knowledgebases/examples/ontology.owl#> .
+@base <https://informalin.github.io/knowledgebases/examples/ontology.owl#> .
+
+<https://informalin.github.io/knowledgebases/examples/ontology.owl#> rdf:type owl:Ontology ;
+                                                                      owl:imports pcm: .
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  https://informalin.github.io/knowledgebases/examples/ontology.owl#BasicComponent_1lMqsKESEeu-mYqkDskRow
+model:BasicComponent_1lMqsKESEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
+                                                     pcm:BasicComponent ;
+                                            pcm:entityName_-_NamedElement "UI" ;
+                                            pcm:id_-_Identifier "_1lMqsKESEeu-mYqkDskRow" ;
+                                            rdfs:comment "_1lMqsKESEeu-mYqkDskRow"@id ;
+                                            rdfs:label "UI" .
+
+
+###  https://informalin.github.io/knowledgebases/examples/ontology.owl#BasicComponent_3LCnIKESEeu-mYqkDskRow
+model:BasicComponent_3LCnIKESEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
+                                                     pcm:BasicComponent ;
+                                            pcm:entityName_-_NamedElement "Logic" ;
+                                            pcm:id_-_Identifier "_3LCnIKESEeu-mYqkDskRow" ;
+                                            rdfs:comment "_3LCnIKESEeu-mYqkDskRow"@id ;
+                                            rdfs:label "Logic" .
+
+
+###  https://informalin.github.io/knowledgebases/examples/ontology.owl#BasicComponent_9JlCIKESEeu-mYqkDskRow
+model:BasicComponent_9JlCIKESEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
+                                                     pcm:BasicComponent ;
+                                            pcm:entityName_-_NamedElement "Storage" ;
+                                            pcm:id_-_Identifier "_9JlCIKESEeu-mYqkDskRow" ;
+                                            rdfs:comment "_9JlCIKESEeu-mYqkDskRow"@id ;
+                                            rdfs:label "Storage" .
+
+
+###  https://informalin.github.io/knowledgebases/examples/ontology.owl#BasicComponent_Bae2oKETEeu-mYqkDskRow
+model:BasicComponent_Bae2oKETEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
+                                                     pcm:BasicComponent ;
+                                            pcm:entityName_-_NamedElement "Test Driver" ;
+                                            pcm:id_-_Identifier "_Bae2oKETEeu-mYqkDskRow" ;
+                                            rdfs:comment "_Bae2oKETEeu-mYqkDskRow"@id ;
+                                            rdfs:label "Test Driver" .
+
+
+###  https://informalin.github.io/knowledgebases/examples/ontology.owl#BasicComponent_EIoe8KETEeu-mYqkDskRow
+model:BasicComponent_EIoe8KETEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
+                                                     pcm:BasicComponent ;
+                                            pcm:entityName_-_NamedElement "E2E" ;
+                                            pcm:id_-_Identifier "_EIoe8KETEeu-mYqkDskRow" ;
+                                            rdfs:comment "_EIoe8KETEeu-mYqkDskRow"@id ;
+                                            rdfs:label "E2E" .
+
+
+###  https://informalin.github.io/knowledgebases/examples/ontology.owl#BasicComponent_GaP8QKETEeu-mYqkDskRow
+model:BasicComponent_GaP8QKETEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
+                                                     pcm:BasicComponent ;
+                                            pcm:entityName_-_NamedElement "Client" ;
+                                            pcm:id_-_Identifier "_GaP8QKETEeu-mYqkDskRow" ;
+                                            rdfs:comment "_GaP8QKETEeu-mYqkDskRow"@id ;
+                                            rdfs:label "Client" .
+
+
+###  https://informalin.github.io/knowledgebases/examples/ontology.owl#BasicComponent_KGVMcKETEeu-mYqkDskRow
+model:BasicComponent_KGVMcKETEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
+                                                     pcm:BasicComponent ;
+                                            pcm:entityName_-_NamedElement "GAE Datastore" ;
+                                            pcm:id_-_Identifier "_KGVMcKETEeu-mYqkDskRow" ;
+                                            rdfs:comment "_KGVMcKETEeu-mYqkDskRow"@id ;
+                                            rdfs:label "GAE Datastore" .
+
+
+###  https://informalin.github.io/knowledgebases/examples/ontology.owl#BasicComponent_zUmhEKESEeu-mYqkDskRow
+model:BasicComponent_zUmhEKESEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
+                                                     pcm:BasicComponent ;
+                                            pcm:entityName_-_NamedElement "Common" ;
+                                            pcm:id_-_Identifier "_zUmhEKESEeu-mYqkDskRow" ;
+                                            rdfs:comment "_zUmhEKESEeu-mYqkDskRow"@id ;
+                                            rdfs:label "Common" .
+
+
+###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationInterface_0kie8KESEeu-mYqkDskRow
+model:OperationInterface_0kie8KESEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
+                                                         pcm:OperationInterface ;
+                                                pcm:entityName_-_NamedElement "UI" ;
+                                                pcm:id_-_Identifier "_0kie8KESEeu-mYqkDskRow" ;
+                                                rdfs:comment "_0kie8KESEeu-mYqkDskRow"@id ;
+                                                rdfs:label "UI" .
+
+
+###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationInterface_2dI_UKESEeu-mYqkDskRow
+model:OperationInterface_2dI_UKESEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
+                                                         pcm:OperationInterface ;
+                                                pcm:entityName_-_NamedElement "Logic" ;
+                                                pcm:id_-_Identifier "_2dI_UKESEeu-mYqkDskRow" ;
+                                                rdfs:comment "_2dI_UKESEeu-mYqkDskRow"@id ;
+                                                rdfs:label "Logic" .
+
+
+###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationInterface_777jQKESEeu-mYqkDskRow
+model:OperationInterface_777jQKESEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
+                                                         pcm:OperationInterface ;
+                                                pcm:entityName_-_NamedElement "Storage" ;
+                                                pcm:id_-_Identifier "_777jQKESEeu-mYqkDskRow" ;
+                                                rdfs:comment "_777jQKESEeu-mYqkDskRow"@id ;
+                                                rdfs:label "Storage" .
+
+
+###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationInterface_C6tTQKETEeu-mYqkDskRow
+model:OperationInterface_C6tTQKETEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
+                                                         pcm:OperationInterface ;
+                                                pcm:entityName_-_NamedElement "E2E" ;
+                                                pcm:id_-_Identifier "_C6tTQKETEeu-mYqkDskRow" ;
+                                                rdfs:comment "_C6tTQKETEeu-mYqkDskRow"@id ;
+                                                rdfs:label "E2E" .
+
+
+###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationInterface_FMKYgKETEeu-mYqkDskRow
+model:OperationInterface_FMKYgKETEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
+                                                         pcm:OperationInterface ;
+                                                pcm:entityName_-_NamedElement "Client" ;
+                                                pcm:id_-_Identifier "_FMKYgKETEeu-mYqkDskRow" ;
+                                                rdfs:comment "_FMKYgKETEeu-mYqkDskRow"@id ;
+                                                rdfs:label "Client" .
+
+
+###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationInterface_IArukKETEeu-mYqkDskRow
+model:OperationInterface_IArukKETEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
+                                                         pcm:OperationInterface ;
+                                                pcm:entityName_-_NamedElement "GAE Datastore" ;
+                                                pcm:id_-_Identifier "_IArukKETEeu-mYqkDskRow" ;
+                                                rdfs:comment "_IArukKETEeu-mYqkDskRow"@id ;
+                                                rdfs:label "GAE Datastore" .
+
+
+###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationInterface__RE6IKESEeu-mYqkDskRow
+model:OperationInterface__RE6IKESEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
+                                                         pcm:OperationInterface ;
+                                                pcm:entityName_-_NamedElement "Test Driver" ;
+                                                pcm:id_-_Identifier "__RE6IKESEeu-mYqkDskRow" ;
+                                                rdfs:comment "__RE6IKESEeu-mYqkDskRow"@id ;
+                                                rdfs:label "Test Driver" .
+
+
+###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationInterface_ylL2UKESEeu-mYqkDskRow
+model:OperationInterface_ylL2UKESEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
+                                                         pcm:OperationInterface ;
+                                                pcm:entityName_-_NamedElement "Common" ;
+                                                pcm:id_-_Identifier "_ylL2UKESEeu-mYqkDskRow" ;
+                                                rdfs:comment "_ylL2UKESEeu-mYqkDskRow"@id ;
+                                                rdfs:label "Common" .
+
+
+###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationProvidedRole_M9u3YKETEeu-mYqkDskRow
+model:OperationProvidedRole_M9u3YKETEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
+                                                            pcm:OperationProvidedRole ;
+                                                   pcm:entityName_-_NamedElement "Common.Common.OperationProvidedRole1" ;
+                                                   pcm:id_-_Identifier "_M9u3YKETEeu-mYqkDskRow" ;
+                                                   rdfs:comment "_M9u3YKETEeu-mYqkDskRow"@id ;
+                                                   rdfs:label "Common.Common.OperationProvidedRole1" .
+
+
+###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationProvidedRole_OOWxwKETEeu-mYqkDskRow
+model:OperationProvidedRole_OOWxwKETEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
+                                                            pcm:OperationProvidedRole ;
+                                                   pcm:entityName_-_NamedElement "UI.UI.OperationProvidedRole1" ;
+                                                   pcm:id_-_Identifier "_OOWxwKETEeu-mYqkDskRow" ;
+                                                   rdfs:comment "_OOWxwKETEeu-mYqkDskRow"@id ;
+                                                   rdfs:label "UI.UI.OperationProvidedRole1" .
+
+
+###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationProvidedRole_PZ4JsKETEeu-mYqkDskRow
+model:OperationProvidedRole_PZ4JsKETEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
+                                                            pcm:OperationProvidedRole ;
+                                                   pcm:entityName_-_NamedElement "Logic.Logic.OperationProvidedRole1" ;
+                                                   pcm:id_-_Identifier "_PZ4JsKETEeu-mYqkDskRow" ;
+                                                   rdfs:comment "_PZ4JsKETEeu-mYqkDskRow"@id ;
+                                                   rdfs:label "Logic.Logic.OperationProvidedRole1" .
+
+
+###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationProvidedRole_Q3LOIKETEeu-mYqkDskRow
+model:OperationProvidedRole_Q3LOIKETEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
+                                                            pcm:OperationProvidedRole ;
+                                                   pcm:entityName_-_NamedElement "Storage.Storage.OperationProvidedRole1" ;
+                                                   pcm:id_-_Identifier "_Q3LOIKETEeu-mYqkDskRow" ;
+                                                   rdfs:comment "_Q3LOIKETEeu-mYqkDskRow"@id ;
+                                                   rdfs:label "Storage.Storage.OperationProvidedRole1" .
+
+
+###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationProvidedRole_RmiOgKETEeu-mYqkDskRow
+model:OperationProvidedRole_RmiOgKETEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
+                                                            pcm:OperationProvidedRole ;
+                                                   pcm:entityName_-_NamedElement "Test Driver.Test Driver.OperationProvidedRole1" ;
+                                                   pcm:id_-_Identifier "_RmiOgKETEeu-mYqkDskRow" ;
+                                                   rdfs:comment "_RmiOgKETEeu-mYqkDskRow"@id ;
+                                                   rdfs:label "Test Driver.Test Driver.OperationProvidedRole1" .
+
+
+###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationProvidedRole_SNuKUKETEeu-mYqkDskRow
+model:OperationProvidedRole_SNuKUKETEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
+                                                            pcm:OperationProvidedRole ;
+                                                   pcm:entityName_-_NamedElement "E2E.E2E.OperationProvidedRole1" ;
+                                                   pcm:id_-_Identifier "_SNuKUKETEeu-mYqkDskRow" ;
+                                                   rdfs:comment "_SNuKUKETEeu-mYqkDskRow"@id ;
+                                                   rdfs:label "E2E.E2E.OperationProvidedRole1" .
+
+
+###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationProvidedRole_Stjg8KETEeu-mYqkDskRow
+model:OperationProvidedRole_Stjg8KETEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
+                                                            pcm:OperationProvidedRole ;
+                                                   pcm:entityName_-_NamedElement "Client.Client.OperationProvidedRole1" ;
+                                                   pcm:id_-_Identifier "_Stjg8KETEeu-mYqkDskRow" ;
+                                                   rdfs:comment "_Stjg8KETEeu-mYqkDskRow"@id ;
+                                                   rdfs:label "Client.Client.OperationProvidedRole1" .
+
+
+###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationProvidedRole_TPwPEKETEeu-mYqkDskRow
+model:OperationProvidedRole_TPwPEKETEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
+                                                            pcm:OperationProvidedRole ;
+                                                   pcm:entityName_-_NamedElement "GAE Datastore.GAE Datastore.OperationProvidedRole1" ;
+                                                   pcm:id_-_Identifier "_TPwPEKETEeu-mYqkDskRow" ;
+                                                   rdfs:comment "_TPwPEKETEeu-mYqkDskRow"@id ;
+                                                   rdfs:label "GAE Datastore.GAE Datastore.OperationProvidedRole1" .
+
+
+###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationRequiredRole_Va7GIKETEeu-mYqkDskRow
+model:OperationRequiredRole_Va7GIKETEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
+                                                            pcm:OperationRequiredRole ;
+                                                   pcm:entityName_-_NamedElement "UI.Common.OperationRequiredRole1" ;
+                                                   pcm:id_-_Identifier "_Va7GIKETEeu-mYqkDskRow" ;
+                                                   rdfs:comment "_Va7GIKETEeu-mYqkDskRow"@id ;
+                                                   rdfs:label "UI.Common.OperationRequiredRole1" .
+
+
+###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationRequiredRole_WUytYKETEeu-mYqkDskRow
+model:OperationRequiredRole_WUytYKETEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
+                                                            pcm:OperationRequiredRole ;
+                                                   pcm:entityName_-_NamedElement "Logic.Common.OperationRequiredRole1" ;
+                                                   pcm:id_-_Identifier "_WUytYKETEeu-mYqkDskRow" ;
+                                                   rdfs:comment "_WUytYKETEeu-mYqkDskRow"@id ;
+                                                   rdfs:label "Logic.Common.OperationRequiredRole1" .
+
+
+###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationRequiredRole_XL7JsKETEeu-mYqkDskRow
+model:OperationRequiredRole_XL7JsKETEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
+                                                            pcm:OperationRequiredRole ;
+                                                   pcm:entityName_-_NamedElement "Storage.Common.OperationRequiredRole1" ;
+                                                   pcm:id_-_Identifier "_XL7JsKETEeu-mYqkDskRow" ;
+                                                   rdfs:comment "_XL7JsKETEeu-mYqkDskRow"@id ;
+                                                   rdfs:label "Storage.Common.OperationRequiredRole1" .
+
+
+###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationRequiredRole_Y1qHoKETEeu-mYqkDskRow
+model:OperationRequiredRole_Y1qHoKETEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
+                                                            pcm:OperationRequiredRole ;
+                                                   pcm:entityName_-_NamedElement "Common.Storage.OperationRequiredRole1" ;
+                                                   pcm:id_-_Identifier "_Y1qHoKETEeu-mYqkDskRow" ;
+                                                   rdfs:comment "_Y1qHoKETEeu-mYqkDskRow"@id ;
+                                                   rdfs:label "Common.Storage.OperationRequiredRole1" .
+
+
+###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationRequiredRole_aOjNMKETEeu-mYqkDskRow
+model:OperationRequiredRole_aOjNMKETEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
+                                                            pcm:OperationRequiredRole ;
+                                                   pcm:entityName_-_NamedElement "UI.Logic.OperationRequiredRole2" ;
+                                                   pcm:id_-_Identifier "_aOjNMKETEeu-mYqkDskRow" ;
+                                                   rdfs:comment "_aOjNMKETEeu-mYqkDskRow"@id ;
+                                                   rdfs:label "UI.Logic.OperationRequiredRole2" .
+
+
+###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationRequiredRole_b_8SUKETEeu-mYqkDskRow
+model:OperationRequiredRole_b_8SUKETEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
+                                                            pcm:OperationRequiredRole ;
+                                                   pcm:entityName_-_NamedElement "Logic.Storage.OperationRequiredRole2" ;
+                                                   pcm:id_-_Identifier "_b_8SUKETEeu-mYqkDskRow" ;
+                                                   rdfs:comment "_b_8SUKETEeu-mYqkDskRow"@id ;
+                                                   rdfs:label "Logic.Storage.OperationRequiredRole2" .
+
+
+###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationRequiredRole_e_6DYKETEeu-mYqkDskRow
+model:OperationRequiredRole_e_6DYKETEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
+                                                            pcm:OperationRequiredRole ;
+                                                   pcm:entityName_-_NamedElement "Storage.GAE Datastore.OperationRequiredRole2" ;
+                                                   pcm:id_-_Identifier "_e_6DYKETEeu-mYqkDskRow" ;
+                                                   rdfs:comment "_e_6DYKETEeu-mYqkDskRow"@id ;
+                                                   rdfs:label "Storage.GAE Datastore.OperationRequiredRole2" .
+
+
+###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationRequiredRole_giScIKETEeu-mYqkDskRow
+model:OperationRequiredRole_giScIKETEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
+                                                            pcm:OperationRequiredRole ;
+                                                   pcm:entityName_-_NamedElement "Client.GAE Datastore.OperationRequiredRole1" ;
+                                                   pcm:id_-_Identifier "_giScIKETEeu-mYqkDskRow" ;
+                                                   rdfs:comment "_giScIKETEeu-mYqkDskRow"@id ;
+                                                   rdfs:label "Client.GAE Datastore.OperationRequiredRole1" .
+
+
+###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationRequiredRole_iejUgKETEeu-mYqkDskRow
+model:OperationRequiredRole_iejUgKETEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
+                                                            pcm:OperationRequiredRole ;
+                                                   pcm:entityName_-_NamedElement "E2E.UI.OperationRequiredRole1" ;
+                                                   pcm:id_-_Identifier "_iejUgKETEeu-mYqkDskRow" ;
+                                                   rdfs:comment "_iejUgKETEeu-mYqkDskRow"@id ;
+                                                   rdfs:label "E2E.UI.OperationRequiredRole1" .
+
+
+###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationRequiredRole_kSxrMKETEeu-mYqkDskRow
+model:OperationRequiredRole_kSxrMKETEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
+                                                            pcm:OperationRequiredRole ;
+                                                   pcm:entityName_-_NamedElement "Test Driver.UI.OperationRequiredRole1" ;
+                                                   pcm:id_-_Identifier "_kSxrMKETEeu-mYqkDskRow" ;
+                                                   rdfs:comment "_kSxrMKETEeu-mYqkDskRow"@id ;
+                                                   rdfs:label "Test Driver.UI.OperationRequiredRole1" .
+
+
+###  https://informalin.github.io/knowledgebases/examples/ontology.owl#Repository_tRJJ0KESEeu-mYqkDskRow
+model:Repository_tRJJ0KESEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
+                                                 pcm:Repository ;
+                                        pcm:entityName_-_NamedElement "New Repository" ;
+                                        pcm:id_-_Identifier "_tRJJ0KESEeu-mYqkDskRow" ;
+                                        rdfs:comment "_tRJJ0KESEeu-mYqkDskRow"@id ;
+                                        rdfs:label "New Repository" .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
