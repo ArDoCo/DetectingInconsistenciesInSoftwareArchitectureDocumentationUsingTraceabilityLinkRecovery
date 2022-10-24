@@ -1,22 +1,22 @@
-@prefix : <https://informalin.github.io/knowledgebases/examples/ontology.owl#> .
+@prefix : <https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix pcm: <https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#> .
+@prefix pcm: <https://informalin.github.io/knowledgebases-swattr/informalin_base_pcm.owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix ecore: <https://informalin.github.io/knowledgebases/informalin_base_ecore.owl#> .
-@prefix model: <https://informalin.github.io/knowledgebases/examples/ontology.owl#> .
-@base <https://informalin.github.io/knowledgebases/examples/ontology.owl#> .
+@prefix ecore: <https://informalin.github.io/knowledgebases-swattr/informalin_base_ecore.owl#> .
+@prefix model: <https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#> .
+@base <https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#> .
 
-<https://informalin.github.io/knowledgebases/examples/ontology.owl#> rdf:type owl:Ontology ;
+<https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#> rdf:type owl:Ontology ;
                                                                       owl:imports pcm: .
 
 #################################################################
 #    Individuals
 #################################################################
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#BasicComponent_Coy0kEl4Ee243f2e4VWs6w
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#BasicComponent_Coy0kEl4Ee243f2e4VWs6w
 model:BasicComponent_Coy0kEl4Ee243f2e4VWs6w rdf:type owl:NamedIndividual ,
                                                      pcm:BasicComponent ;
                                             pcm:entityName_-_NamedElement "gui" ;
@@ -25,7 +25,7 @@ model:BasicComponent_Coy0kEl4Ee243f2e4VWs6w rdf:type owl:NamedIndividual ,
                                             rdfs:label "gui" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#BasicComponent_EBiwMEl4Ee243f2e4VWs6w
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#BasicComponent_EBiwMEl4Ee243f2e4VWs6w
 model:BasicComponent_EBiwMEl4Ee243f2e4VWs6w rdf:type owl:NamedIndividual ,
                                                      pcm:BasicComponent ;
                                             pcm:entityName_-_NamedElement "cli" ;
@@ -34,7 +34,7 @@ model:BasicComponent_EBiwMEl4Ee243f2e4VWs6w rdf:type owl:NamedIndividual ,
                                             rdfs:label "cli" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#BasicComponent_He3LoEl4Ee243f2e4VWs6w
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#BasicComponent_He3LoEl4Ee243f2e4VWs6w
 model:BasicComponent_He3LoEl4Ee243f2e4VWs6w rdf:type owl:NamedIndividual ,
                                                      pcm:BasicComponent ;
                                             pcm:entityName_-_NamedElement "logic" ;
@@ -43,7 +43,7 @@ model:BasicComponent_He3LoEl4Ee243f2e4VWs6w rdf:type owl:NamedIndividual ,
                                             rdfs:label "logic" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#BasicComponent_KsOfgEl4Ee243f2e4VWs6w
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#BasicComponent_KsOfgEl4Ee243f2e4VWs6w
 model:BasicComponent_KsOfgEl4Ee243f2e4VWs6w rdf:type owl:NamedIndividual ,
                                                      pcm:BasicComponent ;
                                             pcm:entityName_-_NamedElement "globals" ;
@@ -52,7 +52,7 @@ model:BasicComponent_KsOfgEl4Ee243f2e4VWs6w rdf:type owl:NamedIndividual ,
                                             rdfs:label "globals" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#BasicComponent_MFIzMEl4Ee243f2e4VWs6w
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#BasicComponent_MFIzMEl4Ee243f2e4VWs6w
 model:BasicComponent_MFIzMEl4Ee243f2e4VWs6w rdf:type owl:NamedIndividual ,
                                                      pcm:BasicComponent ;
                                             pcm:entityName_-_NamedElement "model" ;
@@ -61,7 +61,7 @@ model:BasicComponent_MFIzMEl4Ee243f2e4VWs6w rdf:type owl:NamedIndividual ,
                                             rdfs:label "model" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#BasicComponent_NUdtEEl4Ee243f2e4VWs6w
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#BasicComponent_NUdtEEl4Ee243f2e4VWs6w
 model:BasicComponent_NUdtEEl4Ee243f2e4VWs6w rdf:type owl:NamedIndividual ,
                                                      pcm:BasicComponent ;
                                             pcm:entityName_-_NamedElement "preferences" ;
@@ -70,7 +70,7 @@ model:BasicComponent_NUdtEEl4Ee243f2e4VWs6w rdf:type owl:NamedIndividual ,
                                             rdfs:label "preferences" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#Repository__nu3UEl3Ee243f2e4VWs6w
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#Repository__nu3UEl3Ee243f2e4VWs6w
 model:Repository__nu3UEl3Ee243f2e4VWs6w rdf:type owl:NamedIndividual ,
                                                  pcm:Repository ;
                                         pcm:entityName_-_NamedElement "JabRef" ;

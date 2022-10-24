@@ -1,22 +1,22 @@
-@prefix : <https://informalin.github.io/knowledgebases/examples/ontology.owl#> .
+@prefix : <https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix pcm: <https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#> .
+@prefix pcm: <https://informalin.github.io/knowledgebases-swattr/informalin_base_pcm.owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix ecore: <https://informalin.github.io/knowledgebases/informalin_base_ecore.owl#> .
-@prefix model: <https://informalin.github.io/knowledgebases/examples/ontology.owl#> .
-@base <https://informalin.github.io/knowledgebases/examples/ontology.owl#> .
+@prefix ecore: <https://informalin.github.io/knowledgebases-swattr/informalin_base_ecore.owl#> .
+@prefix model: <https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#> .
+@base <https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#> .
 
-<https://informalin.github.io/knowledgebases/examples/ontology.owl#> rdf:type owl:Ontology ;
+<https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#> rdf:type owl:Ontology ;
                                                                       owl:imports pcm: .
 
 #################################################################
 #    Individuals
 #################################################################
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#BasicComponent_1lMqsKESEeu-mYqkDskRow
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#BasicComponent_1lMqsKESEeu-mYqkDskRow
 model:BasicComponent_1lMqsKESEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
                                                      pcm:BasicComponent ;
                                             pcm:entityName_-_NamedElement "UI" ;
@@ -25,7 +25,7 @@ model:BasicComponent_1lMqsKESEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
                                             rdfs:label "UI" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#BasicComponent_3LCnIKESEeu-mYqkDskRow
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#BasicComponent_3LCnIKESEeu-mYqkDskRow
 model:BasicComponent_3LCnIKESEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
                                                      pcm:BasicComponent ;
                                             pcm:entityName_-_NamedElement "Logic" ;
@@ -34,7 +34,7 @@ model:BasicComponent_3LCnIKESEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
                                             rdfs:label "Logic" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#BasicComponent_9JlCIKESEeu-mYqkDskRow
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#BasicComponent_9JlCIKESEeu-mYqkDskRow
 model:BasicComponent_9JlCIKESEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
                                                      pcm:BasicComponent ;
                                             pcm:entityName_-_NamedElement "Storage" ;
@@ -43,7 +43,7 @@ model:BasicComponent_9JlCIKESEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
                                             rdfs:label "Storage" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#BasicComponent_Bae2oKETEeu-mYqkDskRow
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#BasicComponent_Bae2oKETEeu-mYqkDskRow
 model:BasicComponent_Bae2oKETEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
                                                      pcm:BasicComponent ;
                                             pcm:entityName_-_NamedElement "Test Driver" ;
@@ -52,7 +52,7 @@ model:BasicComponent_Bae2oKETEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
                                             rdfs:label "Test Driver" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#BasicComponent_EIoe8KETEeu-mYqkDskRow
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#BasicComponent_EIoe8KETEeu-mYqkDskRow
 model:BasicComponent_EIoe8KETEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
                                                      pcm:BasicComponent ;
                                             pcm:entityName_-_NamedElement "E2E" ;
@@ -61,7 +61,7 @@ model:BasicComponent_EIoe8KETEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
                                             rdfs:label "E2E" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#BasicComponent_GaP8QKETEeu-mYqkDskRow
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#BasicComponent_GaP8QKETEeu-mYqkDskRow
 model:BasicComponent_GaP8QKETEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
                                                      pcm:BasicComponent ;
                                             pcm:entityName_-_NamedElement "Client" ;
@@ -70,7 +70,7 @@ model:BasicComponent_GaP8QKETEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
                                             rdfs:label "Client" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#BasicComponent_KGVMcKETEeu-mYqkDskRow
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#BasicComponent_KGVMcKETEeu-mYqkDskRow
 model:BasicComponent_KGVMcKETEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
                                                      pcm:BasicComponent ;
                                             pcm:entityName_-_NamedElement "GAE Datastore" ;
@@ -79,7 +79,7 @@ model:BasicComponent_KGVMcKETEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
                                             rdfs:label "GAE Datastore" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#BasicComponent_zUmhEKESEeu-mYqkDskRow
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#BasicComponent_zUmhEKESEeu-mYqkDskRow
 model:BasicComponent_zUmhEKESEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
                                                      pcm:BasicComponent ;
                                             pcm:entityName_-_NamedElement "Common" ;
@@ -88,7 +88,7 @@ model:BasicComponent_zUmhEKESEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
                                             rdfs:label "Common" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationInterface_0kie8KESEeu-mYqkDskRow
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#OperationInterface_0kie8KESEeu-mYqkDskRow
 model:OperationInterface_0kie8KESEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
                                                          pcm:OperationInterface ;
                                                 pcm:entityName_-_NamedElement "UI" ;
@@ -97,7 +97,7 @@ model:OperationInterface_0kie8KESEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
                                                 rdfs:label "UI" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationInterface_2dI_UKESEeu-mYqkDskRow
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#OperationInterface_2dI_UKESEeu-mYqkDskRow
 model:OperationInterface_2dI_UKESEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
                                                          pcm:OperationInterface ;
                                                 pcm:entityName_-_NamedElement "Logic" ;
@@ -106,7 +106,7 @@ model:OperationInterface_2dI_UKESEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
                                                 rdfs:label "Logic" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationInterface_777jQKESEeu-mYqkDskRow
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#OperationInterface_777jQKESEeu-mYqkDskRow
 model:OperationInterface_777jQKESEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
                                                          pcm:OperationInterface ;
                                                 pcm:entityName_-_NamedElement "Storage" ;
@@ -115,7 +115,7 @@ model:OperationInterface_777jQKESEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
                                                 rdfs:label "Storage" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationInterface_C6tTQKETEeu-mYqkDskRow
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#OperationInterface_C6tTQKETEeu-mYqkDskRow
 model:OperationInterface_C6tTQKETEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
                                                          pcm:OperationInterface ;
                                                 pcm:entityName_-_NamedElement "E2E" ;
@@ -124,7 +124,7 @@ model:OperationInterface_C6tTQKETEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
                                                 rdfs:label "E2E" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationInterface_FMKYgKETEeu-mYqkDskRow
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#OperationInterface_FMKYgKETEeu-mYqkDskRow
 model:OperationInterface_FMKYgKETEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
                                                          pcm:OperationInterface ;
                                                 pcm:entityName_-_NamedElement "Client" ;
@@ -133,7 +133,7 @@ model:OperationInterface_FMKYgKETEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
                                                 rdfs:label "Client" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationInterface_IArukKETEeu-mYqkDskRow
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#OperationInterface_IArukKETEeu-mYqkDskRow
 model:OperationInterface_IArukKETEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
                                                          pcm:OperationInterface ;
                                                 pcm:entityName_-_NamedElement "GAE Datastore" ;
@@ -142,7 +142,7 @@ model:OperationInterface_IArukKETEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
                                                 rdfs:label "GAE Datastore" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationInterface__RE6IKESEeu-mYqkDskRow
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#OperationInterface__RE6IKESEeu-mYqkDskRow
 model:OperationInterface__RE6IKESEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
                                                          pcm:OperationInterface ;
                                                 pcm:entityName_-_NamedElement "Test Driver" ;
@@ -151,7 +151,7 @@ model:OperationInterface__RE6IKESEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
                                                 rdfs:label "Test Driver" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationInterface_ylL2UKESEeu-mYqkDskRow
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#OperationInterface_ylL2UKESEeu-mYqkDskRow
 model:OperationInterface_ylL2UKESEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
                                                          pcm:OperationInterface ;
                                                 pcm:entityName_-_NamedElement "Common" ;
@@ -160,7 +160,7 @@ model:OperationInterface_ylL2UKESEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
                                                 rdfs:label "Common" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationProvidedRole_M9u3YKETEeu-mYqkDskRow
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#OperationProvidedRole_M9u3YKETEeu-mYqkDskRow
 model:OperationProvidedRole_M9u3YKETEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
                                                             pcm:OperationProvidedRole ;
                                                    pcm:entityName_-_NamedElement "Common.Common.OperationProvidedRole1" ;
@@ -169,7 +169,7 @@ model:OperationProvidedRole_M9u3YKETEeu-mYqkDskRow rdf:type owl:NamedIndividual 
                                                    rdfs:label "Common.Common.OperationProvidedRole1" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationProvidedRole_OOWxwKETEeu-mYqkDskRow
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#OperationProvidedRole_OOWxwKETEeu-mYqkDskRow
 model:OperationProvidedRole_OOWxwKETEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
                                                             pcm:OperationProvidedRole ;
                                                    pcm:entityName_-_NamedElement "UI.UI.OperationProvidedRole1" ;
@@ -178,7 +178,7 @@ model:OperationProvidedRole_OOWxwKETEeu-mYqkDskRow rdf:type owl:NamedIndividual 
                                                    rdfs:label "UI.UI.OperationProvidedRole1" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationProvidedRole_PZ4JsKETEeu-mYqkDskRow
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#OperationProvidedRole_PZ4JsKETEeu-mYqkDskRow
 model:OperationProvidedRole_PZ4JsKETEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
                                                             pcm:OperationProvidedRole ;
                                                    pcm:entityName_-_NamedElement "Logic.Logic.OperationProvidedRole1" ;
@@ -187,7 +187,7 @@ model:OperationProvidedRole_PZ4JsKETEeu-mYqkDskRow rdf:type owl:NamedIndividual 
                                                    rdfs:label "Logic.Logic.OperationProvidedRole1" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationProvidedRole_Q3LOIKETEeu-mYqkDskRow
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#OperationProvidedRole_Q3LOIKETEeu-mYqkDskRow
 model:OperationProvidedRole_Q3LOIKETEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
                                                             pcm:OperationProvidedRole ;
                                                    pcm:entityName_-_NamedElement "Storage.Storage.OperationProvidedRole1" ;
@@ -196,7 +196,7 @@ model:OperationProvidedRole_Q3LOIKETEeu-mYqkDskRow rdf:type owl:NamedIndividual 
                                                    rdfs:label "Storage.Storage.OperationProvidedRole1" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationProvidedRole_RmiOgKETEeu-mYqkDskRow
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#OperationProvidedRole_RmiOgKETEeu-mYqkDskRow
 model:OperationProvidedRole_RmiOgKETEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
                                                             pcm:OperationProvidedRole ;
                                                    pcm:entityName_-_NamedElement "Test Driver.Test Driver.OperationProvidedRole1" ;
@@ -205,7 +205,7 @@ model:OperationProvidedRole_RmiOgKETEeu-mYqkDskRow rdf:type owl:NamedIndividual 
                                                    rdfs:label "Test Driver.Test Driver.OperationProvidedRole1" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationProvidedRole_SNuKUKETEeu-mYqkDskRow
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#OperationProvidedRole_SNuKUKETEeu-mYqkDskRow
 model:OperationProvidedRole_SNuKUKETEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
                                                             pcm:OperationProvidedRole ;
                                                    pcm:entityName_-_NamedElement "E2E.E2E.OperationProvidedRole1" ;
@@ -214,7 +214,7 @@ model:OperationProvidedRole_SNuKUKETEeu-mYqkDskRow rdf:type owl:NamedIndividual 
                                                    rdfs:label "E2E.E2E.OperationProvidedRole1" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationProvidedRole_Stjg8KETEeu-mYqkDskRow
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#OperationProvidedRole_Stjg8KETEeu-mYqkDskRow
 model:OperationProvidedRole_Stjg8KETEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
                                                             pcm:OperationProvidedRole ;
                                                    pcm:entityName_-_NamedElement "Client.Client.OperationProvidedRole1" ;
@@ -223,7 +223,7 @@ model:OperationProvidedRole_Stjg8KETEeu-mYqkDskRow rdf:type owl:NamedIndividual 
                                                    rdfs:label "Client.Client.OperationProvidedRole1" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationProvidedRole_TPwPEKETEeu-mYqkDskRow
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#OperationProvidedRole_TPwPEKETEeu-mYqkDskRow
 model:OperationProvidedRole_TPwPEKETEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
                                                             pcm:OperationProvidedRole ;
                                                    pcm:entityName_-_NamedElement "GAE Datastore.GAE Datastore.OperationProvidedRole1" ;
@@ -232,7 +232,7 @@ model:OperationProvidedRole_TPwPEKETEeu-mYqkDskRow rdf:type owl:NamedIndividual 
                                                    rdfs:label "GAE Datastore.GAE Datastore.OperationProvidedRole1" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationRequiredRole_Va7GIKETEeu-mYqkDskRow
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#OperationRequiredRole_Va7GIKETEeu-mYqkDskRow
 model:OperationRequiredRole_Va7GIKETEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
                                                             pcm:OperationRequiredRole ;
                                                    pcm:entityName_-_NamedElement "UI.Common.OperationRequiredRole1" ;
@@ -241,7 +241,7 @@ model:OperationRequiredRole_Va7GIKETEeu-mYqkDskRow rdf:type owl:NamedIndividual 
                                                    rdfs:label "UI.Common.OperationRequiredRole1" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationRequiredRole_WUytYKETEeu-mYqkDskRow
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#OperationRequiredRole_WUytYKETEeu-mYqkDskRow
 model:OperationRequiredRole_WUytYKETEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
                                                             pcm:OperationRequiredRole ;
                                                    pcm:entityName_-_NamedElement "Logic.Common.OperationRequiredRole1" ;
@@ -250,7 +250,7 @@ model:OperationRequiredRole_WUytYKETEeu-mYqkDskRow rdf:type owl:NamedIndividual 
                                                    rdfs:label "Logic.Common.OperationRequiredRole1" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationRequiredRole_XL7JsKETEeu-mYqkDskRow
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#OperationRequiredRole_XL7JsKETEeu-mYqkDskRow
 model:OperationRequiredRole_XL7JsKETEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
                                                             pcm:OperationRequiredRole ;
                                                    pcm:entityName_-_NamedElement "Storage.Common.OperationRequiredRole1" ;
@@ -259,7 +259,7 @@ model:OperationRequiredRole_XL7JsKETEeu-mYqkDskRow rdf:type owl:NamedIndividual 
                                                    rdfs:label "Storage.Common.OperationRequiredRole1" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationRequiredRole_Y1qHoKETEeu-mYqkDskRow
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#OperationRequiredRole_Y1qHoKETEeu-mYqkDskRow
 model:OperationRequiredRole_Y1qHoKETEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
                                                             pcm:OperationRequiredRole ;
                                                    pcm:entityName_-_NamedElement "Common.Storage.OperationRequiredRole1" ;
@@ -268,7 +268,7 @@ model:OperationRequiredRole_Y1qHoKETEeu-mYqkDskRow rdf:type owl:NamedIndividual 
                                                    rdfs:label "Common.Storage.OperationRequiredRole1" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationRequiredRole_aOjNMKETEeu-mYqkDskRow
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#OperationRequiredRole_aOjNMKETEeu-mYqkDskRow
 model:OperationRequiredRole_aOjNMKETEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
                                                             pcm:OperationRequiredRole ;
                                                    pcm:entityName_-_NamedElement "UI.Logic.OperationRequiredRole2" ;
@@ -277,7 +277,7 @@ model:OperationRequiredRole_aOjNMKETEeu-mYqkDskRow rdf:type owl:NamedIndividual 
                                                    rdfs:label "UI.Logic.OperationRequiredRole2" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationRequiredRole_b_8SUKETEeu-mYqkDskRow
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#OperationRequiredRole_b_8SUKETEeu-mYqkDskRow
 model:OperationRequiredRole_b_8SUKETEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
                                                             pcm:OperationRequiredRole ;
                                                    pcm:entityName_-_NamedElement "Logic.Storage.OperationRequiredRole2" ;
@@ -286,7 +286,7 @@ model:OperationRequiredRole_b_8SUKETEeu-mYqkDskRow rdf:type owl:NamedIndividual 
                                                    rdfs:label "Logic.Storage.OperationRequiredRole2" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationRequiredRole_e_6DYKETEeu-mYqkDskRow
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#OperationRequiredRole_e_6DYKETEeu-mYqkDskRow
 model:OperationRequiredRole_e_6DYKETEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
                                                             pcm:OperationRequiredRole ;
                                                    pcm:entityName_-_NamedElement "Storage.GAE Datastore.OperationRequiredRole2" ;
@@ -295,7 +295,7 @@ model:OperationRequiredRole_e_6DYKETEeu-mYqkDskRow rdf:type owl:NamedIndividual 
                                                    rdfs:label "Storage.GAE Datastore.OperationRequiredRole2" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationRequiredRole_giScIKETEeu-mYqkDskRow
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#OperationRequiredRole_giScIKETEeu-mYqkDskRow
 model:OperationRequiredRole_giScIKETEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
                                                             pcm:OperationRequiredRole ;
                                                    pcm:entityName_-_NamedElement "Client.GAE Datastore.OperationRequiredRole1" ;
@@ -304,7 +304,7 @@ model:OperationRequiredRole_giScIKETEeu-mYqkDskRow rdf:type owl:NamedIndividual 
                                                    rdfs:label "Client.GAE Datastore.OperationRequiredRole1" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationRequiredRole_iejUgKETEeu-mYqkDskRow
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#OperationRequiredRole_iejUgKETEeu-mYqkDskRow
 model:OperationRequiredRole_iejUgKETEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
                                                             pcm:OperationRequiredRole ;
                                                    pcm:entityName_-_NamedElement "E2E.UI.OperationRequiredRole1" ;
@@ -313,7 +313,7 @@ model:OperationRequiredRole_iejUgKETEeu-mYqkDskRow rdf:type owl:NamedIndividual 
                                                    rdfs:label "E2E.UI.OperationRequiredRole1" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationRequiredRole_kSxrMKETEeu-mYqkDskRow
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#OperationRequiredRole_kSxrMKETEeu-mYqkDskRow
 model:OperationRequiredRole_kSxrMKETEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
                                                             pcm:OperationRequiredRole ;
                                                    pcm:entityName_-_NamedElement "Test Driver.UI.OperationRequiredRole1" ;
@@ -322,7 +322,7 @@ model:OperationRequiredRole_kSxrMKETEeu-mYqkDskRow rdf:type owl:NamedIndividual 
                                                    rdfs:label "Test Driver.UI.OperationRequiredRole1" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#Repository_tRJJ0KESEeu-mYqkDskRow
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#Repository_tRJJ0KESEeu-mYqkDskRow
 model:Repository_tRJJ0KESEeu-mYqkDskRow rdf:type owl:NamedIndividual ,
                                                  pcm:Repository ;
                                         pcm:entityName_-_NamedElement "New Repository" ;

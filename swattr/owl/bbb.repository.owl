@@ -1,15 +1,15 @@
-@prefix : <https://informalin.github.io/knowledgebases/examples/ontology.owl#> .
+@prefix : <https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix pcm: <https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#> .
+@prefix pcm: <https://informalin.github.io/knowledgebases-swattr/informalin_base_pcm.owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix ecore: <https://informalin.github.io/knowledgebases/informalin_base_ecore.owl#> .
-@prefix model: <https://informalin.github.io/knowledgebases/examples/ontology.owl#> .
-@base <https://informalin.github.io/knowledgebases/examples/ontology.owl#> .
+@prefix ecore: <https://informalin.github.io/knowledgebases-swattr/informalin_base_ecore.owl#> .
+@prefix model: <https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#> .
+@base <https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#> .
 
-<https://informalin.github.io/knowledgebases/examples/ontology.owl#> rdf:type owl:Ontology ;
+<https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#> rdf:type owl:Ontology ;
                                                                       owl:imports pcm: .
 
 #################################################################
@@ -56,7 +56,7 @@
 #    Individuals
 #################################################################
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#BasicComponent_0e5u8FkHEeyewPSmlgszyA
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#BasicComponent_0e5u8FkHEeyewPSmlgszyA
 model:BasicComponent_0e5u8FkHEeyewPSmlgszyA rdf:type owl:NamedIndividual ,
                                                      pcm:BasicComponent ;
                                             pcm:entityName_-_NamedElement "HTML5 Client" ;
@@ -65,7 +65,7 @@ model:BasicComponent_0e5u8FkHEeyewPSmlgszyA rdf:type owl:NamedIndividual ,
                                             rdfs:label "HTML5 Client" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#BasicComponent_2BgxMFkHEeyewPSmlgszyA
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#BasicComponent_2BgxMFkHEeyewPSmlgszyA
 model:BasicComponent_2BgxMFkHEeyewPSmlgszyA rdf:type owl:NamedIndividual ,
                                                      pcm:BasicComponent ;
                                             pcm:entityName_-_NamedElement "Presentation Conversion" ;
@@ -74,7 +74,7 @@ model:BasicComponent_2BgxMFkHEeyewPSmlgszyA rdf:type owl:NamedIndividual ,
                                             rdfs:label "Presentation Conversion" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#BasicComponent_4yx-8FkHEeyewPSmlgszyA
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#BasicComponent_4yx-8FkHEeyewPSmlgszyA
 model:BasicComponent_4yx-8FkHEeyewPSmlgszyA rdf:type owl:NamedIndividual ,
                                                      pcm:BasicComponent ;
                                             pcm:entityName_-_NamedElement "BBB web" ;
@@ -83,7 +83,7 @@ model:BasicComponent_4yx-8FkHEeyewPSmlgszyA rdf:type owl:NamedIndividual ,
                                             rdfs:label "BBB web" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#BasicComponent_6sergFkHEeyewPSmlgszyA
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#BasicComponent_6sergFkHEeyewPSmlgszyA
 model:BasicComponent_6sergFkHEeyewPSmlgszyA rdf:type owl:NamedIndividual ,
                                                      pcm:BasicComponent ;
                                             pcm:entityName_-_NamedElement "Redis PubSub" ;
@@ -92,7 +92,7 @@ model:BasicComponent_6sergFkHEeyewPSmlgszyA rdf:type owl:NamedIndividual ,
                                             rdfs:label "Redis PubSub" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#BasicComponent_9wZIcFkHEeyewPSmlgszyA
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#BasicComponent_9wZIcFkHEeyewPSmlgszyA
 model:BasicComponent_9wZIcFkHEeyewPSmlgszyA rdf:type owl:NamedIndividual ,
                                                      pcm:BasicComponent ;
                                             pcm:entityName_-_NamedElement "FSESL" ;
@@ -101,7 +101,7 @@ model:BasicComponent_9wZIcFkHEeyewPSmlgszyA rdf:type owl:NamedIndividual ,
                                             rdfs:label "FSESL" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#BasicComponent_RDHFIFwPEeyiuNx_RO7j-Q
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#BasicComponent_RDHFIFwPEeyiuNx_RO7j-Q
 model:BasicComponent_RDHFIFwPEeyiuNx_RO7j-Q rdf:type owl:NamedIndividual ,
                                                      pcm:BasicComponent ;
                                             pcm:entityName_-_NamedElement "Redis DB" ;
@@ -110,7 +110,7 @@ model:BasicComponent_RDHFIFwPEeyiuNx_RO7j-Q rdf:type owl:NamedIndividual ,
                                             rdfs:label "Redis DB" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#BasicComponent_XuNf4FkJEeyewPSmlgszyA
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#BasicComponent_XuNf4FkJEeyewPSmlgszyA
 model:BasicComponent_XuNf4FkJEeyewPSmlgszyA rdf:type owl:NamedIndividual ,
                                                      pcm:BasicComponent ;
                                             pcm:entityName_-_NamedElement "Apps" ;
@@ -119,7 +119,7 @@ model:BasicComponent_XuNf4FkJEeyewPSmlgszyA rdf:type owl:NamedIndividual ,
                                             rdfs:label "Apps" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#BasicComponent_kvWs4FkHEeyewPSmlgszyA
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#BasicComponent_kvWs4FkHEeyewPSmlgszyA
 model:BasicComponent_kvWs4FkHEeyewPSmlgszyA rdf:type owl:NamedIndividual ,
                                                      pcm:BasicComponent ;
                                             pcm:entityName_-_NamedElement "Recording Service" ;
@@ -128,7 +128,7 @@ model:BasicComponent_kvWs4FkHEeyewPSmlgszyA rdf:type owl:NamedIndividual ,
                                             rdfs:label "Recording Service" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#BasicComponent_nwrCMFwPEeyiuNx_RO7j-Q
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#BasicComponent_nwrCMFwPEeyiuNx_RO7j-Q
 model:BasicComponent_nwrCMFwPEeyiuNx_RO7j-Q rdf:type owl:NamedIndividual ,
                                                      pcm:BasicComponent ;
                                             pcm:entityName_-_NamedElement "FreeSWITCH" ;
@@ -137,7 +137,7 @@ model:BasicComponent_nwrCMFwPEeyiuNx_RO7j-Q rdf:type owl:NamedIndividual ,
                                             rdfs:label "FreeSWITCH" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#BasicComponent_oN4CMFkHEeyewPSmlgszyA
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#BasicComponent_oN4CMFkHEeyewPSmlgszyA
 model:BasicComponent_oN4CMFkHEeyewPSmlgszyA rdf:type owl:NamedIndividual ,
                                                      pcm:BasicComponent ;
                                             pcm:entityName_-_NamedElement "kurento" ;
@@ -146,7 +146,7 @@ model:BasicComponent_oN4CMFkHEeyewPSmlgszyA rdf:type owl:NamedIndividual ,
                                             rdfs:label "kurento" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#BasicComponent_s0aIcFkHEeyewPSmlgszyA
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#BasicComponent_s0aIcFkHEeyewPSmlgszyA
 model:BasicComponent_s0aIcFkHEeyewPSmlgszyA rdf:type owl:NamedIndividual ,
                                                      pcm:BasicComponent ;
                                             pcm:entityName_-_NamedElement "WebRTC-SFU" ;
@@ -155,7 +155,7 @@ model:BasicComponent_s0aIcFkHEeyewPSmlgszyA rdf:type owl:NamedIndividual ,
                                             rdfs:label "WebRTC-SFU" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#BasicComponent_yGgUMFkHEeyewPSmlgszyA
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#BasicComponent_yGgUMFkHEeyewPSmlgszyA
 model:BasicComponent_yGgUMFkHEeyewPSmlgszyA rdf:type owl:NamedIndividual ,
                                                      pcm:BasicComponent ;
                                             pcm:entityName_-_NamedElement "HTML5 Server" ;
@@ -164,7 +164,7 @@ model:BasicComponent_yGgUMFkHEeyewPSmlgszyA rdf:type owl:NamedIndividual ,
                                             rdfs:label "HTML5 Server" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationInterface_2I1EsFkIEeyewPSmlgszyA
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#OperationInterface_2I1EsFkIEeyewPSmlgszyA
 model:OperationInterface_2I1EsFkIEeyewPSmlgszyA rdf:type owl:NamedIndividual ,
                                                          pcm:OperationInterface ;
                                                 pcm:entityName_-_NamedElement "HTML5 Client" ;
@@ -173,7 +173,7 @@ model:OperationInterface_2I1EsFkIEeyewPSmlgszyA rdf:type owl:NamedIndividual ,
                                                 rdfs:label "HTML5 Client" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationInterface_7b12cFkIEeyewPSmlgszyA
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#OperationInterface_7b12cFkIEeyewPSmlgszyA
 model:OperationInterface_7b12cFkIEeyewPSmlgszyA rdf:type owl:NamedIndividual ,
                                                          pcm:OperationInterface ;
                                                 pcm:entityName_-_NamedElement "Presentation Conversion" ;
@@ -182,7 +182,7 @@ model:OperationInterface_7b12cFkIEeyewPSmlgszyA rdf:type owl:NamedIndividual ,
                                                 rdfs:label "Presentation Conversion" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationInterface_FhvIYFkJEeyewPSmlgszyA
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#OperationInterface_FhvIYFkJEeyewPSmlgszyA
 model:OperationInterface_FhvIYFkJEeyewPSmlgszyA rdf:type owl:NamedIndividual ,
                                                          pcm:OperationInterface ;
                                                 pcm:entityName_-_NamedElement "BBB web" ;
@@ -191,7 +191,7 @@ model:OperationInterface_FhvIYFkJEeyewPSmlgszyA rdf:type owl:NamedIndividual ,
                                                 rdfs:label "BBB web" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationInterface_IixQcFkJEeyewPSmlgszyA
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#OperationInterface_IixQcFkJEeyewPSmlgszyA
 model:OperationInterface_IixQcFkJEeyewPSmlgszyA rdf:type owl:NamedIndividual ,
                                                          pcm:OperationInterface ;
                                                 pcm:entityName_-_NamedElement "Redis PubSub" ;
@@ -200,7 +200,7 @@ model:OperationInterface_IixQcFkJEeyewPSmlgszyA rdf:type owl:NamedIndividual ,
                                                 rdfs:label "Redis PubSub" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationInterface_MUFl8FkJEeyewPSmlgszyA
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#OperationInterface_MUFl8FkJEeyewPSmlgszyA
 model:OperationInterface_MUFl8FkJEeyewPSmlgszyA rdf:type owl:NamedIndividual ,
                                                          pcm:OperationInterface ;
                                                 pcm:entityName_-_NamedElement "FSESL" ;
@@ -209,7 +209,7 @@ model:OperationInterface_MUFl8FkJEeyewPSmlgszyA rdf:type owl:NamedIndividual ,
                                                 rdfs:label "FSESL" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationInterface_UV7gwFwPEeyiuNx_RO7j-Q
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#OperationInterface_UV7gwFwPEeyiuNx_RO7j-Q
 model:OperationInterface_UV7gwFwPEeyiuNx_RO7j-Q rdf:type owl:NamedIndividual ,
                                                          pcm:OperationInterface ;
                                                 pcm:entityName_-_NamedElement "Redis DB" ;
@@ -218,7 +218,7 @@ model:OperationInterface_UV7gwFwPEeyiuNx_RO7j-Q rdf:type owl:NamedIndividual ,
                                                 rdfs:label "Redis DB" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationInterface_ZADiQFkJEeyewPSmlgszyA
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#OperationInterface_ZADiQFkJEeyewPSmlgszyA
 model:OperationInterface_ZADiQFkJEeyewPSmlgszyA rdf:type owl:NamedIndividual ,
                                                          pcm:OperationInterface ;
                                                 pcm:entityName_-_NamedElement "Apps" ;
@@ -227,7 +227,7 @@ model:OperationInterface_ZADiQFkJEeyewPSmlgszyA rdf:type owl:NamedIndividual ,
                                                 rdfs:label "Apps" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationInterface_d9jzgFkIEeyewPSmlgszyA
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#OperationInterface_d9jzgFkIEeyewPSmlgszyA
 model:OperationInterface_d9jzgFkIEeyewPSmlgszyA rdf:type owl:NamedIndividual ,
                                                          pcm:OperationInterface ;
                                                 pcm:entityName_-_NamedElement "Recording Service" ;
@@ -236,7 +236,7 @@ model:OperationInterface_d9jzgFkIEeyewPSmlgszyA rdf:type owl:NamedIndividual ,
                                                 rdfs:label "Recording Service" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationInterface_qa5z0FwPEeyiuNx_RO7j-Q
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#OperationInterface_qa5z0FwPEeyiuNx_RO7j-Q
 model:OperationInterface_qa5z0FwPEeyiuNx_RO7j-Q rdf:type owl:NamedIndividual ,
                                                          pcm:OperationInterface ;
                                                 pcm:entityName_-_NamedElement "FreeSWITCH" ;
@@ -245,7 +245,7 @@ model:OperationInterface_qa5z0FwPEeyiuNx_RO7j-Q rdf:type owl:NamedIndividual ,
                                                 rdfs:label "FreeSWITCH" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationInterface_r42CoFkIEeyewPSmlgszyA
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#OperationInterface_r42CoFkIEeyewPSmlgszyA
 model:OperationInterface_r42CoFkIEeyewPSmlgszyA rdf:type owl:NamedIndividual ,
                                                          pcm:OperationInterface ;
                                                 pcm:entityName_-_NamedElement "kurento" ;
@@ -254,7 +254,7 @@ model:OperationInterface_r42CoFkIEeyewPSmlgszyA rdf:type owl:NamedIndividual ,
                                                 rdfs:label "kurento" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationInterface_ur280FkIEeyewPSmlgszyA
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#OperationInterface_ur280FkIEeyewPSmlgszyA
 model:OperationInterface_ur280FkIEeyewPSmlgszyA rdf:type owl:NamedIndividual ,
                                                          pcm:OperationInterface ;
                                                 pcm:entityName_-_NamedElement "WebRTC-SFU" ;
@@ -263,7 +263,7 @@ model:OperationInterface_ur280FkIEeyewPSmlgszyA rdf:type owl:NamedIndividual ,
                                                 rdfs:label "WebRTC-SFU" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationInterface_xqkJoFkIEeyewPSmlgszyA
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#OperationInterface_xqkJoFkIEeyewPSmlgszyA
 model:OperationInterface_xqkJoFkIEeyewPSmlgszyA rdf:type owl:NamedIndividual ,
                                                          pcm:OperationInterface ;
                                                 pcm:entityName_-_NamedElement "HTML5 Server" ;
@@ -272,7 +272,7 @@ model:OperationInterface_xqkJoFkIEeyewPSmlgszyA rdf:type owl:NamedIndividual ,
                                                 rdfs:label "HTML5 Server" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationProvidedRole_34MwkFkIEeyewPSmlgszyA
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#OperationProvidedRole_34MwkFkIEeyewPSmlgszyA
 model:OperationProvidedRole_34MwkFkIEeyewPSmlgszyA rdf:type owl:NamedIndividual ,
                                                             pcm:OperationProvidedRole ;
                                                    pcm:entityName_-_NamedElement "HTML5 Client.HTML5 Client.OperationProvidedRole" ;
@@ -281,7 +281,7 @@ model:OperationProvidedRole_34MwkFkIEeyewPSmlgszyA rdf:type owl:NamedIndividual 
                                                    rdfs:label "HTML5 Client.HTML5 Client.OperationProvidedRole" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationProvidedRole_D9EQoFkJEeyewPSmlgszyA
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#OperationProvidedRole_D9EQoFkJEeyewPSmlgszyA
 model:OperationProvidedRole_D9EQoFkJEeyewPSmlgszyA rdf:type owl:NamedIndividual ,
                                                             pcm:OperationProvidedRole ;
                                                    pcm:entityName_-_NamedElement "Presentation Conversion.Presentation Conversion.OperationProvidedRole" ;
@@ -290,7 +290,7 @@ model:OperationProvidedRole_D9EQoFkJEeyewPSmlgszyA rdf:type owl:NamedIndividual 
                                                    rdfs:label "Presentation Conversion.Presentation Conversion.OperationProvidedRole" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationProvidedRole_G7ZC8FkJEeyewPSmlgszyA
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#OperationProvidedRole_G7ZC8FkJEeyewPSmlgszyA
 model:OperationProvidedRole_G7ZC8FkJEeyewPSmlgszyA rdf:type owl:NamedIndividual ,
                                                             pcm:OperationProvidedRole ;
                                                    pcm:entityName_-_NamedElement "BBB web.BBB web.OperationProvidedRole" ;
@@ -299,7 +299,7 @@ model:OperationProvidedRole_G7ZC8FkJEeyewPSmlgszyA rdf:type owl:NamedIndividual 
                                                    rdfs:label "BBB web.BBB web.OperationProvidedRole" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationProvidedRole_K1L_AFkJEeyewPSmlgszyA
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#OperationProvidedRole_K1L_AFkJEeyewPSmlgszyA
 model:OperationProvidedRole_K1L_AFkJEeyewPSmlgszyA rdf:type owl:NamedIndividual ,
                                                             pcm:OperationProvidedRole ;
                                                    pcm:entityName_-_NamedElement "Redis PubSub.Redis PubSub.OperationProvidedRole" ;
@@ -308,7 +308,7 @@ model:OperationProvidedRole_K1L_AFkJEeyewPSmlgszyA rdf:type owl:NamedIndividual 
                                                    rdfs:label "Redis PubSub.Redis PubSub.OperationProvidedRole" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationProvidedRole_NzPEgFkJEeyewPSmlgszyA
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#OperationProvidedRole_NzPEgFkJEeyewPSmlgszyA
 model:OperationProvidedRole_NzPEgFkJEeyewPSmlgszyA rdf:type owl:NamedIndividual ,
                                                             pcm:OperationProvidedRole ;
                                                    pcm:entityName_-_NamedElement "FSESL.FSESL.OperationProvidedRole" ;
@@ -317,7 +317,7 @@ model:OperationProvidedRole_NzPEgFkJEeyewPSmlgszyA rdf:type owl:NamedIndividual 
                                                    rdfs:label "FSESL.FSESL.OperationProvidedRole" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationProvidedRole_WXDrAFwPEeyiuNx_RO7j-Q
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#OperationProvidedRole_WXDrAFwPEeyiuNx_RO7j-Q
 model:OperationProvidedRole_WXDrAFwPEeyiuNx_RO7j-Q rdf:type owl:NamedIndividual ,
                                                             pcm:OperationProvidedRole ;
                                                    pcm:entityName_-_NamedElement "Redis DB.Redis DB.OperationProvidedRole" ;
@@ -326,7 +326,7 @@ model:OperationProvidedRole_WXDrAFwPEeyiuNx_RO7j-Q rdf:type owl:NamedIndividual 
                                                    rdfs:label "Redis DB.Redis DB.OperationProvidedRole" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationProvidedRole_ayzSQFkJEeyewPSmlgszyA
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#OperationProvidedRole_ayzSQFkJEeyewPSmlgszyA
 model:OperationProvidedRole_ayzSQFkJEeyewPSmlgszyA rdf:type owl:NamedIndividual ,
                                                             pcm:OperationProvidedRole ;
                                                    pcm:entityName_-_NamedElement "Apps.Interface.OperationProvidedRole" ;
@@ -335,7 +335,7 @@ model:OperationProvidedRole_ayzSQFkJEeyewPSmlgszyA rdf:type owl:NamedIndividual 
                                                    rdfs:label "Apps.Interface.OperationProvidedRole" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationProvidedRole_iiD5cFkIEeyewPSmlgszyA
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#OperationProvidedRole_iiD5cFkIEeyewPSmlgszyA
 model:OperationProvidedRole_iiD5cFkIEeyewPSmlgszyA rdf:type owl:NamedIndividual ,
                                                             pcm:OperationProvidedRole ;
                                                    pcm:entityName_-_NamedElement "Recording Service.Recording Service.OperationProvidedRole" ;
@@ -344,7 +344,7 @@ model:OperationProvidedRole_iiD5cFkIEeyewPSmlgszyA rdf:type owl:NamedIndividual 
                                                    rdfs:label "Recording Service.Recording Service.OperationProvidedRole" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationProvidedRole_sU-64FwPEeyiuNx_RO7j-Q
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#OperationProvidedRole_sU-64FwPEeyiuNx_RO7j-Q
 model:OperationProvidedRole_sU-64FwPEeyiuNx_RO7j-Q rdf:type owl:NamedIndividual ,
                                                             pcm:OperationProvidedRole ;
                                                    pcm:entityName_-_NamedElement "FreeSWITCH.FreeSWITCH.OperationProvidedRole" ;
@@ -353,7 +353,7 @@ model:OperationProvidedRole_sU-64FwPEeyiuNx_RO7j-Q rdf:type owl:NamedIndividual 
                                                    rdfs:label "FreeSWITCH.FreeSWITCH.OperationProvidedRole" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationProvidedRole_tVPIIFkIEeyewPSmlgszyA
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#OperationProvidedRole_tVPIIFkIEeyewPSmlgszyA
 model:OperationProvidedRole_tVPIIFkIEeyewPSmlgszyA rdf:type owl:NamedIndividual ,
                                                             pcm:OperationProvidedRole ;
                                                    pcm:entityName_-_NamedElement "kurento.kurento.OperationProvidedRole" ;
@@ -362,7 +362,7 @@ model:OperationProvidedRole_tVPIIFkIEeyewPSmlgszyA rdf:type owl:NamedIndividual 
                                                    rdfs:label "kurento.kurento.OperationProvidedRole" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationProvidedRole_wprUYFkIEeyewPSmlgszyA
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#OperationProvidedRole_wprUYFkIEeyewPSmlgszyA
 model:OperationProvidedRole_wprUYFkIEeyewPSmlgszyA rdf:type owl:NamedIndividual ,
                                                             pcm:OperationProvidedRole ;
                                                    pcm:entityName_-_NamedElement "WebRTC-SFU.WebRTC-SFU.OperationProvidedRole" ;
@@ -371,7 +371,7 @@ model:OperationProvidedRole_wprUYFkIEeyewPSmlgszyA rdf:type owl:NamedIndividual 
                                                    rdfs:label "WebRTC-SFU.WebRTC-SFU.OperationProvidedRole" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationProvidedRole_zJDg4FkIEeyewPSmlgszyA
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#OperationProvidedRole_zJDg4FkIEeyewPSmlgszyA
 model:OperationProvidedRole_zJDg4FkIEeyewPSmlgszyA rdf:type owl:NamedIndividual ,
                                                             pcm:OperationProvidedRole ;
                                                    pcm:entityName_-_NamedElement "HTML5 Server.HTML5 Server.OperationProvidedRole" ;
@@ -380,7 +380,7 @@ model:OperationProvidedRole_zJDg4FkIEeyewPSmlgszyA rdf:type owl:NamedIndividual 
                                                    rdfs:label "HTML5 Server.HTML5 Server.OperationProvidedRole" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationRequiredRole_-jRhcFkIEeyewPSmlgszyA
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#OperationRequiredRole_-jRhcFkIEeyewPSmlgszyA
 model:OperationRequiredRole_-jRhcFkIEeyewPSmlgszyA rdf:type owl:NamedIndividual ,
                                                             pcm:OperationRequiredRole ;
                                                    pcm:entityName_-_NamedElement "kurento.WebRTC-SFU.OperationRequiredRole" ;
@@ -389,7 +389,7 @@ model:OperationRequiredRole_-jRhcFkIEeyewPSmlgszyA rdf:type owl:NamedIndividual 
                                                    rdfs:label "kurento.WebRTC-SFU.OperationRequiredRole" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationRequiredRole_0UojMFkIEeyewPSmlgszyA
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#OperationRequiredRole_0UojMFkIEeyewPSmlgszyA
 model:OperationRequiredRole_0UojMFkIEeyewPSmlgszyA rdf:type owl:NamedIndividual ,
                                                             pcm:OperationRequiredRole ;
                                                    pcm:entityName_-_NamedElement "HTML5 Client.HTML5 Server.OperationRequiredRole" ;
@@ -398,7 +398,7 @@ model:OperationRequiredRole_0UojMFkIEeyewPSmlgszyA rdf:type owl:NamedIndividual 
                                                    rdfs:label "HTML5 Client.HTML5 Server.OperationRequiredRole" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationRequiredRole_STeVgFkJEeyewPSmlgszyA
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#OperationRequiredRole_STeVgFkJEeyewPSmlgszyA
 model:OperationRequiredRole_STeVgFkJEeyewPSmlgszyA rdf:type owl:NamedIndividual ,
                                                             pcm:OperationRequiredRole ;
                                                    pcm:entityName_-_NamedElement "WebRTC-SFU.Redis PubSub.OperationRequiredRole" ;
@@ -407,7 +407,7 @@ model:OperationRequiredRole_STeVgFkJEeyewPSmlgszyA rdf:type owl:NamedIndividual 
                                                    rdfs:label "WebRTC-SFU.Redis PubSub.OperationRequiredRole" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationRequiredRole_UINpkFkJEeyewPSmlgszyA
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#OperationRequiredRole_UINpkFkJEeyewPSmlgszyA
 model:OperationRequiredRole_UINpkFkJEeyewPSmlgszyA rdf:type owl:NamedIndividual ,
                                                             pcm:OperationRequiredRole ;
                                                    pcm:entityName_-_NamedElement "FSESL.Redis PubSub.OperationRequiredRole" ;
@@ -416,7 +416,7 @@ model:OperationRequiredRole_UINpkFkJEeyewPSmlgszyA rdf:type owl:NamedIndividual 
                                                    rdfs:label "FSESL.Redis PubSub.OperationRequiredRole" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationRequiredRole_duTlYFwPEeyiuNx_RO7j-Q
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#OperationRequiredRole_duTlYFwPEeyiuNx_RO7j-Q
 model:OperationRequiredRole_duTlYFwPEeyiuNx_RO7j-Q rdf:type owl:NamedIndividual ,
                                                             pcm:OperationRequiredRole ;
                                                    pcm:entityName_-_NamedElement "Apps.Redis DB.OperationRequiredRole" ;
@@ -425,7 +425,7 @@ model:OperationRequiredRole_duTlYFwPEeyiuNx_RO7j-Q rdf:type owl:NamedIndividual 
                                                    rdfs:label "Apps.Redis DB.OperationRequiredRole" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationRequiredRole_eEr5wFkJEeyewPSmlgszyA
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#OperationRequiredRole_eEr5wFkJEeyewPSmlgszyA
 model:OperationRequiredRole_eEr5wFkJEeyewPSmlgszyA rdf:type owl:NamedIndividual ,
                                                             pcm:OperationRequiredRole ;
                                                    pcm:entityName_-_NamedElement "Apps.Redis PubSub.OperationRequiredRole1" ;
@@ -434,7 +434,7 @@ model:OperationRequiredRole_eEr5wFkJEeyewPSmlgszyA rdf:type owl:NamedIndividual 
                                                    rdfs:label "Apps.Redis PubSub.OperationRequiredRole1" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationRequiredRole_f0fOwFwPEeyiuNx_RO7j-Q
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#OperationRequiredRole_f0fOwFwPEeyiuNx_RO7j-Q
 model:OperationRequiredRole_f0fOwFwPEeyiuNx_RO7j-Q rdf:type owl:NamedIndividual ,
                                                             pcm:OperationRequiredRole ;
                                                    pcm:entityName_-_NamedElement "Recording Service.Redis DB.OperationRequiredRole" ;
@@ -443,7 +443,7 @@ model:OperationRequiredRole_f0fOwFwPEeyiuNx_RO7j-Q rdf:type owl:NamedIndividual 
                                                    rdfs:label "Recording Service.Redis DB.OperationRequiredRole" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationRequiredRole_hbe2cFkJEeyewPSmlgszyA
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#OperationRequiredRole_hbe2cFkJEeyewPSmlgszyA
 model:OperationRequiredRole_hbe2cFkJEeyewPSmlgszyA rdf:type owl:NamedIndividual ,
                                                             pcm:OperationRequiredRole ;
                                                    pcm:entityName_-_NamedElement "HTML5 Server.Redis PubSub.OperationRequiredRole" ;
@@ -452,7 +452,7 @@ model:OperationRequiredRole_hbe2cFkJEeyewPSmlgszyA rdf:type owl:NamedIndividual 
                                                    rdfs:label "HTML5 Server.Redis PubSub.OperationRequiredRole" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationRequiredRole_jXAvAFkJEeyewPSmlgszyA
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#OperationRequiredRole_jXAvAFkJEeyewPSmlgszyA
 model:OperationRequiredRole_jXAvAFkJEeyewPSmlgszyA rdf:type owl:NamedIndividual ,
                                                             pcm:OperationRequiredRole ;
                                                    pcm:entityName_-_NamedElement "BBB web.Redis PubSub.OperationRequiredRole" ;
@@ -461,7 +461,7 @@ model:OperationRequiredRole_jXAvAFkJEeyewPSmlgszyA rdf:type owl:NamedIndividual 
                                                    rdfs:label "BBB web.Redis PubSub.OperationRequiredRole" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationRequiredRole_sECwkFkJEeyewPSmlgszyA
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#OperationRequiredRole_sECwkFkJEeyewPSmlgszyA
 model:OperationRequiredRole_sECwkFkJEeyewPSmlgszyA rdf:type owl:NamedIndividual ,
                                                             pcm:OperationRequiredRole ;
                                                    pcm:entityName_-_NamedElement "Presentation Conversion.Redis PubSub.OperationRequiredRole" ;
@@ -470,7 +470,7 @@ model:OperationRequiredRole_sECwkFkJEeyewPSmlgszyA rdf:type owl:NamedIndividual 
                                                    rdfs:label "Presentation Conversion.Redis PubSub.OperationRequiredRole" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationRequiredRole_wyV3AFwPEeyiuNx_RO7j-Q
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#OperationRequiredRole_wyV3AFwPEeyiuNx_RO7j-Q
 model:OperationRequiredRole_wyV3AFwPEeyiuNx_RO7j-Q rdf:type owl:NamedIndividual ,
                                                             pcm:OperationRequiredRole ;
                                                    pcm:entityName_-_NamedElement "FSESL.FreeSWITCH.OperationRequiredRole" ;
@@ -479,7 +479,7 @@ model:OperationRequiredRole_wyV3AFwPEeyiuNx_RO7j-Q rdf:type owl:NamedIndividual 
                                                    rdfs:label "FSESL.FreeSWITCH.OperationRequiredRole" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#OperationRequiredRole_yeRpEFkJEeyewPSmlgszyA
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#OperationRequiredRole_yeRpEFkJEeyewPSmlgszyA
 model:OperationRequiredRole_yeRpEFkJEeyewPSmlgszyA rdf:type owl:NamedIndividual ,
                                                             pcm:OperationRequiredRole ;
                                                    pcm:entityName_-_NamedElement "Presentation Conversion.BBB web.OperationRequiredRole" ;
@@ -488,7 +488,7 @@ model:OperationRequiredRole_yeRpEFkJEeyewPSmlgszyA rdf:type owl:NamedIndividual 
                                                    rdfs:label "Presentation Conversion.BBB web.OperationRequiredRole" .
 
 
-###  https://informalin.github.io/knowledgebases/examples/ontology.owl#Repository_kMF5sFkFEeyewPSmlgszyA
+###  https://informalin.github.io/knowledgebases-swattr/examples/ontology.owl#Repository_kMF5sFkFEeyewPSmlgszyA
 model:Repository_kMF5sFkFEeyewPSmlgszyA rdf:type owl:NamedIndividual ,
                                                  pcm:Repository ;
                                         pcm:entityName_-_NamedElement "New Repository" ;
