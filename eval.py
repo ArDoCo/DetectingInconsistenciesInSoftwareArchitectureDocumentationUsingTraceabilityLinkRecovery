@@ -2,7 +2,8 @@
 import sys
 import os
 import argparse
-from typing import List
+from math import sqrt
+from typing import List, Tuple
 
 import pandas as pd
 from sklearn.metrics import recall_score, precision_score, confusion_matrix, fbeta_score, f1_score
@@ -130,6 +131,20 @@ def calculate_phi(cm, all_combinations):
     return numerator / denominator
 
 
+def calculate_phi_max(cm, all_combinations):
+    tp, fp, fn, tn = get_matrix(cm, all_combinations)
+    nominator = sqrt((fp + tn) * (tp + fp))
+    denominator = sqrt((fn + tn) * (tp + fn))
+    standard_case = fn + tp >= fp + tp
+
+    if standard_case:
+        return nominator / denominator
+    else:
+        # if test is not true, you have to swap nominator and denominator as then you have to mirror the confusion
+        # matrix (i.e., swap TP and TN)
+        return denominator / nominator
+
+
 def print_confusion_matrix(cm):
     print('Confusion Matrix: \n')
     print('\t\tGold')
@@ -139,7 +154,7 @@ def print_confusion_matrix(cm):
     print('')
 
 
-def evaluate(gold_set, test_set, all_combinations: int):
+def evaluate(gold_set, test_set, all_combinations: int) -> Tuple[float, float, float, float, float, float, float]:
     (y_pred, y_true, cm) = compare(gold_set, test_set)
 
     if verbose:
@@ -152,6 +167,8 @@ def evaluate(gold_set, test_set, all_combinations: int):
     acc = calculate_accuracy(cm=cm, all_combinations=all_combinations)
     spec = calculate_specificity(cm=cm, all_combinations=all_combinations)
     phi = calculate_phi(cm=cm, all_combinations=all_combinations)
+    phi_max = calculate_phi_max(cm=cm, all_combinations=all_combinations)
+    phi_over_phi_max = phi / phi_max
 
     if verbose:
         print('Precision:\t' + str(precision))
@@ -160,10 +177,11 @@ def evaluate(gold_set, test_set, all_combinations: int):
         print('Accuracy:\t' + str(acc))
         print('Specificity:\t' + str(spec))
         print('PhiCoef:\t' + str(phi))
+        print('Phi/PhiMx:\t' + str(phi_over_phi_max))
 
         print('')
 
-    return (precision, recall, f1, acc, spec, phi)
+    return precision, recall, f1, acc, spec, phi, phi_over_phi_max
 
 
 def count_true_negatives(text: str):
@@ -207,9 +225,9 @@ def process_single(gold_set, test_file, all_combinations: int, out_file):
         return
     if verbose:
         print(test_file)
-    (precision, recall, f1, acc, spec, phi) = evaluate(gold_set=gold_set, test_set=test_set,
-                                                       all_combinations=all_combinations)
-    result_string = '{}; {}; {}; {}; {}; {}; {}'.format(test_file, precision, recall, f1, acc, spec, phi)
+    (precision, recall, f1, acc, spec, phi, phi_over_phi_max) = evaluate(gold_set=gold_set, test_set=test_set,
+                                                                         all_combinations=all_combinations)
+    result_string = f'{test_file}; {precision}; {recall}; {f1}; {acc}; {spec}; {phi}; {phi_over_phi_max}'
     if not verbose:
         print(result_string)
     save_results(out_file, result_string)
@@ -228,7 +246,7 @@ def save_header(file):
     if file is None:
         return
     f = open(file, 'w')
-    f.write('file; precision; recall; f1; acc; spec; phi\n')
+    f.write('file; precision; recall; f1; acc; spec; phi; phiOverPhiMx\n')
     f.close()
 
 

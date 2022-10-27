@@ -1,2 +1,2 @@
-file; precision; recall; f1; acc; spec; phi
-results_swattr/mediastore/Mediastore_trace_links.csv; 0.5; 0.5517241379310345; 0.5245901639344263; 0.944015444015444; 0.967280163599182; 0.49559995929602096
+file; precision; recall; f1; acc; spec; phi; phiOverPhiMx
+results_swattr/mediastore/Mediastore_trace_links.csv; 0.5; 0.5517241379310345; 0.5245901639344263; 0.944015444015444; 0.967280163599182; 0.49559995929602096; 0.5222080317865758
