@@ -4,4 +4,13 @@ Replication package for the ICSA 2023 paper "Detecting Inconsistencies in Softwa
 * To generate the results for SWATTR go to the `swattr` directory and follow the instructions.
 * To generate the results of the baseline for TLR goto `tlr-baseline`
 * To generate the results of our approach including the baseline of inconsistency detection go to `our-approach`
-* 
+
+## Details
+Details about the process of replication
+
+### SWATTR
+The instructions for replication of SWATTR are in the `swattr` directory
+
+### TLR Baseline
+
+### Our Approach
