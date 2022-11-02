@@ -8,3 +8,4 @@ then
 fi
 
 git subtree pull --prefix benchmark https://github.com/ArDoCo/Benchmark main --squash
+git subtree pull --prefix tlr-baseline https://github.com/ArDoCo/SimpleTracelinkDiscovery main --squash
