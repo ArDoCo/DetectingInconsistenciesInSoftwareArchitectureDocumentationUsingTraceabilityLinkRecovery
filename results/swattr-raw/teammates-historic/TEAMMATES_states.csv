@@ -1,0 +1,432 @@
+Results of ModelConnector: 
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+ExtractorState: 
+Instances:
+Instance [names=UI, type=Basic, Component, BasicComponent]
+Instance [names=E2, E, E2E, type=Basic, Component, BasicComponent]
+Instance [names=Logic, type=Basic, Component, BasicComponent]
+Instance [names=Test, Driver, Test Driver, type=Basic, Component, BasicComponent]
+Instance [names=Common, type=Basic, Component, BasicComponent]
+Instance [names=GAE, Datastore, GAE Datastore, type=Basic, Component, BasicComponent]
+Instance [names=Client, type=Basic, Component, BasicComponent]
+Instance [names=Storage, type=Basic, Component, BasicComponent]
+Relations:
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+FoundNames as Set: 
+[ability, access, actionfactory, administrator, ajax, all, analysis, app, assertion, association, atomicity, attempt, automated, backdoor, browser, business, cascade, case, client, cloud, code, common, consistency, const, contact, control, controller, convenience, create/update/delete, creates, crud, css, custom, decision, default, delete/create, design, dev, diagram, direction, document, driver, eighth, email, engine, entity, enviornment, environment, error, etc, exception, existence, facade, fifth, following, folow, for, format, forwarding, framework, future, gae, gatekeeper, general, given, google, gql, help, hiding, home, html, http, impact, implementation, input, instructor, integration, integrity, isolation, it, java, javascripts, json, jsp, keepexisting, level, list, logic, loginfilter, manner, mechanism, nature, need, ninth, nosql, null, number, objects, old, oop, order, overview, page/instructorhomepage, parent, particular, pattern, persistence, person, plain, platform, policy, practice, principle, process, product, project, read, refer, regression, remoteapi, report, response, risk, schema, scripts, second, selenium, seventh, showpageresult, sixth, sorting, storage, strategy, string, structure, students, styling, sub, submission, system, target, team, template, tenth, test, testing, them, these, third, this, time, transfer, ui, uninitialized, update, url, use, util, utility, validation, view, warning, web, what, while, workflow, xml]
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+FoundNameTerms as Set: 
+[Analysis document, App Engine, Cascade policy, Decision Analysis, EntityAlreadyExists exception, GAE environment, GAE production, Google App, JSON format, Java Objects, JavaScript code, KeepExisting policy, Logic API, Model-View-Controller pattern, OO principle, OOP design, Old Java, Plain Old, Selenium Web, ShowPageResult object, Storage level, Test Driver, UI test, UI testing, Web Driver, Web app, access control, assertion error, business logic, cascade delete/create, cascade logic, case this, cloud platform, core logic, custom exceptions, driver infrastructure, entity objects, information hiding, infrastructure need, input validation, integration tests, it API, object structure, object we, parent entity, persistence framework, process folow, product website, production enviornment, regression testing, system test, target entity, team structure, test cases, testing test, transfer object, utility code, validation etc., what we, x.cases.storage x.cases.driver]
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+FoundNORTs as Set: 
+[]
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+FoundTypes as Set: 
+[action, attribute, calls, changes, class, complexities, components, course, data, developers, elements, end, entities, evaluation, example, failure, files, filters, interactions, key, limitations, links, maps, mechanims, method, modification, operations, others, packages, pages, parameters, periods, pojos, problems, purposes, queries, relationships, requests, result, returns, rights, server, servlets, shows, state, statistics, status, steps, suts, tasks, teammates, things, type, unit, uris, users, utilities, values, variables, way]
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+FoundTypeTerms as Set: 
+[Action class, Course entities, Server Pages, course action, courses page, data entities, database operation, end data, type RedirectResult]
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Instances of the Recommendation State: 
+RecommendationInstance [ name=Analysis document, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.2,TYPE:0.05, reference=document, node=document, position=2065, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:0.2,TYPE:0.05, reference=analysis, node=Analysis, position=2064, probability=0.05]
+					
+
+RecommendationInstance [ name=App Engine, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:3.25,NAME_OR_TYPE:29.599999999999987,TYPE:0.05, reference=app, node=app, App, application, logic.api, API, storage.api, position=4, 9, 109, 181, 199, 241, 276, 1021, 1029, 1033, 1068, 1106, 1157, 1190, 1244, 1253, 1314, 1390, 1477, 1575, 1604, 1610, 1614, 2098, 2131, 2153, 2186, 2598, probability=3.25]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.2,TYPE:0.05, reference=engine, node=Engine, position=10, probability=0.05]
+					
+
+RecommendationInstance [ name=Cascade policy, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.0,TYPE:0.05, reference=cascade, node=cascade, Cascade, position=983, 1548, 1578, 1842, 1846, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:8.4,TYPE:0.05, reference=policy, node=policy, KeepExistingPolicy, FailDeleteSilentlyPolicy, position=1164, 1409, 1439, 1462, 1502, 1549, 2091, probability=0.05]
+					
+
+RecommendationInstance [ name=Client, type=components, probability=1.0, mappings:]= 
+					NounMapping [distribution=NAME:14.25,NAME_OR_TYPE:4.6,TYPE:0.65, reference=client, node=Client, client.remoteapi, client.scripts, client-side, position=202, 2589, 2613, 2615, 2617, 2628, 48, probability=14.25]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:31.799999999999983,TYPE:128.6, reference=components, node=components, component, position=25, 203, 234, 256, 312, 456, 922, 964, 1007, 1036, 1181, 1583, 1617, 1680, 1692, 1708, 1837, 1854, 2209, 2264, 2278, 2403, 2468, 2489, 2496, 2500, 2507, 2511, 2518, 2528, 2539, 2590, probability=128.6]
+
+RecommendationInstance [ name=Common, type=components, probability=1.0, mappings:]= 
+					NounMapping [distribution=NAME:28.049999999999997,NAME_OR_TYPE:6.000000000000001,TYPE:0.45, reference=common, node=Common, common.datatransfer, common.util, common.exceptions, x.cases.common, common, position=233, 1792, 2208, 2220, 2222, 2224, 2226, 2231, 2236, 2252, 2461, 2487, 2495, 2211, probability=28.049999999999997]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:31.799999999999983,TYPE:128.6, reference=components, node=components, component, position=25, 203, 234, 256, 312, 456, 922, 964, 1007, 1036, 1181, 1583, 1617, 1680, 1692, 1708, 1837, 1854, 2209, 2264, 2278, 2403, 2468, 2489, 2496, 2500, 2507, 2511, 2518, 2528, 2539, 2590, probability=128.6]
+
+RecommendationInstance [ name=Decision Analysis, type=teammates, probability=0.8, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:2.6,TYPE:0.05, reference=decision, node=decision, Decision, position=1800, 1821, 2063, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:0.2,TYPE:0.05, reference=analysis, node=Analysis, position=2064, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:5.2,TYPE:1.2, reference=teammates, node=TEAMMATES, position=0, 143, 928, 2062, 2215, 2408, 2579, probability=1.2]
+
+RecommendationInstance [ name=EntityAlreadyExists exception, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:0.4,TYPE:0.05, reference=read, node=Read, EntityAlreadyExists, position=1589, 2116, probability=0.05]
+					NounMapping [distribution=NAME:2.45,NAME_OR_TYPE:27.399999999999988,TYPE:0.05, reference=entity, node=Entity, EntityAlreadyExists, entity, EntityDoesNotExistsExeption, EntityDoesNotExistException, storage.entity, position=1275, 1279, 1336, 1344, 1363, 1366, 1370, 1374, 1464, 1468, 1516, 1554, 1566, 1606, 1619, 1701, 1715, 1865, 1898, 2111, 2116, 2123, 2144, 2166, 2172, 2178, 2199, probability=2.45]
+					
+
+RecommendationInstance [ name=GAE environment, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.2,TYPE:0.05, reference=environment, node=environment, position=2051, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:3.2,TYPE:0.05, reference=gae, node=GAE, position=12, 136, 334, 1804, 1942, 2050, probability=0.05]
+					
+
+RecommendationInstance [ name=GAE production, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.2,TYPE:0.05, reference=product, node=product, Product, production, position=845, 851, 863, 878, 902, 1943, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:3.2,TYPE:0.05, reference=gae, node=GAE, position=12, 136, 334, 1804, 1942, 2050, probability=0.05]
+					
+
+RecommendationInstance [ name=Google App, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:3.25,NAME_OR_TYPE:29.599999999999987,TYPE:0.05, reference=app, node=app, App, application, logic.api, API, storage.api, position=4, 9, 109, 181, 199, 241, 276, 1021, 1029, 1033, 1068, 1106, 1157, 1190, 1244, 1253, 1314, 1390, 1477, 1575, 1604, 1610, 1614, 2098, 2131, 2153, 2186, 2598, probability=3.25]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:0.4,TYPE:0.05, reference=google, node=Google, position=8, 1992, probability=0.05]
+					
+
+RecommendationInstance [ name=JSON format, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:0.2,TYPE:0.05, reference=json, node=JSON, position=191, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:13.599999999999998,TYPE:0.05, reference=format, node=format, information, position=192, 1175, 1259, 1320, 1396, 1483, 2068, 2103, 2136, 2158, 2191, 2247, 2380, probability=0.05]
+					
+
+RecommendationInstance [ name=Java Objects, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.8500000000000001,NAME_OR_TYPE:1.7999999999999998,TYPE:0.05, reference=java, node=Java, JavaScript, AllJsTests.java, position=64, 71, 112, 117, 156, 162, 287, 2561, 2573, probability=0.8500000000000001]
+					NounMapping [distribution=NAME:1.6500000000000001,NAME_OR_TYPE:25.799999999999994,TYPE:1.65, reference=objects, node=Objects, object, objects, test.pageobjects, position=118, 307, 419, 436, 484, 492, 497, 545, 663, 688, 692, 724, 728, 766, 1327, 1696, 1752, 1763, 1768, 1826, 1866, 2025, 2240, 2258, 2301, 2415, 2432, probability=1.6500000000000001]
+					
+
+RecommendationInstance [ name=KeepExisting policy, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:4.8,TYPE:0.05, reference=keepexisting, node=KeepExisting, KeepExistingPolicy, position=1163, 1409, 1462, 2091, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:8.4,TYPE:0.05, reference=policy, node=policy, KeepExistingPolicy, FailDeleteSilentlyPolicy, position=1164, 1409, 1439, 1462, 1502, 1549, 2091, probability=0.05]
+					
+
+RecommendationInstance [ name=Logic, type=components, probability=1.0, mappings:]= 
+					NounMapping [distribution=NAME:57.05,NAME_OR_TYPE:27.999999999999986,TYPE:0.05, reference=logic, node=logic, login, Logic, logic.api, logic.backdoor, logic.core, logic.automated, BackDoorLogic, x.cases.logic, LoginFilter, position=106, 269, 375, 455, 876, 921, 926, 939, 945, 950, 969, 984, 1021, 1023, 1025, 1027, 1029, 1038, 1050, 1054, 1059, 1062, 1067, 1074, 1078, 1080, 1090, 1131, 1216, 1579, 1637, 1679, 1847, 1853, 2463, 2498, 2506, 359, 365, probability=57.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:31.799999999999983,TYPE:128.6, reference=components, node=components, component, position=25, 203, 234, 256, 312, 456, 922, 964, 1007, 1036, 1181, 1583, 1617, 1680, 1692, 1708, 1837, 1854, 2209, 2264, 2278, 2403, 2468, 2489, 2496, 2500, 2507, 2511, 2518, 2528, 2539, 2590, probability=128.6]
+
+RecommendationInstance [ name=Logic API, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:3.25,NAME_OR_TYPE:29.599999999999987,TYPE:0.05, reference=app, node=app, App, application, logic.api, API, storage.api, position=4, 9, 109, 181, 199, 241, 276, 1021, 1029, 1033, 1068, 1106, 1157, 1190, 1244, 1253, 1314, 1390, 1477, 1575, 1604, 1610, 1614, 2098, 2131, 2153, 2186, 2598, probability=3.25]
+					NounMapping [distribution=NAME:57.05,NAME_OR_TYPE:27.999999999999986,TYPE:0.05, reference=logic, node=logic, login, Logic, logic.api, logic.backdoor, logic.core, logic.automated, BackDoorLogic, x.cases.logic, LoginFilter, position=106, 269, 375, 455, 876, 921, 926, 939, 945, 950, 969, 984, 1021, 1023, 1025, 1027, 1029, 1038, 1050, 1054, 1059, 1062, 1067, 1074, 1078, 1080, 1090, 1131, 1216, 1579, 1637, 1679, 1847, 1853, 2463, 2498, 2506, 359, 365, probability=57.05]
+					
+
+RecommendationInstance [ name=OO principle, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.2,TYPE:0.05, reference=principle, node=principle, position=2378, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:0.4,TYPE:0.05, reference=oop, node=OOP, OO, position=1881, 2377, probability=0.05]
+					
+
+RecommendationInstance [ name=OOP design, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.2,TYPE:0.05, reference=design, node=design, position=1882, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:0.4,TYPE:0.05, reference=oop, node=OOP, OO, position=1881, 2377, probability=0.05]
+					
+
+RecommendationInstance [ name=Old Java, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.8500000000000001,NAME_OR_TYPE:1.7999999999999998,TYPE:0.05, reference=java, node=Java, JavaScript, AllJsTests.java, position=64, 71, 112, 117, 156, 162, 287, 2561, 2573, probability=0.8500000000000001]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:0.2,TYPE:0.05, reference=old, node=Old, position=116, probability=0.05]
+					
+
+RecommendationInstance [ name=Plain Old, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:0.2,TYPE:0.05, reference=plain, node=Plain, position=115, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:0.2,TYPE:0.05, reference=old, node=Old, position=116, probability=0.05]
+					
+
+RecommendationInstance [ name=Selenium Web, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:1.6500000000000001,NAME_OR_TYPE:10.600000000000001,TYPE:0.05, reference=web, node=Web, We, ui.website, web.xml, we, website, Website, position=3, 34, 166, 169, 189, 283, 349, 657, 785, 857, 894, 903, 1876, 1887, 2026, probability=1.6500000000000001]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:0.2,TYPE:0.05, reference=selenium, node=Selenium, position=168, probability=0.05]
+					
+
+RecommendationInstance [ name=ShowPageResult object, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:1.6500000000000001,NAME_OR_TYPE:25.799999999999994,TYPE:1.65, reference=objects, node=Objects, object, objects, test.pageobjects, position=118, 307, 419, 436, 484, 492, 497, 545, 663, 688, 692, 724, 728, 766, 1327, 1696, 1752, 1763, 1768, 1826, 1866, 2025, 2240, 2258, 2301, 2415, 2432, probability=1.6500000000000001]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.5999999999999999,TYPE:0.05, reference=showpageresult, node=ShowPageResult, position=491, 520, 723, probability=0.05]
+					NounMapping [distribution=NAME:4.85,NAME_OR_TYPE:39.79999999999999,TYPE:5.600000000000002, reference=data, node=data, datastore, database, DatastoreFilter, PageData, InstructorHomePageData, storage.datastore, datatransfer, common.datatransfer, DataBundle, date, position=98, 137, 141, 187, 196, 226, 357, 476, 483, 487, 496, 540, 544, 662, 691, 727, 765, 956, 960, 1048, 1597, 1608, 1626, 1632, 1656, 1676, 1740, 1750, 1761, 1784, 1788, 1792, 1818, 1824, 1892, 1919, 1924, 1983, 1995, 2002, 2057, 2126, 2181, 2224, 2236, 2238, 2252, 2256, 2262, 2276, 2291, 2307, 2316, 2366, 2388, 2399, 2605, 2638, probability=5.600000000000002]
+
+RecommendationInstance [ name=Storage, type=components, probability=1.0, mappings:]= 
+					NounMapping [distribution=NAME:34.25,NAME_OR_TYPE:8.400000000000002,TYPE:0.05, reference=storage, node=Storage, storage.api, storage.entity, storage.datastore, x.cases.storage, position=129, 963, 1284, 1582, 1604, 1606, 1608, 1610, 1619, 1626, 1634, 1691, 1701, 1836, 2465, 2509, 2517, probability=34.25]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:31.799999999999983,TYPE:128.6, reference=components, node=components, component, position=25, 203, 234, 256, 312, 456, 922, 964, 1007, 1036, 1181, 1583, 1617, 1680, 1692, 1708, 1837, 1854, 2209, 2264, 2278, 2403, 2468, 2489, 2496, 2500, 2507, 2511, 2518, 2528, 2539, 2590, probability=128.6]
+
+RecommendationInstance [ name=Storage level, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.2,TYPE:0.05, reference=level, node=level, position=1285, probability=0.05]
+					NounMapping [distribution=NAME:34.25,NAME_OR_TYPE:8.400000000000002,TYPE:0.05, reference=storage, node=Storage, storage.api, storage.entity, storage.datastore, x.cases.storage, position=129, 963, 1284, 1582, 1604, 1606, 1608, 1610, 1619, 1626, 1634, 1691, 1701, 1836, 2465, 2509, 2517, probability=34.25]
+					
+
+RecommendationInstance [ name=Test Driver, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:8.049999999999999,NAME_OR_TYPE:16.39999999999999,TYPE:1.65, reference=test, node=Test, test, TestDriver, test.driver, test.pageobjects, test.cases, x.cases.testdriver, x.cases.browsertests, tests, AllJsTests.java, position=176, 186, 1044, 1138, 1953, 2286, 2402, 2413, 2415, 2417, 2422, 2429, 2432, 2449, 2451, 2457, 2459, 2469, 2473, 2477, 2480, 2490, 2501, 2512, 2529, 2533, 2537, 2547, 2561, 2567, probability=8.049999999999999]
+					NounMapping [distribution=NAME:3.25,NAME_OR_TYPE:11.399999999999999,TYPE:0.05, reference=driver, node=Driver, driver, TestDriver, test.driver, x.cases.testdriver, x.cases.driver, position=170, 177, 1045, 1138, 2287, 2402, 2413, 2422, 2430, 2457, 2466, 2474, probability=3.25]
+					NounMapping [distribution=NAME:4.85,NAME_OR_TYPE:39.79999999999999,TYPE:5.600000000000002, reference=data, node=data, datastore, database, DatastoreFilter, PageData, InstructorHomePageData, storage.datastore, datatransfer, common.datatransfer, DataBundle, date, position=98, 137, 141, 187, 196, 226, 357, 476, 483, 487, 496, 540, 544, 662, 691, 727, 765, 956, 960, 1048, 1597, 1608, 1626, 1632, 1656, 1676, 1740, 1750, 1761, 1784, 1788, 1792, 1818, 1824, 1892, 1919, 1924, 1983, 1995, 2002, 2057, 2126, 2181, 2224, 2236, 2238, 2252, 2256, 2262, 2276, 2291, 2307, 2316, 2366, 2388, 2399, 2605, 2638, probability=5.600000000000002]
+
+RecommendationInstance [ name=UI, type=components, probability=1.0, mappings:]= 
+					NounMapping [distribution=NAME:19.25,NAME_OR_TYPE:12.2,TYPE:0.05, reference=ui, node=UI, ui.view, ui.controller, ui.website, position=28, 60, 173, 271, 273, 281, 283, 311, 842, 1006, 1088, 1097, 1116, 1198, 2485, 2566, probability=19.25]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:31.799999999999983,TYPE:128.6, reference=components, node=components, component, position=25, 203, 234, 256, 312, 456, 922, 964, 1007, 1036, 1181, 1583, 1617, 1680, 1692, 1708, 1837, 1854, 2209, 2264, 2278, 2403, 2468, 2489, 2496, 2500, 2507, 2511, 2518, 2528, 2539, 2590, probability=128.6]
+
+RecommendationInstance [ name=UI test, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:19.25,NAME_OR_TYPE:12.2,TYPE:0.05, reference=ui, node=UI, ui.view, ui.controller, ui.website, position=28, 60, 173, 271, 273, 281, 283, 311, 842, 1006, 1088, 1097, 1116, 1198, 2485, 2566, probability=19.25]
+					NounMapping [distribution=NAME:8.049999999999999,NAME_OR_TYPE:16.39999999999999,TYPE:1.65, reference=test, node=Test, test, TestDriver, test.driver, test.pageobjects, test.cases, x.cases.testdriver, x.cases.browsertests, tests, AllJsTests.java, position=176, 186, 1044, 1138, 1953, 2286, 2402, 2413, 2415, 2417, 2422, 2429, 2432, 2449, 2451, 2457, 2459, 2469, 2473, 2477, 2480, 2490, 2501, 2512, 2529, 2533, 2537, 2547, 2561, 2567, probability=8.049999999999999]
+					
+
+RecommendationInstance [ name=UI testing, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:19.25,NAME_OR_TYPE:12.2,TYPE:0.05, reference=ui, node=UI, ui.view, ui.controller, ui.website, position=28, 60, 173, 271, 273, 281, 283, 311, 842, 1006, 1088, 1097, 1116, 1198, 2485, 2566, probability=19.25]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:8.600000000000001,TYPE:0.05, reference=testing, node=testing, TestNG, position=150, 152, 158, 164, 174, 2406, 2472, 2586, probability=0.05]
+					
+
+RecommendationInstance [ name=Web Driver, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:1.6500000000000001,NAME_OR_TYPE:10.600000000000001,TYPE:0.05, reference=web, node=Web, We, ui.website, web.xml, we, website, Website, position=3, 34, 166, 169, 189, 283, 349, 657, 785, 857, 894, 903, 1876, 1887, 2026, probability=1.6500000000000001]
+					NounMapping [distribution=NAME:3.25,NAME_OR_TYPE:11.399999999999999,TYPE:0.05, reference=driver, node=Driver, driver, TestDriver, test.driver, x.cases.testdriver, x.cases.driver, position=170, 177, 1045, 1138, 2287, 2402, 2413, 2422, 2430, 2457, 2466, 2474, probability=3.25]
+					
+
+RecommendationInstance [ name=Web app, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:3.25,NAME_OR_TYPE:29.599999999999987,TYPE:0.05, reference=app, node=app, App, application, logic.api, API, storage.api, position=4, 9, 109, 181, 199, 241, 276, 1021, 1029, 1033, 1068, 1106, 1157, 1190, 1244, 1253, 1314, 1390, 1477, 1575, 1604, 1610, 1614, 2098, 2131, 2153, 2186, 2598, probability=3.25]
+					NounMapping [distribution=NAME:1.6500000000000001,NAME_OR_TYPE:10.600000000000001,TYPE:0.05, reference=web, node=Web, We, ui.website, web.xml, we, website, Website, position=3, 34, 166, 169, 189, 283, 349, 657, 785, 857, 894, 903, 1876, 1887, 2026, probability=1.6500000000000001]
+					
+
+RecommendationInstance [ name=access control, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.4,TYPE:0.05, reference=access, node=access, position=439, 1014, 1047, 1121, 1186, 1194, 1203, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:5.0,TYPE:0.05, reference=control, node=control, Control, position=1015, 1172, 1187, 1204, 2041, probability=0.05]
+					
+
+RecommendationInstance [ name=assertion error, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.4,TYPE:0.05, reference=error, node=error, position=889, 1450, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:0.8,TYPE:0.05, reference=assertion, node=assertion, position=1267, 1333, 1449, 1495, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:14.199999999999998,TYPE:1.4, reference=parameters, node=parameters, InvalidParametersException, parameter, position=1154, 1264, 1271, 1273, 1330, 1446, 1453, 1472, 1474, 1488, 2079, 2128, 2183, probability=1.4]
+
+RecommendationInstance [ name=business logic, type=teammates, probability=0.8, mappings:]= 
+					NounMapping [distribution=NAME:57.05,NAME_OR_TYPE:27.999999999999986,TYPE:0.05, reference=logic, node=logic, login, Logic, logic.api, logic.backdoor, logic.core, logic.automated, BackDoorLogic, x.cases.logic, LoginFilter, position=106, 269, 375, 455, 876, 921, 926, 939, 945, 950, 969, 984, 1021, 1023, 1025, 1027, 1029, 1038, 1050, 1054, 1059, 1062, 1067, 1074, 1078, 1080, 1090, 1131, 1216, 1579, 1637, 1679, 1847, 1853, 2463, 2498, 2506, 359, 365, probability=57.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:0.2,TYPE:0.05, reference=business, node=business, position=925, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:5.2,TYPE:1.2, reference=teammates, node=TEAMMATES, position=0, 143, 928, 2062, 2215, 2408, 2579, probability=1.2]
+
+RecommendationInstance [ name=cascade delete/create, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.0,TYPE:0.05, reference=cascade, node=cascade, Cascade, position=983, 1548, 1578, 1842, 1846, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:0.2,TYPE:0.05, reference=delete/create, node=delete/create, position=1843, probability=0.05]
+					
+
+RecommendationInstance [ name=cascade logic, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.0,TYPE:0.05, reference=cascade, node=cascade, Cascade, position=983, 1548, 1578, 1842, 1846, probability=0.05]
+					NounMapping [distribution=NAME:57.05,NAME_OR_TYPE:27.999999999999986,TYPE:0.05, reference=logic, node=logic, login, Logic, logic.api, logic.backdoor, logic.core, logic.automated, BackDoorLogic, x.cases.logic, LoginFilter, position=106, 269, 375, 455, 876, 921, 926, 939, 945, 950, 969, 984, 1021, 1023, 1025, 1027, 1029, 1038, 1050, 1054, 1059, 1062, 1067, 1074, 1078, 1080, 1090, 1131, 1216, 1579, 1637, 1679, 1847, 1853, 2463, 2498, 2506, 359, 365, probability=57.05]
+					
+
+RecommendationInstance [ name=case this, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:9.65,NAME_OR_TYPE:20.199999999999992,TYPE:2.45, reference=case, node=case, cases, test.cases, x.cases.testdriver, x.cases.browsertests, x.cases.common, x.cases.logic, x.cases.storage, x.cases.driver, position=353, 517, 625, 655, 755, 2417, 2449, 2452, 2457, 2459, 2461, 2463, 2465, 2466, 2470, 2477, 2481, 2487, 2491, 2498, 2502, 2509, 2513, probability=9.65]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:8.0,TYPE:0.05, reference=this, node=this, This, position=354, 522, 1434, 1528, 1884, 1928, 2368, 2576, probability=0.05]
+					NounMapping [distribution=NAME:4.85,NAME_OR_TYPE:39.79999999999999,TYPE:5.600000000000002, reference=data, node=data, datastore, database, DatastoreFilter, PageData, InstructorHomePageData, storage.datastore, datatransfer, common.datatransfer, DataBundle, date, position=98, 137, 141, 187, 196, 226, 357, 476, 483, 487, 496, 540, 544, 662, 691, 727, 765, 956, 960, 1048, 1597, 1608, 1626, 1632, 1656, 1676, 1740, 1750, 1761, 1784, 1788, 1792, 1818, 1824, 1892, 1919, 1924, 1983, 1995, 2002, 2057, 2126, 2181, 2224, 2236, 2238, 2252, 2256, 2262, 2276, 2291, 2307, 2316, 2366, 2388, 2399, 2605, 2638, probability=5.600000000000002]
+
+RecommendationInstance [ name=client, type=, probability=0.75, mappings:]= 
+					NounMapping [distribution=NAME:14.25,NAME_OR_TYPE:4.6,TYPE:0.65, reference=client, node=Client, client.remoteapi, client.scripts, client-side, position=202, 2589, 2613, 2615, 2617, 2628, 48, probability=14.25]
+					
+
+RecommendationInstance [ name=cloud platform, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:0.2,TYPE:0.05, reference=cloud, node=cloud, position=14, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.2,TYPE:0.05, reference=platform, node=platform, position=15, probability=0.05]
+					
+
+RecommendationInstance [ name=common, type=, probability=0.75, mappings:]= 
+					NounMapping [distribution=NAME:28.049999999999997,NAME_OR_TYPE:6.000000000000001,TYPE:0.45, reference=common, node=Common, common.datatransfer, common.util, common.exceptions, x.cases.common, common, position=233, 1792, 2208, 2220, 2222, 2224, 2226, 2231, 2236, 2252, 2461, 2487, 2495, 2211, probability=28.049999999999997]
+					
+
+RecommendationInstance [ name=core logic, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:1.6500000000000001,NAME_OR_TYPE:5.2,TYPE:0.05, reference=code, node=code, logic.core, core, position=237, 249, 1025, 1050, 1053, 2574, probability=1.6500000000000001]
+					NounMapping [distribution=NAME:57.05,NAME_OR_TYPE:27.999999999999986,TYPE:0.05, reference=logic, node=logic, login, Logic, logic.api, logic.backdoor, logic.core, logic.automated, BackDoorLogic, x.cases.logic, LoginFilter, position=106, 269, 375, 455, 876, 921, 926, 939, 945, 950, 969, 984, 1021, 1023, 1025, 1027, 1029, 1038, 1050, 1054, 1059, 1062, 1067, 1074, 1078, 1080, 1090, 1131, 1216, 1579, 1637, 1679, 1847, 1853, 2463, 2498, 2506, 359, 365, probability=57.05]
+					
+
+RecommendationInstance [ name=custom exceptions, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:1.6500000000000001,NAME_OR_TYPE:11.6,TYPE:0.8500000000000001, reference=exception, node=exception, EntityDoesNotExistException, InvalidParametersException, exceptions, common.exceptions, position=1280, 1468, 1469, 1474, 1512, 2117, 2128, 2172, 2183, 2222, 2231, 2234, probability=1.6500000000000001]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:0.4,TYPE:0.05, reference=custom, node=custom, position=339, 2233, probability=0.05]
+					
+
+RecommendationInstance [ name=driver infrastructure, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:3.25,NAME_OR_TYPE:11.399999999999999,TYPE:0.05, reference=driver, node=Driver, driver, TestDriver, test.driver, x.cases.testdriver, x.cases.driver, position=170, 177, 1045, 1138, 2287, 2402, 2413, 2422, 2430, 2457, 2466, 2474, probability=3.25]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:5.2,TYPE:0.05, reference=structure, node=structure, infrastructure, position=308, 1308, 2310, 2334, 2424, 2475, probability=0.05]
+					
+
+RecommendationInstance [ name=entity objects, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:1.6500000000000001,NAME_OR_TYPE:25.799999999999994,TYPE:1.65, reference=objects, node=Objects, object, objects, test.pageobjects, position=118, 307, 419, 436, 484, 492, 497, 545, 663, 688, 692, 724, 728, 766, 1327, 1696, 1752, 1763, 1768, 1826, 1866, 2025, 2240, 2258, 2301, 2415, 2432, probability=1.6500000000000001]
+					NounMapping [distribution=NAME:2.45,NAME_OR_TYPE:27.399999999999988,TYPE:0.05, reference=entity, node=Entity, EntityAlreadyExists, entity, EntityDoesNotExistsExeption, EntityDoesNotExistException, storage.entity, position=1275, 1279, 1336, 1344, 1363, 1366, 1370, 1374, 1464, 1468, 1516, 1554, 1566, 1606, 1619, 1701, 1715, 1865, 1898, 2111, 2116, 2123, 2144, 2166, 2172, 2178, 2199, probability=2.45]
+					
+
+RecommendationInstance [ name=format, type=data entities, probability=0.8, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:13.599999999999998,TYPE:0.05, reference=format, node=format, information, position=192, 1175, 1259, 1320, 1396, 1483, 2068, 2103, 2136, 2158, 2191, 2247, 2380, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:13.0,TYPE:2.4, reference=entities, node=entities, position=979, 1256, 1293, 1317, 1393, 1480, 1558, 1598, 1624, 1658, 1766, 1811, probability=2.4]
+					NounMapping [distribution=NAME:4.85,NAME_OR_TYPE:39.79999999999999,TYPE:5.600000000000002, reference=data, node=data, datastore, database, DatastoreFilter, PageData, InstructorHomePageData, storage.datastore, datatransfer, common.datatransfer, DataBundle, date, position=98, 137, 141, 187, 196, 226, 357, 476, 483, 487, 496, 540, 544, 662, 691, 727, 765, 956, 960, 1048, 1597, 1608, 1626, 1632, 1656, 1676, 1740, 1750, 1761, 1784, 1788, 1792, 1818, 1824, 1892, 1919, 1924, 1983, 1995, 2002, 2057, 2126, 2181, 2224, 2236, 2238, 2252, 2256, 2262, 2276, 2291, 2307, 2316, 2366, 2388, 2399, 2605, 2638, probability=5.600000000000002]
+
+RecommendationInstance [ name=information hiding, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.2,TYPE:0.05, reference=hiding, node=hiding, position=2381, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:13.599999999999998,TYPE:0.05, reference=format, node=format, information, position=192, 1175, 1259, 1320, 1396, 1483, 2068, 2103, 2136, 2158, 2191, 2247, 2380, probability=0.05]
+					
+
+RecommendationInstance [ name=infrastructure need, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.2,TYPE:0.05, reference=need, node=need, position=2425, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:5.2,TYPE:0.05, reference=structure, node=structure, infrastructure, position=308, 1308, 2310, 2334, 2424, 2475, probability=0.05]
+					
+
+RecommendationInstance [ name=input validation, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:0.4,TYPE:0.05, reference=input, node=input, position=54, 1001, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:0.2,TYPE:0.05, reference=validation, node=validation, position=55, probability=0.05]
+					
+
+RecommendationInstance [ name=integration tests, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:8.049999999999999,NAME_OR_TYPE:16.39999999999999,TYPE:1.65, reference=test, node=Test, test, TestDriver, test.driver, test.pageobjects, test.cases, x.cases.testdriver, x.cases.browsertests, tests, AllJsTests.java, position=176, 186, 1044, 1138, 1953, 2286, 2402, 2413, 2415, 2417, 2422, 2429, 2432, 2449, 2451, 2457, 2459, 2469, 2473, 2477, 2480, 2490, 2501, 2512, 2529, 2533, 2537, 2547, 2561, 2567, probability=8.049999999999999]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.4,TYPE:0.05, reference=integration, node=integration, position=2546, 2554, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:4.0,TYPE:0.45, reference=unit, node=unit, QUnit, units, position=157, 160, 163, 2532, 2550, 2556, 2571, probability=0.45]
+
+RecommendationInstance [ name=it API, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:3.25,NAME_OR_TYPE:29.599999999999987,TYPE:0.05, reference=app, node=app, App, application, logic.api, API, storage.api, position=4, 9, 109, 181, 199, 241, 276, 1021, 1029, 1033, 1068, 1106, 1157, 1190, 1244, 1253, 1314, 1390, 1477, 1575, 1604, 1610, 1614, 2098, 2131, 2153, 2186, 2598, probability=3.25]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:13.0,TYPE:0.05, reference=it, node=It, it, position=216, 388, 451, 503, 930, 1189, 1523, 1532, 1537, 1650, 1948, 1977, 2375, probability=0.05]
+					
+
+RecommendationInstance [ name=java, type=Server Pages, probability=0.8, mappings:]= 
+					NounMapping [distribution=NAME:0.8500000000000001,NAME_OR_TYPE:1.7999999999999998,TYPE:0.05, reference=java, node=Java, JavaScript, AllJsTests.java, position=64, 71, 112, 117, 156, 162, 287, 2561, 2573, probability=0.8500000000000001]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:13.0,TYPE:0.25, reference=server, node=Server, server, servers, serves, position=65, 76, 83, 101, 335, 618, 680, 715, 1939, 1961, 1969, 1989, probability=0.25]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:28.59999999999999,TYPE:2.8000000000000003, reference=pages, node=pages, Pages, page, position=35, 66, 321, 376, 470, 480, 531, 537, 550, 569, 588, 615, 651, 702, 713, 734, 825, 846, 852, 858, 861, 864, 872, 879, 887, 890, 895, 899, 910, 918, 2327, 2437, probability=2.8000000000000003]
+
+RecommendationInstance [ name=jsp, type=Server Pages, probability=0.8, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:4.0,TYPE:0.05, reference=jsp, node=JSP, jsp, js, position=68, 293, 297, 530, 536, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:13.0,TYPE:0.25, reference=server, node=Server, server, servers, serves, position=65, 76, 83, 101, 335, 618, 680, 715, 1939, 1961, 1969, 1989, probability=0.25]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:28.59999999999999,TYPE:2.8000000000000003, reference=pages, node=pages, Pages, page, position=35, 66, 321, 376, 470, 480, 531, 537, 550, 569, 588, 615, 651, 702, 713, 734, 825, 846, 852, 858, 861, 864, 872, 879, 887, 890, 895, 899, 910, 918, 2327, 2437, probability=2.8000000000000003]
+
+RecommendationInstance [ name=logic, type=, probability=0.75, mappings:]= 
+					NounMapping [distribution=NAME:57.05,NAME_OR_TYPE:27.999999999999986,TYPE:0.05, reference=logic, node=logic, login, Logic, logic.api, logic.backdoor, logic.core, logic.automated, BackDoorLogic, x.cases.logic, LoginFilter, position=106, 269, 375, 455, 876, 921, 926, 939, 945, 950, 969, 984, 1021, 1023, 1025, 1027, 1029, 1038, 1050, 1054, 1059, 1062, 1067, 1074, 1078, 1080, 1090, 1131, 1216, 1579, 1637, 1679, 1847, 1853, 2463, 2498, 2506, 359, 365, probability=57.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.4,TYPE:0.05, reference=loginfilter, node=LoginFilter, position=359, 365, probability=0.05]
+					
+
+RecommendationInstance [ name=loginfilter, type=, probability=0.75, mappings:]= 
+					NounMapping [distribution=NAME:57.05,NAME_OR_TYPE:27.999999999999986,TYPE:0.05, reference=logic, node=logic, login, Logic, logic.api, logic.backdoor, logic.core, logic.automated, BackDoorLogic, x.cases.logic, LoginFilter, position=106, 269, 375, 455, 876, 921, 926, 939, 945, 950, 969, 984, 1021, 1023, 1025, 1027, 1029, 1038, 1050, 1054, 1059, 1062, 1067, 1074, 1078, 1080, 1090, 1131, 1216, 1579, 1637, 1679, 1847, 1853, 2463, 2498, 2506, 359, 365, probability=57.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.4,TYPE:0.05, reference=loginfilter, node=LoginFilter, position=359, 365, probability=0.05]
+					
+
+RecommendationInstance [ name=object structure, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:1.6500000000000001,NAME_OR_TYPE:25.799999999999994,TYPE:1.65, reference=objects, node=Objects, object, objects, test.pageobjects, position=118, 307, 419, 436, 484, 492, 497, 545, 663, 688, 692, 724, 728, 766, 1327, 1696, 1752, 1763, 1768, 1826, 1866, 2025, 2240, 2258, 2301, 2415, 2432, probability=1.6500000000000001]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:5.2,TYPE:0.05, reference=structure, node=structure, infrastructure, position=308, 1308, 2310, 2334, 2424, 2475, probability=0.05]
+					
+
+RecommendationInstance [ name=object we, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:1.6500000000000001,NAME_OR_TYPE:25.799999999999994,TYPE:1.65, reference=objects, node=Objects, object, objects, test.pageobjects, position=118, 307, 419, 436, 484, 492, 497, 545, 663, 688, 692, 724, 728, 766, 1327, 1696, 1752, 1763, 1768, 1826, 1866, 2025, 2240, 2258, 2301, 2415, 2432, probability=1.6500000000000001]
+					NounMapping [distribution=NAME:1.6500000000000001,NAME_OR_TYPE:10.600000000000001,TYPE:0.05, reference=web, node=Web, We, ui.website, web.xml, we, website, Website, position=3, 34, 166, 169, 189, 283, 349, 657, 785, 857, 894, 903, 1876, 1887, 2026, probability=1.6500000000000001]
+					
+
+RecommendationInstance [ name=objects, type=Course entities, probability=0.8, mappings:]= 
+					NounMapping [distribution=NAME:1.6500000000000001,NAME_OR_TYPE:25.799999999999994,TYPE:1.65, reference=objects, node=Objects, object, objects, test.pageobjects, position=118, 307, 419, 436, 484, 492, 497, 545, 663, 688, 692, 724, 728, 766, 1327, 1696, 1752, 1763, 1768, 1826, 1866, 2025, 2240, 2258, 2301, 2415, 2432, probability=1.6500000000000001]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:13.0,TYPE:2.4, reference=entities, node=entities, position=979, 1256, 1293, 1317, 1393, 1480, 1558, 1598, 1624, 1658, 1766, 1811, probability=2.4]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:6.4,TYPE:1.05, reference=course, node=course, courses, CourseAttributes, Course, position=607, 614, 677, 701, 712, 733, 871, 1311, 1387, 1758, 1765, 2319, probability=1.05]
+
+RecommendationInstance [ name=parent entity, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:0.4,TYPE:0.05, reference=parent, node=parent, position=1369, 1553, probability=0.05]
+					NounMapping [distribution=NAME:2.45,NAME_OR_TYPE:27.399999999999988,TYPE:0.05, reference=entity, node=Entity, EntityAlreadyExists, entity, EntityDoesNotExistsExeption, EntityDoesNotExistException, storage.entity, position=1275, 1279, 1336, 1344, 1363, 1366, 1370, 1374, 1464, 1468, 1516, 1554, 1566, 1606, 1619, 1701, 1715, 1865, 1898, 2111, 2116, 2123, 2144, 2166, 2172, 2178, 2199, probability=2.45]
+					
+
+RecommendationInstance [ name=persistence framework, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.2,TYPE:0.05, reference=framework, node=framework, position=133, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:0.4,TYPE:0.05, reference=persistence, node=persistence, position=132, 1727, probability=0.05]
+					
+
+RecommendationInstance [ name=process folow, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:0.2,TYPE:0.05, reference=process, node=process, position=796, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:0.2,TYPE:0.05, reference=folow, node=folow, position=797, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:22.799999999999994,TYPE:1.05, reference=action, node=Action, InstructorHomePageAction, action, actions, ActionURIs, transactions, transaction, Transaction, abstractions, position=418, 423, 430, 435, 447, 460, 466, 473, 581, 597, 604, 621, 632, 678, 683, 740, 800, 806, 814, 989, 998, 1129, 2040, 2434, probability=1.05]
+
+RecommendationInstance [ name=product website, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:1.6500000000000001,NAME_OR_TYPE:10.600000000000001,TYPE:0.05, reference=web, node=Web, We, ui.website, web.xml, we, website, Website, position=3, 34, 166, 169, 189, 283, 349, 657, 785, 857, 894, 903, 1876, 1887, 2026, probability=1.6500000000000001]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.2,TYPE:0.05, reference=product, node=product, Product, production, position=845, 851, 863, 878, 902, 1943, probability=0.05]
+					
+
+RecommendationInstance [ name=production enviornment, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.2,TYPE:0.05, reference=enviornment, node=enviornment, position=1944, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.2,TYPE:0.05, reference=product, node=product, Product, production, position=845, 851, 863, 878, 902, 1943, probability=0.05]
+					
+
+RecommendationInstance [ name=regression testing, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:0.2,TYPE:0.05, reference=regression, node=regression, position=149, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:8.600000000000001,TYPE:0.05, reference=testing, node=testing, TestNG, position=150, 152, 158, 164, 174, 2406, 2472, 2586, probability=0.05]
+					
+
+RecommendationInstance [ name=storage, type=, probability=0.75, mappings:]= 
+					NounMapping [distribution=NAME:34.25,NAME_OR_TYPE:8.400000000000002,TYPE:0.05, reference=storage, node=Storage, storage.api, storage.entity, storage.datastore, x.cases.storage, position=129, 963, 1284, 1582, 1604, 1606, 1608, 1610, 1619, 1626, 1634, 1691, 1701, 1836, 2465, 2509, 2517, probability=34.25]
+					
+
+RecommendationInstance [ name=system test, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:1.4,TYPE:0.05, reference=system, node=system, position=1057, 2479, probability=0.05]
+					NounMapping [distribution=NAME:8.049999999999999,NAME_OR_TYPE:16.39999999999999,TYPE:1.65, reference=test, node=Test, test, TestDriver, test.driver, test.pageobjects, test.cases, x.cases.testdriver, x.cases.browsertests, tests, AllJsTests.java, position=176, 186, 1044, 1138, 1953, 2286, 2402, 2413, 2415, 2417, 2422, 2429, 2432, 2449, 2451, 2457, 2459, 2469, 2473, 2477, 2480, 2490, 2501, 2512, 2529, 2533, 2537, 2547, 2561, 2567, probability=8.049999999999999]
+					
+
+RecommendationInstance [ name=target entity, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:0.6000000000000001,TYPE:0.05, reference=target, node=target, position=1343, 1373, 1515, probability=0.05]
+					NounMapping [distribution=NAME:2.45,NAME_OR_TYPE:27.399999999999988,TYPE:0.05, reference=entity, node=Entity, EntityAlreadyExists, entity, EntityDoesNotExistsExeption, EntityDoesNotExistException, storage.entity, position=1275, 1279, 1336, 1344, 1363, 1366, 1370, 1374, 1464, 1468, 1516, 1554, 1566, 1606, 1619, 1701, 1715, 1865, 1898, 2111, 2116, 2123, 2144, 2166, 2172, 2178, 2199, probability=2.45]
+					
+
+RecommendationInstance [ name=team structure, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:0.2,TYPE:0.05, reference=team, node=team, position=1307, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:5.2,TYPE:0.05, reference=structure, node=structure, infrastructure, position=308, 1308, 2310, 2334, 2424, 2475, probability=0.05]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:6.4,TYPE:1.05, reference=course, node=course, courses, CourseAttributes, Course, position=607, 614, 677, 701, 712, 733, 871, 1311, 1387, 1758, 1765, 2319, probability=1.05]
+
+RecommendationInstance [ name=test cases, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:9.65,NAME_OR_TYPE:20.199999999999992,TYPE:2.45, reference=case, node=case, cases, test.cases, x.cases.testdriver, x.cases.browsertests, x.cases.common, x.cases.logic, x.cases.storage, x.cases.driver, position=353, 517, 625, 655, 755, 2417, 2449, 2452, 2457, 2459, 2461, 2463, 2465, 2466, 2470, 2477, 2481, 2487, 2491, 2498, 2502, 2509, 2513, probability=9.65]
+					NounMapping [distribution=NAME:8.049999999999999,NAME_OR_TYPE:16.39999999999999,TYPE:1.65, reference=test, node=Test, test, TestDriver, test.driver, test.pageobjects, test.cases, x.cases.testdriver, x.cases.browsertests, tests, AllJsTests.java, position=176, 186, 1044, 1138, 1953, 2286, 2402, 2413, 2415, 2417, 2422, 2429, 2432, 2449, 2451, 2457, 2459, 2469, 2473, 2477, 2480, 2490, 2501, 2512, 2529, 2533, 2537, 2547, 2561, 2567, probability=8.049999999999999]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:31.799999999999983,TYPE:128.6, reference=components, node=components, component, position=25, 203, 234, 256, 312, 456, 922, 964, 1007, 1036, 1181, 1583, 1617, 1680, 1692, 1708, 1837, 1854, 2209, 2264, 2278, 2403, 2468, 2489, 2496, 2500, 2507, 2511, 2518, 2528, 2539, 2590, probability=128.6]
+
+RecommendationInstance [ name=testing test, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:8.049999999999999,NAME_OR_TYPE:16.39999999999999,TYPE:1.65, reference=test, node=Test, test, TestDriver, test.driver, test.pageobjects, test.cases, x.cases.testdriver, x.cases.browsertests, tests, AllJsTests.java, position=176, 186, 1044, 1138, 1953, 2286, 2402, 2413, 2415, 2417, 2422, 2429, 2432, 2449, 2451, 2457, 2459, 2469, 2473, 2477, 2480, 2490, 2501, 2512, 2529, 2533, 2537, 2547, 2561, 2567, probability=8.049999999999999]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:8.600000000000001,TYPE:0.05, reference=testing, node=testing, TestNG, position=150, 152, 158, 164, 174, 2406, 2472, 2586, probability=0.05]
+					
+
+RecommendationInstance [ name=transfer object, type=data, probability=0.8, mappings:]= 
+					NounMapping [distribution=NAME:1.6500000000000001,NAME_OR_TYPE:25.799999999999994,TYPE:1.65, reference=objects, node=Objects, object, objects, test.pageobjects, position=118, 307, 419, 436, 484, 492, 497, 545, 663, 688, 692, 724, 728, 766, 1327, 1696, 1752, 1763, 1768, 1826, 1866, 2025, 2240, 2258, 2301, 2415, 2432, probability=1.6500000000000001]
+					NounMapping [distribution=NAME:3.25,NAME_OR_TYPE:1.7999999999999998,TYPE:0.05, reference=transfer, node=transfer, datatransfer, common.datatransfer, position=1751, 1762, 1788, 1792, 1825, 2224, 2236, 2239, 2252, 2257, probability=3.25]
+					NounMapping [distribution=NAME:4.85,NAME_OR_TYPE:39.79999999999999,TYPE:5.600000000000002, reference=data, node=data, datastore, database, DatastoreFilter, PageData, InstructorHomePageData, storage.datastore, datatransfer, common.datatransfer, DataBundle, date, position=98, 137, 141, 187, 196, 226, 357, 476, 483, 487, 496, 540, 544, 662, 691, 727, 765, 956, 960, 1048, 1597, 1608, 1626, 1632, 1656, 1676, 1740, 1750, 1761, 1784, 1788, 1792, 1818, 1824, 1892, 1919, 1924, 1983, 1995, 2002, 2057, 2126, 2181, 2224, 2236, 2238, 2252, 2256, 2262, 2276, 2291, 2307, 2316, 2366, 2388, 2399, 2605, 2638, probability=5.600000000000002]
+
+RecommendationInstance [ name=transfer object, type=attribute, probability=0.8, mappings:]= 
+					NounMapping [distribution=NAME:1.6500000000000001,NAME_OR_TYPE:25.799999999999994,TYPE:1.65, reference=objects, node=Objects, object, objects, test.pageobjects, position=118, 307, 419, 436, 484, 492, 497, 545, 663, 688, 692, 724, 728, 766, 1327, 1696, 1752, 1763, 1768, 1826, 1866, 2025, 2240, 2258, 2301, 2415, 2432, probability=1.6500000000000001]
+					NounMapping [distribution=NAME:3.25,NAME_OR_TYPE:1.7999999999999998,TYPE:0.05, reference=transfer, node=transfer, datatransfer, common.datatransfer, position=1751, 1762, 1788, 1792, 1825, 2224, 2236, 2239, 2252, 2257, probability=3.25]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:5.4,TYPE:0.8500000000000001, reference=attribute, node=attribute, attributes, Attributes, CourseAttributes, position=1418, 1460, 1717, 1734, 1754, 1758, probability=0.8500000000000001]
+
+RecommendationInstance [ name=transfer object, type=course, probability=0.8, mappings:]= 
+					NounMapping [distribution=NAME:1.6500000000000001,NAME_OR_TYPE:25.799999999999994,TYPE:1.65, reference=objects, node=Objects, object, objects, test.pageobjects, position=118, 307, 419, 436, 484, 492, 497, 545, 663, 688, 692, 724, 728, 766, 1327, 1696, 1752, 1763, 1768, 1826, 1866, 2025, 2240, 2258, 2301, 2415, 2432, probability=1.6500000000000001]
+					NounMapping [distribution=NAME:3.25,NAME_OR_TYPE:1.7999999999999998,TYPE:0.05, reference=transfer, node=transfer, datatransfer, common.datatransfer, position=1751, 1762, 1788, 1792, 1825, 2224, 2236, 2239, 2252, 2257, probability=3.25]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:6.4,TYPE:1.05, reference=course, node=course, courses, CourseAttributes, Course, position=607, 614, 677, 701, 712, 733, 871, 1311, 1387, 1758, 1765, 2319, probability=1.05]
+
+RecommendationInstance [ name=transfer object, type=entities, probability=0.8, mappings:]= 
+					NounMapping [distribution=NAME:1.6500000000000001,NAME_OR_TYPE:25.799999999999994,TYPE:1.65, reference=objects, node=Objects, object, objects, test.pageobjects, position=118, 307, 419, 436, 484, 492, 497, 545, 663, 688, 692, 724, 728, 766, 1327, 1696, 1752, 1763, 1768, 1826, 1866, 2025, 2240, 2258, 2301, 2415, 2432, probability=1.6500000000000001]
+					NounMapping [distribution=NAME:3.25,NAME_OR_TYPE:1.7999999999999998,TYPE:0.05, reference=transfer, node=transfer, datatransfer, common.datatransfer, position=1751, 1762, 1788, 1792, 1825, 2224, 2236, 2239, 2252, 2257, probability=3.25]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:13.0,TYPE:2.4, reference=entities, node=entities, position=979, 1256, 1293, 1317, 1393, 1480, 1558, 1598, 1624, 1658, 1766, 1811, probability=2.4]
+
+RecommendationInstance [ name=ui, type=, probability=0.75, mappings:]= 
+					NounMapping [distribution=NAME:19.25,NAME_OR_TYPE:12.2,TYPE:0.05, reference=ui, node=UI, ui.view, ui.controller, ui.website, position=28, 60, 173, 271, 273, 281, 283, 311, 842, 1006, 1088, 1097, 1116, 1198, 2485, 2566, probability=19.25]
+					
+
+RecommendationInstance [ name=utility code, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:1.6500000000000001,NAME_OR_TYPE:5.2,TYPE:0.05, reference=code, node=code, logic.core, core, position=237, 249, 1025, 1050, 1053, 2574, probability=1.6500000000000001]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:0.4,TYPE:0.05, reference=utility, node=utility, position=236, 2228, probability=0.05]
+					
+
+RecommendationInstance [ name=validation etc., type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:1.6500000000000001,NAME_OR_TYPE:1.2,TYPE:0.05, reference=etc, node=etc., position=56, 892, probability=1.6500000000000001]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:0.2,TYPE:0.05, reference=validation, node=validation, position=55, probability=0.05]
+					
+
+RecommendationInstance [ name=what we, type=, probability=0.6, mappings:]= 
+					NounMapping [distribution=NAME:1.6500000000000001,NAME_OR_TYPE:10.600000000000001,TYPE:0.05, reference=web, node=Web, We, ui.website, web.xml, we, website, Website, position=3, 34, 166, 169, 189, 283, 349, 657, 785, 857, 894, 903, 1876, 1887, 2026, probability=1.6500000000000001]
+					NounMapping [distribution=NAME:0.05,NAME_OR_TYPE:2.0,TYPE:0.05, reference=what, node=what, position=1639, 1875, probability=0.05]
+					
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Instances of the Connection State: 
+InstanceMapping [ uid=_1lMqsKESEeu-mYqkDskRow, name=UI, as=BasicComponent, probability=1.0, FOUND: ui : , occurrences= NameVariants: 4: [ui.controller, ui.website, UI, ui.view] sentences{[3, 4, 12, 20, 20, 21, 21, 23, 54, 65, 73, 74, 75, 81, 173, 179]}, TypeVariants: 0: []sentences{[]}]
+InstanceMapping [ uid=_1lMqsKESEeu-mYqkDskRow, name=UI, as=BasicComponent, probability=0.8, FOUND: UI : components, occurrences= NameVariants: 4: [ui.controller, ui.website, UI, ui.view] sentences{[3, 4, 12, 20, 20, 21, 21, 23, 54, 65, 73, 74, 75, 81, 173, 179]}, TypeVariants: 2: [components, component]sentences{[2, 15, 17, 18, 23, 34, 60, 61, 65, 68, 80, 113, 115, 121, 122, 123, 129, 130, 152, 158, 159, 167, 172, 174, 174, 175, 175, 176, 176, 178, 178, 181]}]
+InstanceMapping [ uid=_3LCnIKESEeu-mYqkDskRow, name=Logic, as=BasicComponent, probability=1.0, FOUND: loginfilter : , occurrences= NameVariants: 10: [BackDoorLogic, logic.api, logic.automated, logic.backdoor, logic.core, logic, login, Logic, x.cases.logic, LoginFilter] sentences{[7, 20, 27, 28, 28, 34, 56, 60, 60, 61, 61, 61, 62, 63, 67, 67, 67, 67, 68, 69, 70, 70, 71, 71, 72, 72, 72, 73, 74, 77, 81, 112, 118, 121, 130, 130, 172, 175, 175, 27, 28]}, TypeVariants: 0: []sentences{[]}]
+InstanceMapping [ uid=_3LCnIKESEeu-mYqkDskRow, name=Logic, as=BasicComponent, probability=1.0, FOUND: logic : , occurrences= NameVariants: 10: [BackDoorLogic, logic.api, logic.automated, logic.backdoor, logic.core, logic, login, Logic, x.cases.logic, LoginFilter] sentences{[7, 20, 27, 28, 28, 34, 56, 60, 60, 61, 61, 61, 62, 63, 67, 67, 67, 67, 68, 69, 70, 70, 71, 71, 72, 72, 72, 73, 74, 77, 81, 112, 118, 121, 130, 130, 172, 175, 175, 27, 28]}, TypeVariants: 0: []sentences{[]}]
+InstanceMapping [ uid=_3LCnIKESEeu-mYqkDskRow, name=Logic, as=BasicComponent, probability=0.8, FOUND: Logic : components, occurrences= NameVariants: 10: [BackDoorLogic, logic.api, logic.automated, logic.backdoor, logic.core, logic, login, Logic, x.cases.logic, LoginFilter] sentences{[7, 20, 27, 28, 28, 34, 56, 60, 60, 61, 61, 61, 62, 63, 67, 67, 67, 67, 68, 69, 70, 70, 71, 71, 72, 72, 72, 73, 74, 77, 81, 112, 118, 121, 130, 130, 172, 175, 175]}, TypeVariants: 2: [components, component]sentences{[2, 15, 17, 18, 23, 34, 60, 61, 65, 68, 80, 113, 115, 121, 122, 123, 129, 130, 152, 158, 159, 167, 172, 174, 174, 175, 175, 176, 176, 178, 178, 181]}]
+InstanceMapping [ uid=_9JlCIKESEeu-mYqkDskRow, name=Storage, as=BasicComponent, probability=1.0, FOUND: storage : , occurrences= NameVariants: 5: [Storage, x.cases.storage, storage.entity, storage.api, storage.datastore] sentences{[9, 61, 87, 113, 114, 114, 114, 115, 116, 117, 118, 122, 123, 129, 172, 176, 176]}, TypeVariants: 0: []sentences{[]}]
+InstanceMapping [ uid=_9JlCIKESEeu-mYqkDskRow, name=Storage, as=BasicComponent, probability=0.8, FOUND: Storage : components, occurrences= NameVariants: 5: [Storage, x.cases.storage, storage.entity, storage.api, storage.datastore] sentences{[9, 61, 87, 113, 114, 114, 114, 115, 116, 117, 118, 122, 123, 129, 172, 176, 176]}, TypeVariants: 2: [components, component]sentences{[2, 15, 17, 18, 23, 34, 60, 61, 65, 68, 80, 113, 115, 121, 122, 123, 129, 130, 152, 158, 159, 167, 172, 174, 174, 175, 175, 176, 176, 178, 178, 181]}]
+InstanceMapping [ uid=_Bae2oKETEeu-mYqkDskRow, name=Test Driver, as=BasicComponent, probability=0.8, FOUND: Test Driver : , occurrences= NameVariants: 13: [test.pageobjects, test, test.cases, x.cases.browsertests, Driver, TestDriver, x.cases.testdriver, tests, driver, Test, x.cases.driver, AllJsTests.java, test.driver] sentences{[13, 13, 69, 77, 135, 161, 167, 168, 168, 168, 169, 169, 170, 171, 171, 172, 172, 172, 172, 173, 173, 174, 175, 176, 178, 178, 178, 178, 179, 179, 12, 13, 69, 77, 161, 167, 168, 169, 169, 172, 172, 172]}, TypeVariants: 11: [date, common.datatransfer, database, InstructorHomePageData, data, PageData, DataBundle, datastore, DatastoreFilter, storage.datastore, datatransfer]sentences{[6, 9, 9, 13, 14, 16, 27, 35, 35, 35, 35, 38, 38, 44, 46, 48, 50, 61, 61, 69, 113, 114, 117, 117, 120, 121, 124, 125, 125, 125, 126, 126, 127, 128, 132, 133, 133, 136, 136, 137, 139, 144, 149, 153, 156, 156, 158, 158, 158, 159, 161, 161, 162, 164, 165, 166, 181, 184]}]
+InstanceMapping [ uid=_GaP8QKETEeu-mYqkDskRow, name=Client, as=BasicComponent, probability=0.8, FOUND: Client : components, occurrences= NameVariants: 4: [client.scripts, Client, client-side, client.remoteapi] sentences{[3, 15, 181, 182, 182, 183, 184]}, TypeVariants: 2: [components, component]sentences{[2, 15, 17, 18, 23, 34, 60, 61, 65, 68, 80, 113, 115, 121, 122, 123, 129, 130, 152, 158, 159, 167, 172, 174, 174, 175, 175, 176, 176, 178, 178, 181]}]
+InstanceMapping [ uid=_GaP8QKETEeu-mYqkDskRow, name=Client, as=BasicComponent, probability=1.0, FOUND: client : , occurrences= NameVariants: 4: [client.scripts, Client, client-side, client.remoteapi] sentences{[3, 15, 181, 182, 182, 183, 184]}, TypeVariants: 0: []sentences{[]}]
+InstanceMapping [ uid=_zUmhEKESEeu-mYqkDskRow, name=Common, as=BasicComponent, probability=0.8, FOUND: Common : components, occurrences= NameVariants: 6: [common.datatransfer, common.util, x.cases.common, common, common.exceptions, Common] sentences{[17, 126, 152, 152, 153, 153, 153, 154, 155, 156, 158, 172, 174, 174]}, TypeVariants: 2: [components, component]sentences{[2, 15, 17, 18, 23, 34, 60, 61, 65, 68, 80, 113, 115, 121, 122, 123, 129, 130, 152, 158, 159, 167, 172, 174, 174, 175, 175, 176, 176, 178, 178, 181]}]
+InstanceMapping [ uid=_zUmhEKESEeu-mYqkDskRow, name=Common, as=BasicComponent, probability=1.0, FOUND: common : , occurrences= NameVariants: 6: [common.datatransfer, common.util, x.cases.common, common, common.exceptions, Common] sentences{[17, 126, 152, 152, 153, 153, 153, 154, 155, 156, 158, 172, 174, 174]}, TypeVariants: 0: []sentences{[]}]
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Relations of the Recommendation State: 
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Relations of the Connection State: 
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+ExecutionTime: PT1M24.47S---------------------------------------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
