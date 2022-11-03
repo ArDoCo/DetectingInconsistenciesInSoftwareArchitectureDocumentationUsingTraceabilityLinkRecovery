@@ -1,7 +1,7 @@
 # ReplicationPackage_ICSA23
 
 Replication package for the ICSA 2023 paper "Detecting Inconsistencies in Software Architecture Documentation Using
-Traceability Link Recovery" by Keim et al.
+Traceability Link Recovery".
 
 In general, you need to have installed ...
 
@@ -23,8 +23,8 @@ here).
 ## Our Approach for TLR and ID & Baseline for ID
 
 To generate the results of our approach including the baseline of inconsistency detection (ID) you find everything in
-the directory `our-approach`
-To get the results for our approach for TLR and ID you have to run certain JUnit Tests
+the directory `our-approach`.
+To get the results for our approach for TLR and ID you have to run certain JUnit Tests:
 
 * [TraceabilityLinkRecoveryEvaluationIT](our-approach/tests/src/test/java/edu/kit/kastel/mcse/ardoco/core/tests/integration/TraceabilityLinkRecoveryEvaluationIT.java)
     * `evaluateTraceLinkRecoveryIT`: Runs the TLR for non-historic project texts
