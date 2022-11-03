@@ -23,14 +23,14 @@ here).
 ## Our Approach for TLR and ID & Baseline for ID
 
 To generate the results of our approach including the baseline of inconsistency detection (ID) you find everything in
-the directory `our-approach`.
+the directory `approach`.
 To get the results for our approach for TLR and ID you have to run certain JUnit Tests:
 
-* [TraceabilityLinkRecoveryEvaluationIT](our-approach/tests/src/test/java/edu/kit/kastel/mcse/ardoco/core/tests/integration/TraceabilityLinkRecoveryEvaluationIT.java)
+* [TraceabilityLinkRecoveryEvaluationIT](approach/tests/src/test/java/edu/kit/kastel/mcse/ardoco/core/tests/integration/TraceabilityLinkRecoveryEvaluationIT.java)
     * `evaluateTraceLinkRecoveryIT`: Runs the TLR for non-historic project texts
     * `evaluateHistoricalDataTraceLinkRecoveryIT`: Tuns the TLR for historic project texts
 
-* [InconsistencyDetectionEvaluationIT](our-approach/tests/src/test/java/edu/kit/kastel/mcse/ardoco/core/tests/integration/InconsistencyDetectionEvaluationIT.java)
+* [InconsistencyDetectionEvaluationIT](approach/tests/src/test/java/edu/kit/kastel/mcse/ardoco/core/tests/integration/InconsistencyDetectionEvaluationIT.java)
 
     * `missingModelElementInconsistencyIT`: Runs the Missing Model Element ID for non-historic project texts
     * `missingModelElementInconsistencyHistoricIT`: Runs the Missing Model Element ID for historic project texts
@@ -43,5 +43,5 @@ To get the results for our approach for TLR and ID you have to run certain JUnit
     * `missingTextInconsistencyHistoricIT`: Runs the undocumented model element ID on historic project texts
 
 If you want to change the filters for Missing Model Element ID, you have to change the filter file
-in [Projects](our-approach/tests/src/test/java/edu/kit/kastel/mcse/ardoco/core/tests/eval/Project.java). In this
+in [Projects](approach/tests/src/test/java/edu/kit/kastel/mcse/ardoco/core/tests/eval/Project.java). In this
 enumeration, the different options for filtering are listed in comments for the different projects.
