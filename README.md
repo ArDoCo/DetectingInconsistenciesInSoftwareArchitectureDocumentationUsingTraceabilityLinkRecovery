@@ -47,3 +47,4 @@ To get the results for our approach for TLR and ID you have to run certain JUnit
 If you want to change the filters for Missing Model Element ID, you have to change the filter file
 in [Projects](approach/tests/src/test/java/edu/kit/kastel/mcse/ardoco/core/tests/eval/Project.java). In this
 enumeration, the different options for filtering are listed in comments for the different projects.
+The common filter is defined in [unwanted_words_filter_common.json](approach/inconsistency-detection/src/main/resources/unwanted_words_filter_common.json). The project specific configurations can be found in [configurations](approach/tests/src/test/resources/configurations).
