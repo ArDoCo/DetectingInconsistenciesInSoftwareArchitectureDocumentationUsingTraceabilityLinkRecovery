@@ -18,7 +18,7 @@ To generate the results for SWATTR go to the `swattr` directory and follow the i
 ## TLR Baseline
 
 To get the results for the TLR Baseline approach simply run the JUnit Test
-Class [EvaluationIT](./tlr-baseline/src/test/java/io/github/ardoco/simpletracelinkdiscovery/eval/EvaluationIT.java)
+Class [EvaluationIT](./tlr-baseline/src/test/java/io/github/ardoco/simpletracelinkdiscovery/eval/EvaluationIT.java).
 Therefore, you have to install Java 17 and import the project to an IDE of your choice (we suggest IntelliJ or Eclipse
 here).
 
@@ -30,7 +30,7 @@ To get the results for our approach for TLR and ID you have to run certain JUnit
 
 * [TraceabilityLinkRecoveryEvaluationIT](approach/tests/src/test/java/edu/kit/kastel/mcse/ardoco/core/tests/integration/TraceabilityLinkRecoveryEvaluationIT.java)
     * `evaluateTraceLinkRecoveryIT`: Runs the TLR for non-historic project texts
-    * `evaluateHistoricalDataTraceLinkRecoveryIT`: Tuns the TLR for historic project texts
+    * `evaluateHistoricalDataTraceLinkRecoveryIT`: Runs the TLR for historic project texts
 
 * [InconsistencyDetectionEvaluationIT](approach/tests/src/test/java/edu/kit/kastel/mcse/ardoco/core/tests/integration/InconsistencyDetectionEvaluationIT.java)
 
