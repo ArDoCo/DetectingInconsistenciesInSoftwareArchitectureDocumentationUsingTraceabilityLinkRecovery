@@ -9,4 +9,4 @@
    * Windows: `.\.venv\Scripts\Activate.ps1` or Linux: `source ./.venv/bin/activate`
    * `pip3 install -r requirements.txt` 
 
-4. Run evaluation of SWATTR: Run [2_evaluate_swattr.sh](2_evaluate_swattr.sh) within this directory
+4. Run evaluation of SWATTR: Run [2_evaluate_swattr.sh](2_evaluate_swattr.sh) within this directory. The results can be found in [results](../results)
