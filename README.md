@@ -3,7 +3,9 @@
 Replication package for the ICSA 2023 paper "Detecting Inconsistencies in Software Architecture Documentation Using
 Traceability Link Recovery".
 
-In general, you need to have installed ...
+**You find the overall results and comparison to baseline and old approach in [results.xlsx](./results/results.xlsx)**
+
+For replication, you need to have installed ...
 
 * Java JDK 17
 * Python 3.10.6 with pip
