@@ -11,6 +11,18 @@ For replication, you need to have installed ...
 * Python 3.10.6 with pip
 * Maven or an IDE that is able to deal with Maven Projects (e.g., IntelliJ)
 
+## Blacklists for MME Detection
+We use a common black list and project-specific blacklists to filter unwanted words.
+
+The [common blacklist](./approach/inconsistency-detection/src/main/resources/unwanted_words_filter_common.json) contains: cpu, gpu, file, directory, event, bus, browser, chrome, firefox, safari, edge, instance, object, module, code, java, javascript, nodejs, npm, kotlin, request, response, servlet, unit, test.
+
+The project-specific blacklists are:
+* [MediaStore](./approach/tests/src/test/resources/configurations/ms/filterlists_all.txt): download,file,log,meta,server
+* [TeaStore](./approach/tests/src/test/resources/configurations/ts/filterlists_all.txt): instance,item,name,product,rankings,rating,size
+* [TEAMMATES](./approach/tests/src/test/resources/configurations/tm/filterlists_all.txt): assertion,backdoor,check,classes,code,cron,end,failure,javascript,key,limit,minute,origin,processing,queue,request,servlet,task,testing,unit,utility,origin
+* [BigBlueButton](./approach/tests/src/test/resources/configurations/bbb/filterlists_all.txt): conversion,core,cpu,file,front,integration,nodejs,party,process,side,svg
+* [JabRef](./approach/tests/src/test/resources/configurations/jabref/filterlists_all.txt): aspect,bibdatases,bibentries,bus,event
+
 ## SWATTR
 
 To generate the results for SWATTR go to the `swattr` directory and follow the instructions in the directory.
