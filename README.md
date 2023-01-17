@@ -7,7 +7,7 @@ Traceability Link Recovery".
 
 For replication, you need to have installed ...
 
-* Java JDK 17
+* Java JDK 17 & Maven 3.8.6
 * Python 3.10.6 with pip
 * Maven or an IDE that is able to deal with Maven Projects (e.g., IntelliJ)
 
