@@ -1,0 +1,19 @@
+Welcome to the Replication Package "Detecting Inconsistencies in Software Architecture Documentation Using Traceability Link Recovery" by Keim et al. 
+
+To reproduce the results of the paper, you have four options:
+1) run_approach.sh
+Run `bash run_approach.sh` in this directory to execute the Traceability Link Recovery (TLR) and Inconsistency Detection of our approach.
+The results will be printed to the terminal during the maven execution.
+
+2) run_swattr.sh
+Run `bash run_swattr.sh` in this directory to execute the TLR of the SWATTR approach.
+The results will be aggregated in the `results` folder in the parent directory.
+
+3) run_tlr_baseline.sh
+Run `bash run_tlr_baseline.sh` in this directory to execute the TLR baseline approach.
+The results will be shown in the terminal during execution.
+
+4) cleanup.sh:
+Run `bash cleanup.sh` to cleanup previous runs of the evaluation.
+
+You can type `exit` to exit the container.
