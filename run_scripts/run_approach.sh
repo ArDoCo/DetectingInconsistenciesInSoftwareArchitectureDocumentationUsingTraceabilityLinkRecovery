@@ -1,5 +1,6 @@
 #!/bin/bash
 cd ../approach
 export testHistoric=true
-mvn verify 
+export testBaseline=true
+mvn verify
 cd ../run_scripts
