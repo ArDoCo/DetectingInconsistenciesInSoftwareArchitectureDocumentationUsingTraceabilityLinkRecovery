@@ -1,6 +1,7 @@
 .flattened-pom.xml
 
 tests/src/test/resources/testout/*
+!tests/src/test/resources/testout/.gitkeep
 
 tests/src/test/resources/config.properties
 
