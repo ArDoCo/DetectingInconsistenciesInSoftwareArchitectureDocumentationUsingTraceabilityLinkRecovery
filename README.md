@@ -14,6 +14,10 @@ For replication, you need to have installed either `docker` or ...
 ## Docker Image
 Simply run `docker run -it --rm ghcr.io/ardoco/replication-package-icsa23` to get a container with installed dependencies and this repository (copied to `/eval` within the container). Within this container you can run the different steps of the evaluation.
 
+## Run Scripts
+You can find run scripts for the evaluation in `run_scripts`.
+These scripts execute the different approaches.
+
 ## Blacklists for MME Detection
 We use a common black list and project-specific blacklists to filter unwanted words.
 
@@ -26,10 +30,6 @@ The project-specific blacklists are:
 * [BigBlueButton](./approach/tests/src/test/resources/configurations/bbb/filterlists_all.txt): conversion,core,cpu,file,front,integration,nodejs,party,process,side,svg
 * [JabRef](./approach/tests/src/test/resources/configurations/jabref/filterlists_all.txt): aspect,bibdatases,bibentries,bus,event
 
-
-## Run Scripts
-You can find run scripts for the evaluation in `run_scripts`.
-These scripts execute the different approaches.
 
 ## Creation of results in detail (without run scripts)
 
