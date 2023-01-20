@@ -62,18 +62,12 @@ class TraceabilityLinkRecoveryEvaluationIT {
     private static final Map<Project, ExtendedExplicitEvaluationResults<?>> EXTENDED_EVALUATION_RESULTS = new EnumMap<>(Project.class);
     private static final Map<Project, ArDoCoResult> DATA_MAP = new EnumMap<>(Project.class);
     private static final boolean detailedDebug = true;
-    private static final String LOGGING_ARDOCO_CORE = "org.slf4j.simpleLogger.log.edu.kit.kastel.mcse.ardoco.core";
 
     private String name;
     private File inputText;
     private File inputModel;
     private File inputCodeModel = null;
     private final File outputDir = new File(OUTPUT);
-
-    @BeforeAll
-    public static void beforeAll() {
-        System.setProperty(LOGGING_ARDOCO_CORE, "info");
-    }
 
     @AfterAll
     public static void afterAll() {
@@ -104,7 +98,6 @@ class TraceabilityLinkRecoveryEvaluationIT {
                 logger.error("Failed to write output.", e);
             }
         }
-        System.setProperty(LOGGING_ARDOCO_CORE, "error");
     }
 
     @AfterEach

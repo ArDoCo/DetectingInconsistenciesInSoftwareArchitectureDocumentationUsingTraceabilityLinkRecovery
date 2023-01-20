@@ -5,11 +5,14 @@ Traceability Link Recovery".
 
 **You find the overall results and comparison to baseline and old approach in [results.xlsx](./results/results.xlsx)**
 
-For replication, you need to have installed ...
+For replication, you need to have installed either `docker` or ...
 
 * Java JDK 17 & Maven 3.8.6
 * Python 3.10.6 with pip
-* Maven or an IDE that is able to deal with Maven Projects (e.g., IntelliJ)
+* curl
+
+## Docker Image
+Simply run `docker run -it --rm ghcr.io/ArDoCo/replication-package-icsa23` to get a container with installed dependencies and this repository (copied to `/eval` within the container). Within this container you can run the different steps of the evaluation.
 
 ## Blacklists for MME Detection
 We use a common black list and project-specific blacklists to filter unwanted words.
@@ -23,18 +26,25 @@ The project-specific blacklists are:
 * [BigBlueButton](./approach/tests/src/test/resources/configurations/bbb/filterlists_all.txt): conversion,core,cpu,file,front,integration,nodejs,party,process,side,svg
 * [JabRef](./approach/tests/src/test/resources/configurations/jabref/filterlists_all.txt): aspect,bibdatases,bibentries,bus,event
 
-## SWATTR
+
+## Run Scripts
+You can find run scripts for the evaluation in `run_scripts`.
+These scripts execute the different approaches.
+
+## Creation of results in detail (without run scripts)
+
+### SWATTR
 
 To generate the results for SWATTR go to the `swattr` directory and follow the instructions in the directory.
 
-## TLR Baseline
+### TLR Baseline
 
 To get the results for the TLR Baseline approach simply run the JUnit Test
 Class [EvaluationIT](./tlr-baseline/src/test/java/io/github/ardoco/simpletracelinkdiscovery/eval/EvaluationIT.java).
 Therefore, you have to install Java 17 and import the project to an IDE of your choice (we suggest IntelliJ or Eclipse
 here).
 
-## Our Approach for TLR and ID & Baseline for ID
+### Our Approach for TLR and ID & Baseline for ID
 
 To generate the results of our approach including the baseline of inconsistency detection (ID) you find everything in
 the directory `approach`.
