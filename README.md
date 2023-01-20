@@ -1,4 +1,4 @@
-# ReplicationPackage for Detecting Inconsistencies in Software Architecture Documentation Using Traceability Link Recovery
+# Replication Package for Detecting Inconsistencies in Software Architecture Documentation Using Traceability Link Recovery
 
 Replication package for the ICSA 2023 paper "Detecting Inconsistencies in Software Architecture Documentation Using
 Traceability Link Recovery".
