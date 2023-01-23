@@ -1,25 +1,47 @@
-cff-version: 1.1.0
-message: "If you use this software, please cite it as below."
+cff-version: 1.2.0
+title: Detecting Inconsistencies in Software Architecture Documentation Using Traceability Link Recovery
+message: 'If you use this software, please cite it as below.'
+type: software
 authors:
-   - family-names: Keim
-     given-names: Jan
-     affiliation: Karlsruhe Institute of Technology (KIT)
-     orcid: https://orcid.org/0000-0002-8899-7081
+  - family-names: Keim
+    given-names: Jan
+    affiliation: Karlsruhe Institute of Technology (KIT)
+    orcid: 'https://orcid.org/0000-0002-8899-7081'
   - family-names: Corallo
     given-names: Sophie
     affiliation: Karlsruhe Institute of Technology (KIT)
-    orcid: https://orcid.org/0000-0002-1531-2977
+    orcid: 'https://orcid.org/0000-0002-1531-2977'
   - family-names: Fuchß
     given-names: Dominik
     affiliation: Karlsruhe Institute of Technology (KIT)
-    orcid: https://orcid.org/0000-0001-6410-6769
+    orcid: 'https://orcid.org/0000-0001-6410-6769'
   - family-names: Koziolek
     given-names: Anne
     affiliation: Karlsruhe Institute of Technology (KIT)
-    orcid: https://orcid.org/0000-0002-1593-3394
-title: Detecting Inconsistencies in Software Architecture Documentation Using Traceability Link Recovery
-doi: 10.5281/zenodo.7555195
+    orcid: 'https://orcid.org/0000-0002-1593-3394'
+url: https://github.com/ArDoCo/DetectingInconsistenciesInSoftwareArchitectureDocumentationUsingTraceabilityLinkRecovery
 license: MIT
-repository-code: https://github.com/ArDoCo/DetectingInconsistenciesInSoftwareArchitectureDocumentationUsingTraceabilityLinkRecovery
 version: v1.0.0
-date-released: 2023-01-20
+date-released: 2023-01-20#
+doi: 10.5281/zenodo.7555195
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Keim
+      given-names: Jan
+      affiliation: Karlsruhe Institute of Technology (KIT)
+      orcid: 'https://orcid.org/0000-0002-8899-7081'
+    - family-names: Corallo
+      given-names: Sophie
+      affiliation: Karlsruhe Institute of Technology (KIT)
+      orcid: 'https://orcid.org/0000-0002-1531-2977'
+    - family-names: Fuchß
+      given-names: Dominik
+      affiliation: Karlsruhe Institute of Technology (KIT)
+      orcid: 'https://orcid.org/0000-0001-6410-6769'
+    - family-names: Koziolek
+      given-names: Anne
+      affiliation: Karlsruhe Institute of Technology (KIT)
+      orcid: 'https://orcid.org/0000-0002-1593-3394'
+  title: Detecting Inconsistencies in Software Architecture Documentation Using Traceability Link Recovery
+  year: 2023
