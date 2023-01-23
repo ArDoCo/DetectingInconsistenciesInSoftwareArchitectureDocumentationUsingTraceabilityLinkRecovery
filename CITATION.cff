@@ -25,7 +25,7 @@ version: v1.0.0
 date-released: 2023-01-20#
 doi: 10.5281/zenodo.7555195
 preferred-citation:
-  type: article
+  type: conference-paper
   authors:
     - family-names: Keim
       given-names: Jan
@@ -44,4 +44,5 @@ preferred-citation:
       affiliation: Karlsruhe Institute of Technology (KIT)
       orcid: 'https://orcid.org/0000-0002-1593-3394'
   title: Detecting Inconsistencies in Software Architecture Documentation Using Traceability Link Recovery
+  booktitle: 2023 IEEE 20th International Conference on Software Architecture (ICSA)
   year: 2023
