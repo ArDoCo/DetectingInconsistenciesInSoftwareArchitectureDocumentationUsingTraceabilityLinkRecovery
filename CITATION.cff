@@ -1,0 +1,29 @@
+cff-version: 1.1.0
+message: "If you use this software, please cite it as below."
+authors:
+   -
+    affiliation: "Karlsruhe Institute of Technology (KIT)"
+    family-names: Keim
+    given-names: Jan
+    orcid: "https://orcid.org/0000-0002-8899-7081"
+  -
+    affiliation: "Karlsruhe Institute of Technology (KIT)"
+    family-names: Corallo
+    given-names: Sophie
+    orcid: "https://orcid.org/0000-0002-1531-2977"
+  -
+    affiliation: "Karlsruhe Institute of Technology (KIT)"
+    family-names: "Fuchß"
+    given-names: Dominik
+    orcid: "https://orcid.org/0000-0001-6410-6769"
+  -
+    affiliation: "Karlsruhe Institute of Technology (KIT)"
+    family-names: Koziolek
+    given-names: Anne
+    orcid: "https://orcid.org/0000-0002-1593-3394"
+title: "Detecting Inconsistencies in Software Architecture Documentation Using Traceability Link Recovery"
+doi: "10.5281/zenodo.7555195"
+license: MIT
+repository-code: "https://github.com/ArDoCo/DetectingInconsistenciesInSoftwareArchitectureDocumentationUsingTraceabilityLinkRecovery"
+version: v1.0.0
+date-released: 2023-01-20
