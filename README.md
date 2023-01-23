@@ -1,4 +1,5 @@
 # Replication Package for Detecting Inconsistencies in Software Architecture Documentation Using Traceability Link Recovery
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7555194.svg)](https://doi.org/10.5281/zenodo.7555194)
 
 Replication package for the ICSA 2023 paper "Detecting Inconsistencies in Software Architecture Documentation Using
 Traceability Link Recovery".
