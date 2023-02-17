@@ -13,7 +13,7 @@ For replication, you need to have installed either `docker` or ...
 * curl
 
 ## System Requirements
-* At least `1 GiB` RAM (Recommended: More than `4 GiB` RAM)
+* At least `1 GiB` RAM (Recommended: More than `6 GiB` RAM)
 
 ## Docker Image
 Simply run `docker run -it --rm ghcr.io/ardoco/replication-package-icsa23` to get a container with installed dependencies and this repository (copied to `/eval` within the container). Within this container you can run the different steps of the evaluation.
